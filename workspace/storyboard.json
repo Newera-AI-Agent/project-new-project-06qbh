@@ -1,23 +1,910 @@
 {
-  "title": "NewEra — Make the idea real",
+  "title": "NewEra \u2014 Make the idea real",
   "runtime_seconds": 107.9148,
   "fps": 60,
   "resolution": "1920x1080",
-  "music": "Life Force — supplied MP3; full track, no trim",
+  "music": "Life Force \u2014 supplied MP3; full track, no trim",
   "tempo_bpm_estimate": 125.284,
   "design": {
-    "palette": ["#070709", "#F4F4F6", "#B7FFE2", "#35E4D0", "#6C7CFF", "#18181C"],
+    "palette": [
+      "#070709",
+      "#F4F4F6",
+      "#B7FFE2",
+      "#35E4D0",
+      "#6C7CFF",
+      "#18181C"
+    ],
     "type": "DejaVu Sans bold display with DejaVu Sans Mono telemetry; tight but legible tracking",
     "motion": "ease-out cubic-bezier(0.16,1,0.3,1) for arrivals; symmetric quintic smoothstep for continuous camera drift; no linear position animation",
-    "layers": ["2% architectural dot grid + radial vignette", "one focused headline/UI metaphor", "small corner telemetry and restrained waveform"]
+    "layers": [
+      "2% architectural dot grid + radial vignette",
+      "one focused headline/UI metaphor",
+      "small corner telemetry and restrained waveform"
+    ]
   },
   "timing_policy": "Scene boundaries are quantized to the nearest detected onset frame from beat_map.json. Short punctuation cuts use measured band peaks/onsets; keep typography readable by consolidating minor transients into one hold rather than flashing on every onset.",
   "acts": [
-    {"id":"I","name":"The spark / old paradigm","start_sec":0.0,"end_sec":15.0,"start_frame":0,"end_frame":900,"music_cues":"opening plucks, detected onset grid; verify actual drum entry by listening","visuals":"One mint point breathes in an obsidian field. A horizontal axis draws, then vertical axis locks, bounding geometry closes; restrained microcopy asks for more than a prompt. ‘A prompt starts it.’ / ‘An agent carries it through.’ Contrast is conceptual, not a straw-man product comparison.","transitions":"plucks construct axis → frame → word; deep points scale the core via eased spring without strobe","copy":["A prompt starts it.","An agent carries it through."]},
-    {"id":"II","name":"The first arrival — NewEra","start_sec":15.0,"end_sec":30.0,"start_frame":900,"end_frame":1800,"music_cues":"high-energy region around 15–30 s in 5 s RMS/mid/high-band summaries","visuals":"A sharp white inversion on a measured low-band peak, immediately back to obsidian. A mint line folds into the NewEra wordmark; modular tiles resolve around it. Product promise: free, online, autonomous AI coding agent. One brief UI command card appears; no invented benchmark or latency metric.","transitions":"white flash capped to 2 frames at 60 fps, masked geometric match cut; cubic ease-out scale settle","copy":["NEWERA AI AGENT","From an idea to a working app."]},
-    {"id":"III","name":"Autonomous execution","start_sec":30.0,"end_sec":60.0,"start_frame":1800,"end_frame":3600,"music_cues":"beat grid; recurring sub/mid/high band local maxima from beat_map","visuals":"Command input becomes a plan: describe → plan → files → build → fix. A node graph branches into parallel roles, then reconverges at green checks. The web surface and terminal-inspired panels are original graphic abstractions; consent is indicated before GitHub push. Deployment resolves into Cloudflare Pages / EdgeOne chips as supported by the site brief.","transitions":"cursor path magnetically snaps to active nodes; button-border zoom match-cut into the next workspace; beat cuts are selected from actual onset event frames, not every transient","copy":["Describe.","Plan.","Build.","Fix.","Deploy — with your approval."]},
-    {"id":"IV","name":"The work becomes a system","start_sec":60.0,"end_sec":90.0,"start_frame":3600,"end_frame":5400,"music_cues":"mid-track rhythmic continuity; high-band peaks punctuate telemetry and selected transitions","visuals":"Bento windows of planning, code, browser and build checks open one at a time, then connect. Oversized kinetic words — ‘THINK’, ‘MAKE’, ‘SHIP’ — alternate with a sparse node core. Technical corner labels show stages only, not fake live performance values. Dark/light reversals are limited to clearly salient audio events.","transitions":"90-degree wireframe square flattens into four-panel system map; type hits on selected onset frames and eases through every approach/settle","copy":["THINK","MAKE","SHIP"]},
-    {"id":"V","name":"Resolution — your next era","start_sec":90.0,"end_sec":107.9148,"start_frame":5400,"end_frame":6475,"music_cues":"final detected beat grid and natural soundtrack ending; preserve the actual outro, no artificial early fade","visuals":"Panels fold toward one mint core. Acceleration falls away; sparse field and a single resolving outline. NewEra AI Agent wordmark, newera.namansoni.in and ‘Built by Naman Soni’ hold in a calm, generous final card. Close on the track’s real final decay.","transitions":"ease-out cubic-bezier(0.16,1,0.3,1); no hard black between scenes; logo and URL remain legible through audio end","copy":["NewEra AI Agent","newera.namansoni.in","Built by Naman Soni"]}
+    {
+      "id": "I",
+      "name": "The spark / old paradigm",
+      "start_sec": 0.0,
+      "end_sec": 15.4,
+      "start_frame": 0,
+      "end_frame": 924,
+      "music_cues": "opening plucks, detected onset grid; verify actual drum entry by listening",
+      "visuals": "One mint point breathes in an obsidian field. A horizontal axis draws, then vertical axis locks, bounding geometry closes; restrained microcopy asks for more than a prompt. \u2018A prompt starts it.\u2019 / \u2018An agent carries it through.\u2019 Contrast is conceptual, not a straw-man product comparison.",
+      "transitions": "plucks construct axis \u2192 frame \u2192 word; deep points scale the core via eased spring without strobe",
+      "copy": [
+        "A prompt starts it.",
+        "An agent carries it through."
+      ]
+    },
+    {
+      "id": "II",
+      "name": "The first arrival \u2014 NewEra",
+      "start_sec": 15.4,
+      "end_sec": 30.0333,
+      "start_frame": 924,
+      "end_frame": 1802,
+      "music_cues": "high-energy region around 15\u201330 s in 5 s RMS/mid/high-band summaries",
+      "visuals": "A sharp white inversion on a measured low-band peak, immediately back to obsidian. A mint line folds into the NewEra wordmark; modular tiles resolve around it. Product promise: free, online, autonomous AI coding agent. One brief UI command card appears; no invented benchmark or latency metric.",
+      "transitions": "white flash capped to 2 frames at 60 fps, masked geometric match cut; cubic ease-out scale settle",
+      "copy": [
+        "NEWERA AI AGENT",
+        "From an idea to a working app."
+      ]
+    },
+    {
+      "id": "III",
+      "name": "Autonomous execution",
+      "start_sec": 30.0333,
+      "end_sec": 60.0333,
+      "start_frame": 1802,
+      "end_frame": 3602,
+      "music_cues": "beat grid; recurring sub/mid/high band local maxima from beat_map",
+      "visuals": "Command input becomes a plan: describe \u2192 plan \u2192 files \u2192 build \u2192 fix. A node graph branches into parallel roles, then reconverges at green checks. The web surface and terminal-inspired panels are original graphic abstractions; consent is indicated before GitHub push. Deployment resolves into Cloudflare Pages / EdgeOne chips as supported by the site brief.",
+      "transitions": "cursor path magnetically snaps to active nodes; button-border zoom match-cut into the next workspace; beat cuts are selected from actual onset event frames, not every transient",
+      "copy": [
+        "Describe.",
+        "Plan.",
+        "Build.",
+        "Fix.",
+        "Deploy \u2014 with your approval."
+      ]
+    },
+    {
+      "id": "IV",
+      "name": "The work becomes a system",
+      "start_sec": 60.0333,
+      "end_sec": 89.8,
+      "start_frame": 3602,
+      "end_frame": 5388,
+      "music_cues": "mid-track rhythmic continuity; high-band peaks punctuate telemetry and selected transitions",
+      "visuals": "Bento windows of planning, code, browser and build checks open one at a time, then connect. Oversized kinetic words \u2014 \u2018THINK\u2019, \u2018MAKE\u2019, \u2018SHIP\u2019 \u2014 alternate with a sparse node core. Technical corner labels show stages only, not fake live performance values. Dark/light reversals are limited to clearly salient audio events.",
+      "transitions": "90-degree wireframe square flattens into four-panel system map; type hits on selected onset frames and eases through every approach/settle",
+      "copy": [
+        "THINK",
+        "MAKE",
+        "SHIP"
+      ]
+    },
+    {
+      "id": "V",
+      "name": "Resolution \u2014 your next era",
+      "start_sec": 89.8,
+      "end_sec": 107.9167,
+      "start_frame": 5388,
+      "end_frame": 6475,
+      "music_cues": "final detected beat grid and natural soundtrack ending; preserve the actual outro, no artificial early fade",
+      "visuals": "Panels fold toward one mint core. Acceleration falls away; sparse field and a single resolving outline. NewEra AI Agent wordmark, newera.namansoni.in and \u2018Built by Naman Soni\u2019 hold in a calm, generous final card. Close on the track\u2019s real final decay.",
+      "transitions": "ease-out cubic-bezier(0.16,1,0.3,1); no hard black between scenes; logo and URL remain legible through audio end",
+      "copy": [
+        "NewEra AI Agent",
+        "newera.namansoni.in",
+        "Built by Naman Soni"
+      ]
+    }
   ],
-  "honesty_guardrails": ["Do not imply that the video renderer is the NewEra product UI.","No fabricated speed, adoption, customer, benchmark or accuracy claims.","No Manus logos/assets/copy in final film.","Frequency band analysis is full-mix proxy energy, not source-separated instruments."]
+  "honesty_guardrails": [
+    "Do not imply that the video renderer is the NewEra product UI.",
+    "No fabricated speed, adoption, customer, benchmark or accuracy claims.",
+    "No Manus logos/assets/copy in final film.",
+    "Frequency band analysis is full-mix proxy energy, not source-separated instruments."
+  ],
+  "actual_scene_boundaries": [
+    {
+      "sec": 0.0,
+      "frame": 0,
+      "nearest_onset_ms": null
+    },
+    {
+      "sec": 15.4,
+      "frame": 924,
+      "nearest_onset_ms": 15395
+    },
+    {
+      "sec": 30.0333,
+      "frame": 1802,
+      "nearest_onset_ms": 30032
+    },
+    {
+      "sec": 60.0333,
+      "frame": 3602,
+      "nearest_onset_ms": 60034
+    },
+    {
+      "sec": 89.8,
+      "frame": 5388,
+      "nearest_onset_ms": 89796
+    },
+    {
+      "sec": 107.9167,
+      "frame": 6475,
+      "nearest_onset_ms": null
+    }
+  ],
+  "selected_punctuation_cues": [
+    {
+      "frame": 118,
+      "ms": 1967,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 65.447895
+    },
+    {
+      "frame": 179,
+      "ms": 2983,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 3.615222
+    },
+    {
+      "frame": 217,
+      "ms": 3617,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 67.042548
+    },
+    {
+      "frame": 255,
+      "ms": 4250,
+      "band": "sub_bass_kick_20_120",
+      "relative_strength": 16030.257031
+    },
+    {
+      "frame": 358,
+      "ms": 5967,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 2.932703
+    },
+    {
+      "frame": 398,
+      "ms": 6633,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 2.313645
+    },
+    {
+      "frame": 433,
+      "ms": 7217,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 2.406681
+    },
+    {
+      "frame": 468,
+      "ms": 7800,
+      "band": "sub_bass_kick_20_120",
+      "relative_strength": 15743.93418
+    },
+    {
+      "frame": 523,
+      "ms": 8717,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 58.530544
+    },
+    {
+      "frame": 578,
+      "ms": 9633,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 66.416071
+    },
+    {
+      "frame": 638,
+      "ms": 10633,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 3.121982
+    },
+    {
+      "frame": 676,
+      "ms": 11267,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 63.218077
+    },
+    {
+      "frame": 714,
+      "ms": 11900,
+      "band": "sub_bass_kick_20_120",
+      "relative_strength": 15849.874219
+    },
+    {
+      "frame": 752,
+      "ms": 12533,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 59.102564
+    },
+    {
+      "frame": 817,
+      "ms": 13617,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 3.20904
+    },
+    {
+      "frame": 857,
+      "ms": 14283,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 2.271761
+    },
+    {
+      "frame": 893,
+      "ms": 14883,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 2.542621
+    },
+    {
+      "frame": 930,
+      "ms": 15500,
+      "band": "sub_bass_kick_20_120",
+      "relative_strength": 13596.350977
+    },
+    {
+      "frame": 966,
+      "ms": 16100,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 3.574835
+    },
+    {
+      "frame": 1038,
+      "ms": 17300,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 62.885445
+    },
+    {
+      "frame": 1077,
+      "ms": 17950,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 3.372688
+    },
+    {
+      "frame": 1113,
+      "ms": 18550,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 62.813917
+    },
+    {
+      "frame": 1153,
+      "ms": 19217,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 85.729313
+    },
+    {
+      "frame": 1192,
+      "ms": 19867,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 3.614087
+    },
+    {
+      "frame": 1269,
+      "ms": 21150,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 4.251177
+    },
+    {
+      "frame": 1308,
+      "ms": 21800,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 69.675592
+    },
+    {
+      "frame": 1348,
+      "ms": 22467,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 3.554376
+    },
+    {
+      "frame": 1383,
+      "ms": 23050,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 82.682708
+    },
+    {
+      "frame": 1418,
+      "ms": 23633,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 3.701201
+    },
+    {
+      "frame": 1455,
+      "ms": 24250,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 2.484038
+    },
+    {
+      "frame": 1498,
+      "ms": 24967,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 64.464943
+    },
+    {
+      "frame": 1533,
+      "ms": 25550,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 3.6801
+    },
+    {
+      "frame": 1575,
+      "ms": 26250,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 59.890866
+    },
+    {
+      "frame": 1613,
+      "ms": 26883,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 84.795213
+    },
+    {
+      "frame": 1648,
+      "ms": 27467,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 3.757854
+    },
+    {
+      "frame": 1685,
+      "ms": 28083,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 2.564523
+    },
+    {
+      "frame": 1729,
+      "ms": 28817,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 4.245019
+    },
+    {
+      "frame": 1769,
+      "ms": 29483,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 73.406786
+    },
+    {
+      "frame": 1807,
+      "ms": 30117,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 3.517898
+    },
+    {
+      "frame": 1844,
+      "ms": 30733,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 66.091438
+    },
+    {
+      "frame": 1960,
+      "ms": 32667,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 62.427368
+    },
+    {
+      "frame": 2059,
+      "ms": 34317,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 56.96054
+    },
+    {
+      "frame": 2097,
+      "ms": 34950,
+      "band": "sub_bass_kick_20_120",
+      "relative_strength": 15442.804492
+    },
+    {
+      "frame": 2133,
+      "ms": 35550,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 74.029451
+    },
+    {
+      "frame": 2248,
+      "ms": 37467,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 85.312868
+    },
+    {
+      "frame": 2286,
+      "ms": 38100,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 60.442121
+    },
+    {
+      "frame": 2328,
+      "ms": 38800,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 59.642608
+    },
+    {
+      "frame": 2420,
+      "ms": 40333,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 58.447064
+    },
+    {
+      "frame": 2521,
+      "ms": 42017,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 59.738778
+    },
+    {
+      "frame": 2557,
+      "ms": 42617,
+      "band": "sub_bass_kick_20_120",
+      "relative_strength": 15453.644336
+    },
+    {
+      "frame": 2594,
+      "ms": 43233,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 72.965863
+    },
+    {
+      "frame": 2709,
+      "ms": 45150,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 78.980005
+    },
+    {
+      "frame": 2745,
+      "ms": 45750,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 86.894354
+    },
+    {
+      "frame": 2781,
+      "ms": 46350,
+      "band": "sub_bass_kick_20_120",
+      "relative_strength": 13212.765234
+    },
+    {
+      "frame": 2881,
+      "ms": 48017,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 65.380799
+    },
+    {
+      "frame": 2942,
+      "ms": 49033,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 3.402599
+    },
+    {
+      "frame": 2980,
+      "ms": 49667,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 67.179237
+    },
+    {
+      "frame": 3018,
+      "ms": 50300,
+      "band": "sub_bass_kick_20_120",
+      "relative_strength": 16950.010742
+    },
+    {
+      "frame": 3122,
+      "ms": 52033,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 2.954255
+    },
+    {
+      "frame": 3162,
+      "ms": 52700,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 2.228638
+    },
+    {
+      "frame": 3197,
+      "ms": 53283,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 2.330595
+    },
+    {
+      "frame": 3232,
+      "ms": 53867,
+      "band": "sub_bass_kick_20_120",
+      "relative_strength": 14643.292969
+    },
+    {
+      "frame": 3287,
+      "ms": 54783,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 61.137337
+    },
+    {
+      "frame": 3324,
+      "ms": 55400,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 2.364212
+    },
+    {
+      "frame": 3362,
+      "ms": 56033,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 64.081721
+    },
+    {
+      "frame": 3403,
+      "ms": 56717,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 4.024133
+    },
+    {
+      "frame": 3439,
+      "ms": 57317,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 82.016745
+    },
+    {
+      "frame": 3475,
+      "ms": 57917,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 57.849712
+    },
+    {
+      "frame": 3517,
+      "ms": 58617,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 56.813206
+    },
+    {
+      "frame": 3582,
+      "ms": 59700,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 3.134311
+    },
+    {
+      "frame": 3623,
+      "ms": 60383,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 2.290714
+    },
+    {
+      "frame": 3658,
+      "ms": 60967,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 2.672875
+    },
+    {
+      "frame": 3698,
+      "ms": 61633,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 83.886049
+    },
+    {
+      "frame": 3736,
+      "ms": 62267,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 4.030909
+    },
+    {
+      "frame": 3803,
+      "ms": 63383,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 64.898172
+    },
+    {
+      "frame": 3841,
+      "ms": 64017,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 3.421783
+    },
+    {
+      "frame": 3879,
+      "ms": 64650,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 62.342965
+    },
+    {
+      "frame": 3917,
+      "ms": 65283,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 82.952533
+    },
+    {
+      "frame": 3952,
+      "ms": 65867,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 3.067772
+    },
+    {
+      "frame": 4034,
+      "ms": 67233,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 4.471829
+    },
+    {
+      "frame": 4073,
+      "ms": 67883,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 69.892133
+    },
+    {
+      "frame": 4112,
+      "ms": 68533,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 3.437757
+    },
+    {
+      "frame": 4148,
+      "ms": 69133,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 76.16082
+    },
+    {
+      "frame": 4183,
+      "ms": 69717,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 3.77534
+    },
+    {
+      "frame": 4220,
+      "ms": 70333,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 4.561691
+    },
+    {
+      "frame": 4264,
+      "ms": 71067,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 65.497749
+    },
+    {
+      "frame": 4307,
+      "ms": 71783,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 3.725629
+    },
+    {
+      "frame": 4350,
+      "ms": 72500,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 3.769343
+    },
+    {
+      "frame": 4385,
+      "ms": 73083,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 55.259469
+    },
+    {
+      "frame": 4422,
+      "ms": 73700,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 4.914089
+    },
+    {
+      "frame": 4466,
+      "ms": 74433,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 3.065995
+    },
+    {
+      "frame": 4502,
+      "ms": 75033,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 3.186737
+    },
+    {
+      "frame": 4538,
+      "ms": 75633,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 4.090787
+    },
+    {
+      "frame": 4573,
+      "ms": 76217,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 3.964304
+    },
+    {
+      "frame": 4609,
+      "ms": 76817,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 67.733596
+    },
+    {
+      "frame": 4724,
+      "ms": 78733,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 60.710571
+    },
+    {
+      "frame": 4824,
+      "ms": 80400,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 55.482166
+    },
+    {
+      "frame": 4862,
+      "ms": 81033,
+      "band": "sub_bass_kick_20_120",
+      "relative_strength": 15631.151758
+    },
+    {
+      "frame": 4898,
+      "ms": 81633,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 77.749738
+    },
+    {
+      "frame": 5013,
+      "ms": 83550,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 79.878641
+    },
+    {
+      "frame": 5060,
+      "ms": 84333,
+      "band": "sub_bass_kick_20_120",
+      "relative_strength": 14231.584961
+    },
+    {
+      "frame": 5096,
+      "ms": 84933,
+      "band": "sub_bass_kick_20_120",
+      "relative_strength": 15607.070508
+    },
+    {
+      "frame": 5185,
+      "ms": 86417,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 64.868016
+    },
+    {
+      "frame": 5300,
+      "ms": 88333,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 89.066272
+    },
+    {
+      "frame": 5359,
+      "ms": 89317,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 79.348044
+    },
+    {
+      "frame": 5427,
+      "ms": 90450,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 54.331159
+    },
+    {
+      "frame": 5474,
+      "ms": 91233,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 82.035506
+    },
+    {
+      "frame": 5510,
+      "ms": 91833,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 64.921898
+    },
+    {
+      "frame": 5545,
+      "ms": 92417,
+      "band": "sub_bass_kick_20_120",
+      "relative_strength": 13430.263867
+    },
+    {
+      "frame": 5591,
+      "ms": 93183,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 56.151822
+    },
+    {
+      "frame": 5646,
+      "ms": 94100,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 61.603104
+    },
+    {
+      "frame": 5707,
+      "ms": 95117,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 3.400271
+    },
+    {
+      "frame": 5745,
+      "ms": 95750,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 67.382967
+    },
+    {
+      "frame": 5782,
+      "ms": 96367,
+      "band": "sub_bass_kick_20_120",
+      "relative_strength": 16494.349414
+    },
+    {
+      "frame": 5886,
+      "ms": 98100,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 2.931902
+    },
+    {
+      "frame": 5926,
+      "ms": 98767,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 2.206133
+    },
+    {
+      "frame": 5962,
+      "ms": 99367,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 2.338772
+    },
+    {
+      "frame": 5997,
+      "ms": 99950,
+      "band": "sub_bass_kick_20_120",
+      "relative_strength": 15095.678711
+    },
+    {
+      "frame": 6046,
+      "ms": 100767,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 2.449515
+    },
+    {
+      "frame": 6107,
+      "ms": 101783,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 67.795844
+    },
+    {
+      "frame": 6167,
+      "ms": 102783,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 3.834166
+    },
+    {
+      "frame": 6211,
+      "ms": 103517,
+      "band": "guitar_mid_250_2500",
+      "relative_strength": 61.653994
+    },
+    {
+      "frame": 6249,
+      "ms": 104150,
+      "band": "sub_bass_kick_20_120",
+      "relative_strength": 14703.571484
+    },
+    {
+      "frame": 6292,
+      "ms": 104867,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 2.815035
+    },
+    {
+      "frame": 6348,
+      "ms": 105800,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 3.25724
+    },
+    {
+      "frame": 6387,
+      "ms": 106450,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 2.194498
+    },
+    {
+      "frame": 6423,
+      "ms": 107050,
+      "band": "high_hat_snare_4000_plus",
+      "relative_strength": 2.645515
+    }
+  ]
 }
