@@ -50,3 +50,5 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-10-14T14:09:24.537Z | VM 1/3] PLAN updated: 3 steps
 - [2026-10-14T14:11:18.697Z | VM 1/3] THINK: The initial deliverable is technically sound, but a specific part of the approved brief remains absent: professionally restrained motion accents/SFX mixed into the soundtrack. This is in-scope production completeness (Phase 5), not an unrelated app feature, and directly helps satisfy the finish gate's scope-collapse complaint. I will synthesize only subtle, deterministic broadband ease-in/e
 - [2026-10-14T14:11:28.909Z | VM 1/3] PLAN updated: 3 steps
+- [2026-10-14T14:13:34.333Z | VM 1/3] THINK: The previous VM chain has already completed the full film, soundtrack DSP/beat map, storyboard, source analysis and core technical QA. The only planned remaining polish is sparse, deterministic transition foley aligned to the four measured act boundaries, followed by re-mux and full validation. I'll add this as a reproducible audio-layer script, keep the amplitude restrained and document th
+- [2026-10-14T14:13:46.900Z | VM 1/3] PLAN updated: 3 steps
