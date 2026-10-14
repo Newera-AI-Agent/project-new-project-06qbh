@@ -1,0 +1,24 @@
+{
+  "code": "bd6ut6hm4w5m",
+  "jobId": "vm-mv84edsh-htzpi00s",
+  "relayIndex": 0,
+  "maxMinutes": 240,
+  "state": "running",
+  "step": 18,
+  "minutesLeft": 232,
+  "todoOpen": 5,
+  "updatedAt": "2026-10-14T13:05:26.514Z",
+  "byok": {
+    "active": true,
+    "source": "mixed",
+    "roles": {
+      "steps": "byok",
+      "subagent": "byok",
+      "summarize": "byok",
+      "repair": "byok",
+      "consult": "byok",
+      "vision": "byok",
+      "image": "admin"
+    }
+  }
+}

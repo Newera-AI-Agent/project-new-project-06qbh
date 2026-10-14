@@ -1,0 +1,97 @@
+Free Online AI Agent — Code, Build & Ship Real Apps | NewEra
+New
+Era
+Pipeline
+How it works
+Projects
+New project
+Free online AI agent · no login · free to run
+Describe it.
+Ship it.
+The free online AI agent that codes, builds & deploys real apps
+NewEra is a free online AI agent created by Naman Soni. Describe your app — the autonomous AI coding agent plans the work, writes the files, pushes them to a GitHub repo, builds them on GitHub Actions and deploys the result to Cloudflare Pages or EdgeOne — you watch every stage and get a live URL. No login, no credit card.
+Start building — it’s free
+Import .newera
+Write
+Files land in a virtual workspace you can inspect and edit.
+Push
+A repo is created only after you consent — public or self-clean.
+Build
+GitHub Actions runs the real build. Failures come back as logs.
+Deploy
+Cloudflare Pages first, EdgeOne as fallback. Live URL in the bar.
+What is the NewEra online AI agent?
+NewEra is an
+online AI agent
+that turns a plain-English description into a real, deployed application. Unlike chatbots that hand you a code snippet, NewEra is an
+autonomous AI coding agent
+with a full delivery pipeline: it plans the task, writes every file, pushes to GitHub, runs a real CI build on GitHub Actions, reads its own failure logs, fixes what broke, and ships the green build to Cloudflare Pages or EdgeOne — leaving you with a live URL, not a paste-bin.
+It is a
+free online AI agent
+in the truest sense: there is no login, no sign-up and no credit card. Model keys are handled server-side, repositories are created only after you explicitly consent, and every project is portable — export it as a single
+.newera
+file and continue on another device. For bigger builds, the agent dispatches work to a real Linux VM with up to 4 parallel sub-agents, hours of autonomous build time and rolling-summary memory, so even full-stack Next.js, React or Python projects get genuinely built and tested.
+Whether you call it vibe coding, agentic coding or an AI app builder, the idea is the same: you describe the app — landing page, dashboard, API, or a complete full-stack product — and the agent does the engineering. NewEra is designed and built by
+Naman Soni
+.
+How the online AI agent works
+From one sentence to a deployed app in four steps — every one of them real.
+01
+Describe your app
+Open newera.namansoni.in and type what you want in plain English — a landing page, a dashboard, a full Next.js app. No login and no setup required.
+02
+The AI agent plans the work
+NewEra breaks your request into a concrete plan, then writes the actual files — components, styles, configs — in a virtual workspace you can inspect and edit.
+03
+Real CI build on GitHub Actions
+The agent pushes the project to a GitHub repo (with your consent) and GitHub Actions runs a real build. If it breaks, the agent reads the logs and fixes it before shipping.
+04
+Deploy and get a live URL
+A green build is deployed to Cloudflare Pages, with EdgeOne as fallback. You get a live URL in the chat — and you can export the whole project as a portable .newera file.
+Your projects
+New
+No projects yet. Create one, or import a
+.newera
+bundle from another device.
+Built for real delivery
+Not a demo sandbox — a real repo, a real build, a real URL.
+Real CI builds
+Every change is built by GitHub Actions. If the build breaks, the agent reads the log and fixes it before shipping.
+Two deploy targets
+Cloudflare Pages first, EdgeOne as fallback. Preview deploys expire; permanent deploys take the subdomain you choose.
+Consent-gated repos
+Nothing is pushed until you pick public or self-clean. Self-clean repos are deleted the moment the task ends.
+Parallel sub-agents
+Large tasks split across up to four coder agents, each with its own context and tool budget.
+Research built in
+Live web search, page extraction and up-to-date library docs — no extra accounts.
+Portable projects
+Export any project to a single
+.newera
+file and continue on another device.
+Frequently asked questions
+Everything people ask about the
+NewEra AI Agent
+— the free online AI agent.
+What is NewEra AI Agent?
+NewEra is a free online AI agent that plans, writes and ships real software. You describe the app you want in plain English, and the autonomous AI agent writes the files, pushes them to a GitHub repo, builds them with GitHub Actions and deploys the result to Cloudflare Pages or EdgeOne — giving you a live URL. It runs entirely in your browser with no login and no credit card.
+Is the online AI agent really free?
+Yes. NewEra is a free online AI agent with no login, no sign-up and no credit card required. You can create projects, run the agent, watch it build and deploy, and export everything as a portable .newera file at no cost.
+How is NewEra different from other AI coding tools?
+Most AI code assistants only edit files. NewEra is an autonomous agent that handles the whole delivery pipeline: it creates a real GitHub repository, runs real CI builds on GitHub Actions, reads build logs and fixes failures on its own, and deploys to Cloudflare Pages or EdgeOne. What you get at the end is a real, deployed app — not a code snippet.
+Can the AI agent build full-stack apps?
+Yes. Say "build me a Next.js app" and NewEra dispatches the plan to a real Linux VM (a GitHub Actions runner with 4 vCPU and 16 GB RAM), where a headless agent scaffolds, builds, tests and fixes the project autonomously — for hours at a time if needed — then ships the green build. Plain static sites and smaller fixes are authored locally and still verified by a real CI build.
+Do I need an account or API keys to use NewEra?
+No. There is no login for the app itself, and model keys are managed server-side, so you never paste API keys. Repositories are created only after you consent, and you can choose a self-clean repo that is deleted the moment the task ends.
+Who made NewEra AI Agent?
+NewEra is designed and built by Naman Soni, an independent developer building autonomous AI agent tools. You can follow his work on GitHub at github.com/NamanSoni78.
+©
+2026
+NewEra AI Agent
+— free online AI agent by
+Naman Soni
+Made by Naman
+|
+NamanSoni78
+|
+No login required
