@@ -1,0 +1,5021 @@
+{
+  "source": "reference/manus_intro.mp4",
+  "duration_sec": 166.463855,
+  "video": {
+    "fps": 30.0,
+    "frames": 4993,
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  "method": "FFmpeg scdet threshold=0 metadata captured for every decoded video frame; mono audio decoded at 22050 Hz and analyzed by 2048-point STFT with 441-sample (20 ms) hop. Per-frame scene scores, thresholds, local peak candidates, windows and audio feature CSV are reproducible.",
+  "scene_change_candidate_counts_by_score_threshold": {
+    "5": 86,
+    "10": 45,
+    "15": 40,
+    "20": 27
+  },
+  "scene_change_threshold_events": {
+    "5": [
+      {
+        "frame": 3,
+        "time_sec": 0.1,
+        "score": 18.644
+      },
+      {
+        "frame": 34,
+        "time_sec": 1.13333,
+        "score": 78.037
+      },
+      {
+        "frame": 104,
+        "time_sec": 3.46667,
+        "score": 75.228
+      },
+      {
+        "frame": 132,
+        "time_sec": 4.4,
+        "score": 50.384
+      },
+      {
+        "frame": 146,
+        "time_sec": 4.86667,
+        "score": 21.486
+      },
+      {
+        "frame": 187,
+        "time_sec": 6.23333,
+        "score": 23.954
+      },
+      {
+        "frame": 251,
+        "time_sec": 8.36667,
+        "score": 51.981
+      },
+      {
+        "frame": 279,
+        "time_sec": 9.3,
+        "score": 77.103
+      },
+      {
+        "frame": 461,
+        "time_sec": 15.3667,
+        "score": 9.828
+      },
+      {
+        "frame": 463,
+        "time_sec": 15.4333,
+        "score": 5.174
+      },
+      {
+        "frame": 526,
+        "time_sec": 17.5333,
+        "score": 32.305
+      },
+      {
+        "frame": 808,
+        "time_sec": 26.9333,
+        "score": 29.037
+      },
+      {
+        "frame": 816,
+        "time_sec": 27.2,
+        "score": 6.105
+      },
+      {
+        "frame": 820,
+        "time_sec": 27.3333,
+        "score": 6.6
+      },
+      {
+        "frame": 825,
+        "time_sec": 27.5,
+        "score": 7.232
+      },
+      {
+        "frame": 830,
+        "time_sec": 27.6667,
+        "score": 6.757
+      },
+      {
+        "frame": 835,
+        "time_sec": 27.8333,
+        "score": 7.352
+      },
+      {
+        "frame": 840,
+        "time_sec": 28.0,
+        "score": 5.805
+      },
+      {
+        "frame": 845,
+        "time_sec": 28.1667,
+        "score": 5.455
+      },
+      {
+        "frame": 850,
+        "time_sec": 28.3333,
+        "score": 5.314
+      },
+      {
+        "frame": 852,
+        "time_sec": 28.4,
+        "score": 5.861
+      },
+      {
+        "frame": 908,
+        "time_sec": 30.2667,
+        "score": 33.313
+      },
+      {
+        "frame": 969,
+        "time_sec": 32.3,
+        "score": 61.317
+      },
+      {
+        "frame": 1012,
+        "time_sec": 33.7333,
+        "score": 58.881
+      },
+      {
+        "frame": 1063,
+        "time_sec": 35.4333,
+        "score": 30.684
+      },
+      {
+        "frame": 1079,
+        "time_sec": 35.9667,
+        "score": 11.71
+      },
+      {
+        "frame": 1123,
+        "time_sec": 37.4333,
+        "score": 39.126
+      },
+      {
+        "frame": 1161,
+        "time_sec": 38.7,
+        "score": 53.869
+      },
+      {
+        "frame": 1162,
+        "time_sec": 38.7333,
+        "score": 7.87
+      },
+      {
+        "frame": 1294,
+        "time_sec": 43.1333,
+        "score": 56.037
+      },
+      {
+        "frame": 1344,
+        "time_sec": 44.8,
+        "score": 71.47
+      },
+      {
+        "frame": 1345,
+        "time_sec": 44.8333,
+        "score": 6.451
+      },
+      {
+        "frame": 1371,
+        "time_sec": 45.7,
+        "score": 11.922
+      },
+      {
+        "frame": 1381,
+        "time_sec": 46.0333,
+        "score": 15.235
+      },
+      {
+        "frame": 1485,
+        "time_sec": 49.5,
+        "score": 6.446
+      },
+      {
+        "frame": 1547,
+        "time_sec": 51.5667,
+        "score": 42.862
+      },
+      {
+        "frame": 1599,
+        "time_sec": 53.3,
+        "score": 8.444
+      },
+      {
+        "frame": 1646,
+        "time_sec": 54.8667,
+        "score": 28.248
+      },
+      {
+        "frame": 1736,
+        "time_sec": 57.8667,
+        "score": 16.178
+      },
+      {
+        "frame": 1748,
+        "time_sec": 58.2667,
+        "score": 5.1
+      },
+      {
+        "frame": 1750,
+        "time_sec": 58.3333,
+        "score": 5.979
+      },
+      {
+        "frame": 1760,
+        "time_sec": 58.6667,
+        "score": 5.424
+      },
+      {
+        "frame": 1765,
+        "time_sec": 58.8333,
+        "score": 6.273
+      },
+      {
+        "frame": 1769,
+        "time_sec": 58.9667,
+        "score": 6.212
+      },
+      {
+        "frame": 1772,
+        "time_sec": 59.0667,
+        "score": 7.112
+      },
+      {
+        "frame": 1774,
+        "time_sec": 59.1333,
+        "score": 6.86
+      },
+      {
+        "frame": 1779,
+        "time_sec": 59.3,
+        "score": 6.381
+      },
+      {
+        "frame": 1781,
+        "time_sec": 59.3667,
+        "score": 5.949
+      },
+      {
+        "frame": 1783,
+        "time_sec": 59.4333,
+        "score": 7.816
+      },
+      {
+        "frame": 1794,
+        "time_sec": 59.8,
+        "score": 17.245
+      },
+      {
+        "frame": 1795,
+        "time_sec": 59.8333,
+        "score": 8.912
+      },
+      {
+        "frame": 1797,
+        "time_sec": 59.9,
+        "score": 7.647
+      },
+      {
+        "frame": 1801,
+        "time_sec": 60.0333,
+        "score": 17.71
+      },
+      {
+        "frame": 1802,
+        "time_sec": 60.0667,
+        "score": 9.581
+      },
+      {
+        "frame": 1826,
+        "time_sec": 60.8667,
+        "score": 19.258
+      },
+      {
+        "frame": 1916,
+        "time_sec": 63.8667,
+        "score": 16.442
+      },
+      {
+        "frame": 1917,
+        "time_sec": 63.9,
+        "score": 8.159
+      },
+      {
+        "frame": 1926,
+        "time_sec": 64.2,
+        "score": 5.661
+      },
+      {
+        "frame": 1933,
+        "time_sec": 64.4333,
+        "score": 7.305
+      },
+      {
+        "frame": 1936,
+        "time_sec": 64.5333,
+        "score": 5.429
+      },
+      {
+        "frame": 1949,
+        "time_sec": 64.9667,
+        "score": 6.542
+      },
+      {
+        "frame": 1973,
+        "time_sec": 65.7667,
+        "score": 25.821
+      },
+      {
+        "frame": 2027,
+        "time_sec": 67.5667,
+        "score": 19.01
+      },
+      {
+        "frame": 2173,
+        "time_sec": 72.4333,
+        "score": 15.578
+      },
+      {
+        "frame": 2260,
+        "time_sec": 75.3333,
+        "score": 5.601
+      },
+      {
+        "frame": 2306,
+        "time_sec": 76.8667,
+        "score": 14.689
+      },
+      {
+        "frame": 2307,
+        "time_sec": 76.9,
+        "score": 6.992
+      },
+      {
+        "frame": 2533,
+        "time_sec": 84.4333,
+        "score": 18.194
+      },
+      {
+        "frame": 3114,
+        "time_sec": 103.8,
+        "score": 14.092
+      },
+      {
+        "frame": 3115,
+        "time_sec": 103.833,
+        "score": 6.402
+      },
+      {
+        "frame": 3363,
+        "time_sec": 112.1,
+        "score": 74.719
+      },
+      {
+        "frame": 3388,
+        "time_sec": 112.933,
+        "score": 80.575
+      },
+      {
+        "frame": 3436,
+        "time_sec": 114.533,
+        "score": 5.611
+      },
+      {
+        "frame": 3718,
+        "time_sec": 123.933,
+        "score": 17.451
+      },
+      {
+        "frame": 3777,
+        "time_sec": 125.9,
+        "score": 22.409
+      },
+      {
+        "frame": 3933,
+        "time_sec": 131.1,
+        "score": 8.088
+      },
+      {
+        "frame": 3959,
+        "time_sec": 131.967,
+        "score": 16.506
+      },
+      {
+        "frame": 4162,
+        "time_sec": 138.733,
+        "score": 19.605
+      },
+      {
+        "frame": 4195,
+        "time_sec": 139.833,
+        "score": 6.869
+      },
+      {
+        "frame": 4239,
+        "time_sec": 141.3,
+        "score": 52.444
+      },
+      {
+        "frame": 4397,
+        "time_sec": 146.567,
+        "score": 7.708
+      },
+      {
+        "frame": 4410,
+        "time_sec": 147.0,
+        "score": 12.549
+      },
+      {
+        "frame": 4501,
+        "time_sec": 150.033,
+        "score": 5.068
+      },
+      {
+        "frame": 4553,
+        "time_sec": 151.767,
+        "score": 40.7
+      },
+      {
+        "frame": 4710,
+        "time_sec": 157.0,
+        "score": 24.441
+      },
+      {
+        "frame": 4789,
+        "time_sec": 159.633,
+        "score": 22.467
+      }
+    ],
+    "10": [
+      {
+        "frame": 3,
+        "time_sec": 0.1,
+        "score": 18.644
+      },
+      {
+        "frame": 34,
+        "time_sec": 1.13333,
+        "score": 78.037
+      },
+      {
+        "frame": 104,
+        "time_sec": 3.46667,
+        "score": 75.228
+      },
+      {
+        "frame": 132,
+        "time_sec": 4.4,
+        "score": 50.384
+      },
+      {
+        "frame": 146,
+        "time_sec": 4.86667,
+        "score": 21.486
+      },
+      {
+        "frame": 187,
+        "time_sec": 6.23333,
+        "score": 23.954
+      },
+      {
+        "frame": 251,
+        "time_sec": 8.36667,
+        "score": 51.981
+      },
+      {
+        "frame": 279,
+        "time_sec": 9.3,
+        "score": 77.103
+      },
+      {
+        "frame": 526,
+        "time_sec": 17.5333,
+        "score": 32.305
+      },
+      {
+        "frame": 808,
+        "time_sec": 26.9333,
+        "score": 29.037
+      },
+      {
+        "frame": 908,
+        "time_sec": 30.2667,
+        "score": 33.313
+      },
+      {
+        "frame": 969,
+        "time_sec": 32.3,
+        "score": 61.317
+      },
+      {
+        "frame": 1012,
+        "time_sec": 33.7333,
+        "score": 58.881
+      },
+      {
+        "frame": 1063,
+        "time_sec": 35.4333,
+        "score": 30.684
+      },
+      {
+        "frame": 1079,
+        "time_sec": 35.9667,
+        "score": 11.71
+      },
+      {
+        "frame": 1123,
+        "time_sec": 37.4333,
+        "score": 39.126
+      },
+      {
+        "frame": 1161,
+        "time_sec": 38.7,
+        "score": 53.869
+      },
+      {
+        "frame": 1294,
+        "time_sec": 43.1333,
+        "score": 56.037
+      },
+      {
+        "frame": 1344,
+        "time_sec": 44.8,
+        "score": 71.47
+      },
+      {
+        "frame": 1371,
+        "time_sec": 45.7,
+        "score": 11.922
+      },
+      {
+        "frame": 1381,
+        "time_sec": 46.0333,
+        "score": 15.235
+      },
+      {
+        "frame": 1547,
+        "time_sec": 51.5667,
+        "score": 42.862
+      },
+      {
+        "frame": 1646,
+        "time_sec": 54.8667,
+        "score": 28.248
+      },
+      {
+        "frame": 1736,
+        "time_sec": 57.8667,
+        "score": 16.178
+      },
+      {
+        "frame": 1794,
+        "time_sec": 59.8,
+        "score": 17.245
+      },
+      {
+        "frame": 1801,
+        "time_sec": 60.0333,
+        "score": 17.71
+      },
+      {
+        "frame": 1826,
+        "time_sec": 60.8667,
+        "score": 19.258
+      },
+      {
+        "frame": 1916,
+        "time_sec": 63.8667,
+        "score": 16.442
+      },
+      {
+        "frame": 1973,
+        "time_sec": 65.7667,
+        "score": 25.821
+      },
+      {
+        "frame": 2027,
+        "time_sec": 67.5667,
+        "score": 19.01
+      },
+      {
+        "frame": 2173,
+        "time_sec": 72.4333,
+        "score": 15.578
+      },
+      {
+        "frame": 2306,
+        "time_sec": 76.8667,
+        "score": 14.689
+      },
+      {
+        "frame": 2533,
+        "time_sec": 84.4333,
+        "score": 18.194
+      },
+      {
+        "frame": 3114,
+        "time_sec": 103.8,
+        "score": 14.092
+      },
+      {
+        "frame": 3363,
+        "time_sec": 112.1,
+        "score": 74.719
+      },
+      {
+        "frame": 3388,
+        "time_sec": 112.933,
+        "score": 80.575
+      },
+      {
+        "frame": 3718,
+        "time_sec": 123.933,
+        "score": 17.451
+      },
+      {
+        "frame": 3777,
+        "time_sec": 125.9,
+        "score": 22.409
+      },
+      {
+        "frame": 3959,
+        "time_sec": 131.967,
+        "score": 16.506
+      },
+      {
+        "frame": 4162,
+        "time_sec": 138.733,
+        "score": 19.605
+      },
+      {
+        "frame": 4239,
+        "time_sec": 141.3,
+        "score": 52.444
+      },
+      {
+        "frame": 4410,
+        "time_sec": 147.0,
+        "score": 12.549
+      },
+      {
+        "frame": 4553,
+        "time_sec": 151.767,
+        "score": 40.7
+      },
+      {
+        "frame": 4710,
+        "time_sec": 157.0,
+        "score": 24.441
+      },
+      {
+        "frame": 4789,
+        "time_sec": 159.633,
+        "score": 22.467
+      }
+    ],
+    "15": [
+      {
+        "frame": 3,
+        "time_sec": 0.1,
+        "score": 18.644
+      },
+      {
+        "frame": 34,
+        "time_sec": 1.13333,
+        "score": 78.037
+      },
+      {
+        "frame": 104,
+        "time_sec": 3.46667,
+        "score": 75.228
+      },
+      {
+        "frame": 132,
+        "time_sec": 4.4,
+        "score": 50.384
+      },
+      {
+        "frame": 146,
+        "time_sec": 4.86667,
+        "score": 21.486
+      },
+      {
+        "frame": 187,
+        "time_sec": 6.23333,
+        "score": 23.954
+      },
+      {
+        "frame": 251,
+        "time_sec": 8.36667,
+        "score": 51.981
+      },
+      {
+        "frame": 279,
+        "time_sec": 9.3,
+        "score": 77.103
+      },
+      {
+        "frame": 526,
+        "time_sec": 17.5333,
+        "score": 32.305
+      },
+      {
+        "frame": 808,
+        "time_sec": 26.9333,
+        "score": 29.037
+      },
+      {
+        "frame": 908,
+        "time_sec": 30.2667,
+        "score": 33.313
+      },
+      {
+        "frame": 969,
+        "time_sec": 32.3,
+        "score": 61.317
+      },
+      {
+        "frame": 1012,
+        "time_sec": 33.7333,
+        "score": 58.881
+      },
+      {
+        "frame": 1063,
+        "time_sec": 35.4333,
+        "score": 30.684
+      },
+      {
+        "frame": 1123,
+        "time_sec": 37.4333,
+        "score": 39.126
+      },
+      {
+        "frame": 1161,
+        "time_sec": 38.7,
+        "score": 53.869
+      },
+      {
+        "frame": 1294,
+        "time_sec": 43.1333,
+        "score": 56.037
+      },
+      {
+        "frame": 1344,
+        "time_sec": 44.8,
+        "score": 71.47
+      },
+      {
+        "frame": 1381,
+        "time_sec": 46.0333,
+        "score": 15.235
+      },
+      {
+        "frame": 1547,
+        "time_sec": 51.5667,
+        "score": 42.862
+      },
+      {
+        "frame": 1646,
+        "time_sec": 54.8667,
+        "score": 28.248
+      },
+      {
+        "frame": 1736,
+        "time_sec": 57.8667,
+        "score": 16.178
+      },
+      {
+        "frame": 1794,
+        "time_sec": 59.8,
+        "score": 17.245
+      },
+      {
+        "frame": 1801,
+        "time_sec": 60.0333,
+        "score": 17.71
+      },
+      {
+        "frame": 1826,
+        "time_sec": 60.8667,
+        "score": 19.258
+      },
+      {
+        "frame": 1916,
+        "time_sec": 63.8667,
+        "score": 16.442
+      },
+      {
+        "frame": 1973,
+        "time_sec": 65.7667,
+        "score": 25.821
+      },
+      {
+        "frame": 2027,
+        "time_sec": 67.5667,
+        "score": 19.01
+      },
+      {
+        "frame": 2173,
+        "time_sec": 72.4333,
+        "score": 15.578
+      },
+      {
+        "frame": 2533,
+        "time_sec": 84.4333,
+        "score": 18.194
+      },
+      {
+        "frame": 3363,
+        "time_sec": 112.1,
+        "score": 74.719
+      },
+      {
+        "frame": 3388,
+        "time_sec": 112.933,
+        "score": 80.575
+      },
+      {
+        "frame": 3718,
+        "time_sec": 123.933,
+        "score": 17.451
+      },
+      {
+        "frame": 3777,
+        "time_sec": 125.9,
+        "score": 22.409
+      },
+      {
+        "frame": 3959,
+        "time_sec": 131.967,
+        "score": 16.506
+      },
+      {
+        "frame": 4162,
+        "time_sec": 138.733,
+        "score": 19.605
+      },
+      {
+        "frame": 4239,
+        "time_sec": 141.3,
+        "score": 52.444
+      },
+      {
+        "frame": 4553,
+        "time_sec": 151.767,
+        "score": 40.7
+      },
+      {
+        "frame": 4710,
+        "time_sec": 157.0,
+        "score": 24.441
+      },
+      {
+        "frame": 4789,
+        "time_sec": 159.633,
+        "score": 22.467
+      }
+    ],
+    "20": [
+      {
+        "frame": 34,
+        "time_sec": 1.13333,
+        "score": 78.037
+      },
+      {
+        "frame": 104,
+        "time_sec": 3.46667,
+        "score": 75.228
+      },
+      {
+        "frame": 132,
+        "time_sec": 4.4,
+        "score": 50.384
+      },
+      {
+        "frame": 146,
+        "time_sec": 4.86667,
+        "score": 21.486
+      },
+      {
+        "frame": 187,
+        "time_sec": 6.23333,
+        "score": 23.954
+      },
+      {
+        "frame": 251,
+        "time_sec": 8.36667,
+        "score": 51.981
+      },
+      {
+        "frame": 279,
+        "time_sec": 9.3,
+        "score": 77.103
+      },
+      {
+        "frame": 526,
+        "time_sec": 17.5333,
+        "score": 32.305
+      },
+      {
+        "frame": 808,
+        "time_sec": 26.9333,
+        "score": 29.037
+      },
+      {
+        "frame": 908,
+        "time_sec": 30.2667,
+        "score": 33.313
+      },
+      {
+        "frame": 969,
+        "time_sec": 32.3,
+        "score": 61.317
+      },
+      {
+        "frame": 1012,
+        "time_sec": 33.7333,
+        "score": 58.881
+      },
+      {
+        "frame": 1063,
+        "time_sec": 35.4333,
+        "score": 30.684
+      },
+      {
+        "frame": 1123,
+        "time_sec": 37.4333,
+        "score": 39.126
+      },
+      {
+        "frame": 1161,
+        "time_sec": 38.7,
+        "score": 53.869
+      },
+      {
+        "frame": 1294,
+        "time_sec": 43.1333,
+        "score": 56.037
+      },
+      {
+        "frame": 1344,
+        "time_sec": 44.8,
+        "score": 71.47
+      },
+      {
+        "frame": 1547,
+        "time_sec": 51.5667,
+        "score": 42.862
+      },
+      {
+        "frame": 1646,
+        "time_sec": 54.8667,
+        "score": 28.248
+      },
+      {
+        "frame": 1973,
+        "time_sec": 65.7667,
+        "score": 25.821
+      },
+      {
+        "frame": 3363,
+        "time_sec": 112.1,
+        "score": 74.719
+      },
+      {
+        "frame": 3388,
+        "time_sec": 112.933,
+        "score": 80.575
+      },
+      {
+        "frame": 3777,
+        "time_sec": 125.9,
+        "score": 22.409
+      },
+      {
+        "frame": 4239,
+        "time_sec": 141.3,
+        "score": 52.444
+      },
+      {
+        "frame": 4553,
+        "time_sec": 151.767,
+        "score": 40.7
+      },
+      {
+        "frame": 4710,
+        "time_sec": 157.0,
+        "score": 24.441
+      },
+      {
+        "frame": 4789,
+        "time_sec": 159.633,
+        "score": 22.467
+      }
+    ]
+  },
+  "local_scene_score_peaks_height_5_distance_3_frames_prominence_3": [
+    {
+      "frame": 3,
+      "time_sec": 0.1,
+      "score": 18.644,
+      "prominence": 18.641
+    },
+    {
+      "frame": 34,
+      "time_sec": 1.13333,
+      "score": 78.037,
+      "prominence": 78.037
+    },
+    {
+      "frame": 104,
+      "time_sec": 3.46667,
+      "score": 75.228,
+      "prominence": 75.228
+    },
+    {
+      "frame": 132,
+      "time_sec": 4.4,
+      "score": 50.384,
+      "prominence": 50.384
+    },
+    {
+      "frame": 146,
+      "time_sec": 4.86667,
+      "score": 21.486,
+      "prominence": 21.485
+    },
+    {
+      "frame": 187,
+      "time_sec": 6.23333,
+      "score": 23.954,
+      "prominence": 23.953
+    },
+    {
+      "frame": 251,
+      "time_sec": 8.36667,
+      "score": 51.981,
+      "prominence": 51.98
+    },
+    {
+      "frame": 279,
+      "time_sec": 9.3,
+      "score": 77.103,
+      "prominence": 77.103
+    },
+    {
+      "frame": 461,
+      "time_sec": 15.3667,
+      "score": 9.828,
+      "prominence": 9.827
+    },
+    {
+      "frame": 526,
+      "time_sec": 17.5333,
+      "score": 32.305,
+      "prominence": 32.305
+    },
+    {
+      "frame": 808,
+      "time_sec": 26.9333,
+      "score": 29.037,
+      "prominence": 29.036
+    },
+    {
+      "frame": 816,
+      "time_sec": 27.2,
+      "score": 6.105,
+      "prominence": 6.103
+    },
+    {
+      "frame": 820,
+      "time_sec": 27.3333,
+      "score": 6.6,
+      "prominence": 6.596
+    },
+    {
+      "frame": 825,
+      "time_sec": 27.5,
+      "score": 7.232,
+      "prominence": 7.23
+    },
+    {
+      "frame": 830,
+      "time_sec": 27.6667,
+      "score": 6.757,
+      "prominence": 6.75
+    },
+    {
+      "frame": 835,
+      "time_sec": 27.8333,
+      "score": 7.352,
+      "prominence": 7.35
+    },
+    {
+      "frame": 840,
+      "time_sec": 28.0,
+      "score": 5.805,
+      "prominence": 5.778
+    },
+    {
+      "frame": 845,
+      "time_sec": 28.1667,
+      "score": 5.455,
+      "prominence": 5.446
+    },
+    {
+      "frame": 852,
+      "time_sec": 28.4,
+      "score": 5.861,
+      "prominence": 5.853
+    },
+    {
+      "frame": 908,
+      "time_sec": 30.2667,
+      "score": 33.313,
+      "prominence": 33.313
+    },
+    {
+      "frame": 969,
+      "time_sec": 32.3,
+      "score": 61.317,
+      "prominence": 61.317
+    },
+    {
+      "frame": 1012,
+      "time_sec": 33.7333,
+      "score": 58.881,
+      "prominence": 58.88
+    },
+    {
+      "frame": 1063,
+      "time_sec": 35.4333,
+      "score": 30.684,
+      "prominence": 30.684
+    },
+    {
+      "frame": 1079,
+      "time_sec": 35.9667,
+      "score": 11.71,
+      "prominence": 11.71
+    },
+    {
+      "frame": 1123,
+      "time_sec": 37.4333,
+      "score": 39.126,
+      "prominence": 39.12
+    },
+    {
+      "frame": 1161,
+      "time_sec": 38.7,
+      "score": 53.869,
+      "prominence": 53.869
+    },
+    {
+      "frame": 1294,
+      "time_sec": 43.1333,
+      "score": 56.037,
+      "prominence": 56.037
+    },
+    {
+      "frame": 1344,
+      "time_sec": 44.8,
+      "score": 71.47,
+      "prominence": 71.47
+    },
+    {
+      "frame": 1371,
+      "time_sec": 45.7,
+      "score": 11.922,
+      "prominence": 11.914
+    },
+    {
+      "frame": 1381,
+      "time_sec": 46.0333,
+      "score": 15.235,
+      "prominence": 15.234
+    },
+    {
+      "frame": 1485,
+      "time_sec": 49.5,
+      "score": 6.446,
+      "prominence": 6.438
+    },
+    {
+      "frame": 1547,
+      "time_sec": 51.5667,
+      "score": 42.862,
+      "prominence": 42.862
+    },
+    {
+      "frame": 1599,
+      "time_sec": 53.3,
+      "score": 8.444,
+      "prominence": 8.421
+    },
+    {
+      "frame": 1646,
+      "time_sec": 54.8667,
+      "score": 28.248,
+      "prominence": 28.246
+    },
+    {
+      "frame": 1736,
+      "time_sec": 57.8667,
+      "score": 16.178,
+      "prominence": 16.142
+    },
+    {
+      "frame": 1750,
+      "time_sec": 58.3333,
+      "score": 5.979,
+      "prominence": 5.622
+    },
+    {
+      "frame": 1760,
+      "time_sec": 58.6667,
+      "score": 5.424,
+      "prominence": 5.359
+    },
+    {
+      "frame": 1765,
+      "time_sec": 58.8333,
+      "score": 6.273,
+      "prominence": 6.232
+    },
+    {
+      "frame": 1769,
+      "time_sec": 58.9667,
+      "score": 6.212,
+      "prominence": 6.167
+    },
+    {
+      "frame": 1772,
+      "time_sec": 59.0667,
+      "score": 7.112,
+      "prominence": 7.093
+    },
+    {
+      "frame": 1779,
+      "time_sec": 59.3,
+      "score": 6.381,
+      "prominence": 6.362
+    },
+    {
+      "frame": 1783,
+      "time_sec": 59.4333,
+      "score": 7.816,
+      "prominence": 7.608
+    },
+    {
+      "frame": 1794,
+      "time_sec": 59.8,
+      "score": 17.245,
+      "prominence": 17.23
+    },
+    {
+      "frame": 1797,
+      "time_sec": 59.9,
+      "score": 7.647,
+      "prominence": 7.579
+    },
+    {
+      "frame": 1801,
+      "time_sec": 60.0333,
+      "score": 17.71,
+      "prominence": 17.68
+    },
+    {
+      "frame": 1826,
+      "time_sec": 60.8667,
+      "score": 19.258,
+      "prominence": 19.244
+    },
+    {
+      "frame": 1916,
+      "time_sec": 63.8667,
+      "score": 16.442,
+      "prominence": 16.429
+    },
+    {
+      "frame": 1926,
+      "time_sec": 64.2,
+      "score": 5.661,
+      "prominence": 5.595
+    },
+    {
+      "frame": 1933,
+      "time_sec": 64.4333,
+      "score": 7.305,
+      "prominence": 7.283
+    },
+    {
+      "frame": 1936,
+      "time_sec": 64.5333,
+      "score": 5.429,
+      "prominence": 5.414
+    },
+    {
+      "frame": 1949,
+      "time_sec": 64.9667,
+      "score": 6.542,
+      "prominence": 6.527
+    },
+    {
+      "frame": 1973,
+      "time_sec": 65.7667,
+      "score": 25.821,
+      "prominence": 25.819
+    },
+    {
+      "frame": 2027,
+      "time_sec": 67.5667,
+      "score": 19.01,
+      "prominence": 19.009
+    },
+    {
+      "frame": 2173,
+      "time_sec": 72.4333,
+      "score": 15.578,
+      "prominence": 15.578
+    },
+    {
+      "frame": 2260,
+      "time_sec": 75.3333,
+      "score": 5.601,
+      "prominence": 5.601
+    },
+    {
+      "frame": 2306,
+      "time_sec": 76.8667,
+      "score": 14.689,
+      "prominence": 14.686
+    },
+    {
+      "frame": 2533,
+      "time_sec": 84.4333,
+      "score": 18.194,
+      "prominence": 18.194
+    },
+    {
+      "frame": 3114,
+      "time_sec": 103.8,
+      "score": 14.092,
+      "prominence": 14.092
+    },
+    {
+      "frame": 3363,
+      "time_sec": 112.1,
+      "score": 74.719,
+      "prominence": 74.717
+    },
+    {
+      "frame": 3388,
+      "time_sec": 112.933,
+      "score": 80.575,
+      "prominence": 80.575
+    },
+    {
+      "frame": 3436,
+      "time_sec": 114.533,
+      "score": 5.611,
+      "prominence": 5.61
+    },
+    {
+      "frame": 3718,
+      "time_sec": 123.933,
+      "score": 17.451,
+      "prominence": 17.451
+    },
+    {
+      "frame": 3777,
+      "time_sec": 125.9,
+      "score": 22.409,
+      "prominence": 22.409
+    },
+    {
+      "frame": 3933,
+      "time_sec": 131.1,
+      "score": 8.088,
+      "prominence": 8.088
+    },
+    {
+      "frame": 3959,
+      "time_sec": 131.967,
+      "score": 16.506,
+      "prominence": 16.506
+    },
+    {
+      "frame": 4162,
+      "time_sec": 138.733,
+      "score": 19.605,
+      "prominence": 19.605
+    },
+    {
+      "frame": 4195,
+      "time_sec": 139.833,
+      "score": 6.869,
+      "prominence": 6.868
+    },
+    {
+      "frame": 4239,
+      "time_sec": 141.3,
+      "score": 52.444,
+      "prominence": 52.444
+    },
+    {
+      "frame": 4397,
+      "time_sec": 146.567,
+      "score": 7.708,
+      "prominence": 7.637
+    },
+    {
+      "frame": 4410,
+      "time_sec": 147.0,
+      "score": 12.549,
+      "prominence": 12.548
+    },
+    {
+      "frame": 4501,
+      "time_sec": 150.033,
+      "score": 5.068,
+      "prominence": 5.068
+    },
+    {
+      "frame": 4553,
+      "time_sec": 151.767,
+      "score": 40.7,
+      "prominence": 40.7
+    },
+    {
+      "frame": 4710,
+      "time_sec": 157.0,
+      "score": 24.441,
+      "prominence": 24.441
+    },
+    {
+      "frame": 4789,
+      "time_sec": 159.633,
+      "score": 22.467,
+      "prominence": 22.467
+    }
+  ],
+  "window_sec": 12.0,
+  "windows": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 12.0,
+      "frames": 360,
+      "mean_score": 1.25335,
+      "max_score": 78.037,
+      "candidate_counts_by_threshold": {
+        "5": 8,
+        "10": 8,
+        "15": 8,
+        "20": 7
+      }
+    },
+    {
+      "start_sec": 12.0,
+      "end_sec": 24.0,
+      "frames": 360,
+      "mean_score": 0.51859,
+      "max_score": 32.305,
+      "candidate_counts_by_threshold": {
+        "5": 3,
+        "10": 1,
+        "15": 1,
+        "20": 1
+      }
+    },
+    {
+      "start_sec": 24.0,
+      "end_sec": 36.0,
+      "frames": 360,
+      "mean_score": 1.11256,
+      "max_score": 61.317,
+      "candidate_counts_by_threshold": {
+        "5": 15,
+        "10": 6,
+        "15": 5,
+        "20": 5
+      }
+    },
+    {
+      "start_sec": 36.0,
+      "end_sec": 48.0,
+      "frames": 360,
+      "mean_score": 0.9763,
+      "max_score": 71.47,
+      "candidate_counts_by_threshold": {
+        "5": 8,
+        "10": 6,
+        "15": 5,
+        "20": 4
+      }
+    },
+    {
+      "start_sec": 48.0,
+      "end_sec": 60.0,
+      "frames": 360,
+      "mean_score": 1.39966,
+      "max_score": 42.862,
+      "candidate_counts_by_threshold": {
+        "5": 18,
+        "10": 4,
+        "15": 4,
+        "20": 2
+      }
+    },
+    {
+      "start_sec": 60.0,
+      "end_sec": 72.0,
+      "frames": 360,
+      "mean_score": 0.73255,
+      "max_score": 25.821,
+      "candidate_counts_by_threshold": {
+        "5": 11,
+        "10": 5,
+        "15": 5,
+        "20": 1
+      }
+    },
+    {
+      "start_sec": 72.0,
+      "end_sec": 84.0,
+      "frames": 360,
+      "mean_score": 0.72813,
+      "max_score": 15.578,
+      "candidate_counts_by_threshold": {
+        "5": 4,
+        "10": 2,
+        "15": 1,
+        "20": 0
+      }
+    },
+    {
+      "start_sec": 84.0,
+      "end_sec": 96.0,
+      "frames": 360,
+      "mean_score": 0.19569,
+      "max_score": 18.194,
+      "candidate_counts_by_threshold": {
+        "5": 1,
+        "10": 1,
+        "15": 1,
+        "20": 0
+      }
+    },
+    {
+      "start_sec": 96.0,
+      "end_sec": 108.0,
+      "frames": 360,
+      "mean_score": 0.30252,
+      "max_score": 14.092,
+      "candidate_counts_by_threshold": {
+        "5": 2,
+        "10": 1,
+        "15": 0,
+        "20": 0
+      }
+    },
+    {
+      "start_sec": 108.0,
+      "end_sec": 120.0,
+      "frames": 360,
+      "mean_score": 0.69025,
+      "max_score": 80.575,
+      "candidate_counts_by_threshold": {
+        "5": 3,
+        "10": 2,
+        "15": 2,
+        "20": 2
+      }
+    },
+    {
+      "start_sec": 120.0,
+      "end_sec": 132.0,
+      "frames": 360,
+      "mean_score": 0.30497,
+      "max_score": 22.409,
+      "candidate_counts_by_threshold": {
+        "5": 4,
+        "10": 3,
+        "15": 3,
+        "20": 1
+      }
+    },
+    {
+      "start_sec": 132.0,
+      "end_sec": 144.0,
+      "frames": 360,
+      "mean_score": 0.56867,
+      "max_score": 52.444,
+      "candidate_counts_by_threshold": {
+        "5": 3,
+        "10": 2,
+        "15": 2,
+        "20": 1
+      }
+    },
+    {
+      "start_sec": 144.0,
+      "end_sec": 156.0,
+      "frames": 360,
+      "mean_score": 0.54573,
+      "max_score": 40.7,
+      "candidate_counts_by_threshold": {
+        "5": 4,
+        "10": 2,
+        "15": 1,
+        "20": 1
+      }
+    },
+    {
+      "start_sec": 156.0,
+      "end_sec": 166.464,
+      "frames": 313,
+      "mean_score": 0.36968,
+      "max_score": 24.441,
+      "candidate_counts_by_threshold": {
+        "5": 2,
+        "10": 2,
+        "15": 2,
+        "20": 2
+      }
+    }
+  ],
+  "audio": {
+    "sample_rate_hz": 22050,
+    "analysis_hop_ms": 20.0,
+    "spectral_flux_global_candidate_threshold_mean_plus_2_5sd": 0.974602222442627,
+    "spectral_flux_peak_candidates": [
+      {
+        "time_sec": 4.36644,
+        "frame_30fps_nearest": 131,
+        "spectral_flux": 1.03184462,
+        "band_power": {
+          "sub_bass_kick_20_120": 4e-08,
+          "low_mid_120_250": 3.584e-07,
+          "guitar_mid_250_2500": 5.29121e-05,
+          "high_4000_plus": 5.47e-08
+        }
+      },
+      {
+        "time_sec": 4.82644,
+        "frame_30fps_nearest": 145,
+        "spectral_flux": 0.99149638,
+        "band_power": {
+          "sub_bass_kick_20_120": 3.3e-08,
+          "low_mid_120_250": 4.17e-08,
+          "guitar_mid_250_2500": 2.48545e-05,
+          "high_4000_plus": 3.658e-07
+        }
+      },
+      {
+        "time_sec": 6.24644,
+        "frame_30fps_nearest": 187,
+        "spectral_flux": 0.9921034,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0026989416,
+          "low_mid_120_250": 0.0018007028,
+          "guitar_mid_250_2500": 9.30955e-05,
+          "high_4000_plus": 4.283e-07
+        }
+      },
+      {
+        "time_sec": 6.70644,
+        "frame_30fps_nearest": 201,
+        "spectral_flux": 1.56097841,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0009467063,
+          "low_mid_120_250": 4.40112e-05,
+          "guitar_mid_250_2500": 5.18768e-05,
+          "high_4000_plus": 1.5432e-06
+        }
+      },
+      {
+        "time_sec": 6.94644,
+        "frame_30fps_nearest": 208,
+        "spectral_flux": 1.20918095,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0011629298,
+          "low_mid_120_250": 0.0021916961,
+          "guitar_mid_250_2500": 6.7423e-05,
+          "high_4000_plus": 2.204e-07
+        }
+      },
+      {
+        "time_sec": 7.64644,
+        "frame_30fps_nearest": 229,
+        "spectral_flux": 1.46616435,
+        "band_power": {
+          "sub_bass_kick_20_120": 6.94e-08,
+          "low_mid_120_250": 1.89e-07,
+          "guitar_mid_250_2500": 0.0001062099,
+          "high_4000_plus": 1.7228e-06
+        }
+      },
+      {
+        "time_sec": 8.10644,
+        "frame_30fps_nearest": 243,
+        "spectral_flux": 1.00684071,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0015951669,
+          "low_mid_120_250": 0.0008956579,
+          "guitar_mid_250_2500": 3.45369e-05,
+          "high_4000_plus": 1.667e-07
+        }
+      },
+      {
+        "time_sec": 8.58644,
+        "frame_30fps_nearest": 258,
+        "spectral_flux": 1.31098175,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0006984836,
+          "low_mid_120_250": 4.02735e-05,
+          "guitar_mid_250_2500": 4.8613e-05,
+          "high_4000_plus": 1.8964e-06
+        }
+      },
+      {
+        "time_sec": 8.80644,
+        "frame_30fps_nearest": 264,
+        "spectral_flux": 1.12609935,
+        "band_power": {
+          "sub_bass_kick_20_120": 6.75115e-05,
+          "low_mid_120_250": 0.0005541257,
+          "guitar_mid_250_2500": 3.85661e-05,
+          "high_4000_plus": 7.75e-08
+        }
+      },
+      {
+        "time_sec": 9.28644,
+        "frame_30fps_nearest": 279,
+        "spectral_flux": 1.36424172,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0008195713,
+          "low_mid_120_250": 0.0018699275,
+          "guitar_mid_250_2500": 6.93354e-05,
+          "high_4000_plus": 2.02e-07
+        }
+      },
+      {
+        "time_sec": 9.52644,
+        "frame_30fps_nearest": 286,
+        "spectral_flux": 1.42999744,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0006170912,
+          "low_mid_120_250": 9.12469e-05,
+          "guitar_mid_250_2500": 8.90433e-05,
+          "high_4000_plus": 2.2161e-06
+        }
+      },
+      {
+        "time_sec": 9.96644,
+        "frame_30fps_nearest": 299,
+        "spectral_flux": 0.98502582,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0024813684,
+          "low_mid_120_250": 0.0008081402,
+          "guitar_mid_250_2500": 7.82242e-05,
+          "high_4000_plus": 2.833e-07
+        }
+      },
+      {
+        "time_sec": 10.44644,
+        "frame_30fps_nearest": 313,
+        "spectral_flux": 1.38433504,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0007697213,
+          "low_mid_120_250": 2.4793e-05,
+          "guitar_mid_250_2500": 7.09518e-05,
+          "high_4000_plus": 1.8725e-06
+        }
+      },
+      {
+        "time_sec": 10.66644,
+        "frame_30fps_nearest": 320,
+        "spectral_flux": 1.07357979,
+        "band_power": {
+          "sub_bass_kick_20_120": 9.72813e-05,
+          "low_mid_120_250": 0.0005590451,
+          "guitar_mid_250_2500": 5.82617e-05,
+          "high_4000_plus": 8.8e-08
+        }
+      },
+      {
+        "time_sec": 11.38644,
+        "frame_30fps_nearest": 342,
+        "spectral_flux": 1.41913533,
+        "band_power": {
+          "sub_bass_kick_20_120": 8.34e-08,
+          "low_mid_120_250": 2.63e-07,
+          "guitar_mid_250_2500": 0.0001278154,
+          "high_4000_plus": 2.3858e-06
+        }
+      },
+      {
+        "time_sec": 11.84644,
+        "frame_30fps_nearest": 355,
+        "spectral_flux": 1.13812649,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0016976527,
+          "low_mid_120_250": 0.001768148,
+          "guitar_mid_250_2500": 4.67043e-05,
+          "high_4000_plus": 2.756e-07
+        }
+      },
+      {
+        "time_sec": 12.32644,
+        "frame_30fps_nearest": 370,
+        "spectral_flux": 1.18010104,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0005778143,
+          "low_mid_120_250": 3.00584e-05,
+          "guitar_mid_250_2500": 6.19113e-05,
+          "high_4000_plus": 2.4788e-06
+        }
+      },
+      {
+        "time_sec": 12.54644,
+        "frame_30fps_nearest": 376,
+        "spectral_flux": 1.32264674,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0002984171,
+          "low_mid_120_250": 0.0012619825,
+          "guitar_mid_250_2500": 6.00706e-05,
+          "high_4000_plus": 1.574e-07
+        }
+      },
+      {
+        "time_sec": 13.02644,
+        "frame_30fps_nearest": 391,
+        "spectral_flux": 1.21150231,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.002106722,
+          "low_mid_120_250": 0.0025820753,
+          "guitar_mid_250_2500": 7.59178e-05,
+          "high_4000_plus": 2.547e-07
+        }
+      },
+      {
+        "time_sec": 13.24644,
+        "frame_30fps_nearest": 397,
+        "spectral_flux": 1.39134812,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0005990107,
+          "low_mid_120_250": 9.83409e-05,
+          "guitar_mid_250_2500": 3.38447e-05,
+          "high_4000_plus": 1.0609e-06
+        }
+      },
+      {
+        "time_sec": 13.72644,
+        "frame_30fps_nearest": 412,
+        "spectral_flux": 1.0582571,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0020963375,
+          "low_mid_120_250": 0.0020229511,
+          "guitar_mid_250_2500": 4.55451e-05,
+          "high_4000_plus": 3.302e-07
+        }
+      },
+      {
+        "time_sec": 14.18644,
+        "frame_30fps_nearest": 426,
+        "spectral_flux": 1.41472435,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0007258205,
+          "low_mid_120_250": 6.62106e-05,
+          "guitar_mid_250_2500": 3.58944e-05,
+          "high_4000_plus": 1.2945e-06
+        }
+      },
+      {
+        "time_sec": 14.42644,
+        "frame_30fps_nearest": 433,
+        "spectral_flux": 1.24074459,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0006352513,
+          "low_mid_120_250": 0.0014718962,
+          "guitar_mid_250_2500": 5.89474e-05,
+          "high_4000_plus": 3.466e-07
+        }
+      },
+      {
+        "time_sec": 15.12644,
+        "frame_30fps_nearest": 454,
+        "spectral_flux": 1.16834199,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0008076936,
+          "low_mid_120_250": 9.75309e-05,
+          "guitar_mid_250_2500": 4.28967e-05,
+          "high_4000_plus": 9.124e-07
+        }
+      },
+      {
+        "time_sec": 17.46644,
+        "frame_30fps_nearest": 524,
+        "spectral_flux": 0.98511058,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0018093282,
+          "low_mid_120_250": 0.0011721299,
+          "guitar_mid_250_2500": 3.83027e-05,
+          "high_4000_plus": 5.263e-07
+        }
+      },
+      {
+        "time_sec": 17.94644,
+        "frame_30fps_nearest": 538,
+        "spectral_flux": 1.04897237,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0011090473,
+          "low_mid_120_250": 6.95277e-05,
+          "guitar_mid_250_2500": 5.17202e-05,
+          "high_4000_plus": 2.8018e-06
+        }
+      },
+      {
+        "time_sec": 18.86644,
+        "frame_30fps_nearest": 566,
+        "spectral_flux": 1.03189683,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0016132661,
+          "low_mid_120_250": 0.0002148214,
+          "guitar_mid_250_2500": 1.17947e-05,
+          "high_4000_plus": 7.663e-07
+        }
+      },
+      {
+        "time_sec": 19.34644,
+        "frame_30fps_nearest": 580,
+        "spectral_flux": 1.16466486,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0013554908,
+          "low_mid_120_250": 0.0018662655,
+          "guitar_mid_250_2500": 2.68777e-05,
+          "high_4000_plus": 7.681e-07
+        }
+      },
+      {
+        "time_sec": 19.80644,
+        "frame_30fps_nearest": 594,
+        "spectral_flux": 1.23238182,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0007085289,
+          "low_mid_120_250": 4.14037e-05,
+          "guitar_mid_250_2500": 1.9487e-05,
+          "high_4000_plus": 1.2875e-06
+        }
+      },
+      {
+        "time_sec": 20.04644,
+        "frame_30fps_nearest": 601,
+        "spectral_flux": 1.21339262,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0004615757,
+          "low_mid_120_250": 0.0014692936,
+          "guitar_mid_250_2500": 3.52849e-05,
+          "high_4000_plus": 5.276e-07
+        }
+      },
+      {
+        "time_sec": 20.50644,
+        "frame_30fps_nearest": 615,
+        "spectral_flux": 1.03874421,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0009347299,
+          "low_mid_120_250": 0.0005781243,
+          "guitar_mid_250_2500": 1.93903e-05,
+          "high_4000_plus": 3.614e-07
+        }
+      },
+      {
+        "time_sec": 20.74644,
+        "frame_30fps_nearest": 622,
+        "spectral_flux": 1.03251863,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0012203224,
+          "low_mid_120_250": 0.0002268824,
+          "guitar_mid_250_2500": 1.51446e-05,
+          "high_4000_plus": 9.004e-07
+        }
+      },
+      {
+        "time_sec": 21.20644,
+        "frame_30fps_nearest": 636,
+        "spectral_flux": 1.00863385,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0011663669,
+          "low_mid_120_250": 0.0004870893,
+          "guitar_mid_250_2500": 2.26792e-05,
+          "high_4000_plus": 2.516e-07
+        }
+      },
+      {
+        "time_sec": 21.92644,
+        "frame_30fps_nearest": 658,
+        "spectral_flux": 1.1905638,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0011959682,
+          "low_mid_120_250": 0.0021823777,
+          "guitar_mid_250_2500": 5.34738e-05,
+          "high_4000_plus": 8.542e-07
+        }
+      },
+      {
+        "time_sec": 22.62644,
+        "frame_30fps_nearest": 679,
+        "spectral_flux": 1.33920479,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0010549279,
+          "low_mid_120_250": 6.7229e-05,
+          "guitar_mid_250_2500": 3.98485e-05,
+          "high_4000_plus": 2.0099e-06
+        }
+      },
+      {
+        "time_sec": 23.08644,
+        "frame_30fps_nearest": 693,
+        "spectral_flux": 1.05317283,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0006880203,
+          "low_mid_120_250": 0.0008469317,
+          "guitar_mid_250_2500": 2.99326e-05,
+          "high_4000_plus": 2.968e-07
+        }
+      },
+      {
+        "time_sec": 23.78644,
+        "frame_30fps_nearest": 714,
+        "spectral_flux": 1.04799139,
+        "band_power": {
+          "sub_bass_kick_20_120": 9.06326e-05,
+          "low_mid_120_250": 0.0006516075,
+          "guitar_mid_250_2500": 2.00252e-05,
+          "high_4000_plus": 2.62e-07
+        }
+      },
+      {
+        "time_sec": 24.96644,
+        "frame_30fps_nearest": 749,
+        "spectral_flux": 1.02434766,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0017819494,
+          "low_mid_120_250": 0.0014375681,
+          "guitar_mid_250_2500": 3.9634e-05,
+          "high_4000_plus": 3.652e-07
+        }
+      },
+      {
+        "time_sec": 25.42644,
+        "frame_30fps_nearest": 763,
+        "spectral_flux": 0.99608028,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0008629134,
+          "low_mid_120_250": 0.0001350967,
+          "guitar_mid_250_2500": 9.3144e-06,
+          "high_4000_plus": 8.2e-07
+        }
+      },
+      {
+        "time_sec": 25.66644,
+        "frame_30fps_nearest": 770,
+        "spectral_flux": 1.49721754,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0005073605,
+          "low_mid_120_250": 0.0014414117,
+          "guitar_mid_250_2500": 6.74066e-05,
+          "high_4000_plus": 8.653e-07
+        }
+      },
+      {
+        "time_sec": 27.30644,
+        "frame_30fps_nearest": 819,
+        "spectral_flux": 0.98103631,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.001046517,
+          "low_mid_120_250": 5.78386e-05,
+          "guitar_mid_250_2500": 1.47315e-05,
+          "high_4000_plus": 1.3197e-06
+        }
+      },
+      {
+        "time_sec": 27.54644,
+        "frame_30fps_nearest": 826,
+        "spectral_flux": 1.10386825,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0012799229,
+          "low_mid_120_250": 0.0021965273,
+          "guitar_mid_250_2500": 4.81797e-05,
+          "high_4000_plus": 8.73e-07
+        }
+      },
+      {
+        "time_sec": 28.00644,
+        "frame_30fps_nearest": 840,
+        "spectral_flux": 1.18397117,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0008168869,
+          "low_mid_120_250": 0.0016273715,
+          "guitar_mid_250_2500": 4.54966e-05,
+          "high_4000_plus": 6.114e-07
+        }
+      },
+      {
+        "time_sec": 28.24644,
+        "frame_30fps_nearest": 847,
+        "spectral_flux": 0.98254853,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.001177626,
+          "low_mid_120_250": 8.6318e-05,
+          "guitar_mid_250_2500": 1.71114e-05,
+          "high_4000_plus": 1.3376e-06
+        }
+      },
+      {
+        "time_sec": 28.70644,
+        "frame_30fps_nearest": 861,
+        "spectral_flux": 1.26166332,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0019321177,
+          "low_mid_120_250": 0.0012386461,
+          "guitar_mid_250_2500": 4.40469e-05,
+          "high_4000_plus": 5.58e-07
+        }
+      },
+      {
+        "time_sec": 29.40644,
+        "frame_30fps_nearest": 882,
+        "spectral_flux": 1.06984591,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0009957489,
+          "low_mid_120_250": 0.0010953154,
+          "guitar_mid_250_2500": 4.83744e-05,
+          "high_4000_plus": 1.9116e-06
+        }
+      },
+      {
+        "time_sec": 30.10644,
+        "frame_30fps_nearest": 903,
+        "spectral_flux": 1.06527686,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.001459918,
+          "low_mid_120_250": 0.000151018,
+          "guitar_mid_250_2500": 1.06983e-05,
+          "high_4000_plus": 8.034e-07
+        }
+      },
+      {
+        "time_sec": 30.58644,
+        "frame_30fps_nearest": 918,
+        "spectral_flux": 1.06645942,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0013097198,
+          "low_mid_120_250": 0.001308228,
+          "guitar_mid_250_2500": 3.94232e-05,
+          "high_4000_plus": 6.305e-07
+        }
+      },
+      {
+        "time_sec": 31.28644,
+        "frame_30fps_nearest": 939,
+        "spectral_flux": 1.23062134,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0006729969,
+          "low_mid_120_250": 0.0017532175,
+          "guitar_mid_250_2500": 5.84967e-05,
+          "high_4000_plus": 5.482e-07
+        }
+      },
+      {
+        "time_sec": 31.98644,
+        "frame_30fps_nearest": 960,
+        "spectral_flux": 1.01565027,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0013441307,
+          "low_mid_120_250": 0.0001420533,
+          "guitar_mid_250_2500": 1.67876e-05,
+          "high_4000_plus": 1.1602e-06
+        }
+      },
+      {
+        "time_sec": 41.68644,
+        "frame_30fps_nearest": 1251,
+        "spectral_flux": 0.99079227,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0003004013,
+          "low_mid_120_250": 0.0001087077,
+          "guitar_mid_250_2500": 1.20433e-05,
+          "high_4000_plus": 2.6427e-06
+        }
+      },
+      {
+        "time_sec": 44.40644,
+        "frame_30fps_nearest": 1332,
+        "spectral_flux": 1.11386228,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0009586901,
+          "low_mid_120_250": 0.0007304768,
+          "guitar_mid_250_2500": 4.74062e-05,
+          "high_4000_plus": 1.1166e-06
+        }
+      },
+      {
+        "time_sec": 45.10644,
+        "frame_30fps_nearest": 1353,
+        "spectral_flux": 1.11085773,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0010537326,
+          "low_mid_120_250": 0.0009801496,
+          "guitar_mid_250_2500": 3.80041e-05,
+          "high_4000_plus": 8.771e-07
+        }
+      },
+      {
+        "time_sec": 45.80644,
+        "frame_30fps_nearest": 1374,
+        "spectral_flux": 0.99282116,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0001920421,
+          "low_mid_120_250": 2.10891e-05,
+          "guitar_mid_250_2500": 4.37428e-05,
+          "high_4000_plus": 1.3409e-06
+        }
+      },
+      {
+        "time_sec": 46.72644,
+        "frame_30fps_nearest": 1402,
+        "spectral_flux": 1.26518488,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0013688245,
+          "low_mid_120_250": 0.0002927853,
+          "guitar_mid_250_2500": 1.12666e-05,
+          "high_4000_plus": 6.739e-07
+        }
+      },
+      {
+        "time_sec": 46.96644,
+        "frame_30fps_nearest": 1409,
+        "spectral_flux": 1.03066254,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0006511674,
+          "low_mid_120_250": 0.0005264877,
+          "guitar_mid_250_2500": 4.11801e-05,
+          "high_4000_plus": 5.998e-07
+        }
+      },
+      {
+        "time_sec": 47.42644,
+        "frame_30fps_nearest": 1423,
+        "spectral_flux": 1.02293658,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0010085201,
+          "low_mid_120_250": 0.0011362514,
+          "guitar_mid_250_2500": 1.69615e-05,
+          "high_4000_plus": 4.402e-07
+        }
+      },
+      {
+        "time_sec": 47.66644,
+        "frame_30fps_nearest": 1430,
+        "spectral_flux": 1.04636419,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0007351656,
+          "low_mid_120_250": 0.0001931024,
+          "guitar_mid_250_2500": 1.46422e-05,
+          "high_4000_plus": 1.1473e-06
+        }
+      },
+      {
+        "time_sec": 48.60644,
+        "frame_30fps_nearest": 1458,
+        "spectral_flux": 1.1018914,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.001107075,
+          "low_mid_120_250": 0.0001020959,
+          "guitar_mid_250_2500": 2.79776e-05,
+          "high_4000_plus": 1.7678e-06
+        }
+      },
+      {
+        "time_sec": 49.54644,
+        "frame_30fps_nearest": 1486,
+        "spectral_flux": 1.3576498,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0002952582,
+          "low_mid_120_250": 0.0001968911,
+          "guitar_mid_250_2500": 4.06037e-05,
+          "high_4000_plus": 2.8068e-06
+        }
+      },
+      {
+        "time_sec": 50.00644,
+        "frame_30fps_nearest": 1500,
+        "spectral_flux": 1.23641908,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0014647907,
+          "low_mid_120_250": 0.0011111349,
+          "guitar_mid_250_2500": 4.95258e-05,
+          "high_4000_plus": 1.1647e-06
+        }
+      },
+      {
+        "time_sec": 50.46644,
+        "frame_30fps_nearest": 1514,
+        "spectral_flux": 1.17885637,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0009190589,
+          "low_mid_120_250": 3.78506e-05,
+          "guitar_mid_250_2500": 1.81431e-05,
+          "high_4000_plus": 1.2657e-06
+        }
+      },
+      {
+        "time_sec": 50.70644,
+        "frame_30fps_nearest": 1521,
+        "spectral_flux": 1.34812689,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0015452337,
+          "low_mid_120_250": 0.0014414438,
+          "guitar_mid_250_2500": 5.73675e-05,
+          "high_4000_plus": 1.3034e-06
+        }
+      },
+      {
+        "time_sec": 51.40644,
+        "frame_30fps_nearest": 1542,
+        "spectral_flux": 1.28959489,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.000186225,
+          "low_mid_120_250": 5.0965e-06,
+          "guitar_mid_250_2500": 3.89999e-05,
+          "high_4000_plus": 1.9803e-06
+        }
+      },
+      {
+        "time_sec": 51.86644,
+        "frame_30fps_nearest": 1556,
+        "spectral_flux": 1.32378483,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0006000806,
+          "low_mid_120_250": 0.0009421533,
+          "guitar_mid_250_2500": 3.38009e-05,
+          "high_4000_plus": 1.2678e-06
+        }
+      },
+      {
+        "time_sec": 52.32644,
+        "frame_30fps_nearest": 1570,
+        "spectral_flux": 1.35313463,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0009941123,
+          "low_mid_120_250": 6.34136e-05,
+          "guitar_mid_250_2500": 1.65721e-05,
+          "high_4000_plus": 1.0695e-06
+        }
+      },
+      {
+        "time_sec": 52.56644,
+        "frame_30fps_nearest": 1577,
+        "spectral_flux": 1.44738793,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0004667308,
+          "low_mid_120_250": 0.0007487203,
+          "guitar_mid_250_2500": 5.89479e-05,
+          "high_4000_plus": 7.789e-07
+        }
+      },
+      {
+        "time_sec": 53.02644,
+        "frame_30fps_nearest": 1591,
+        "spectral_flux": 1.11896741,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0008692989,
+          "low_mid_120_250": 0.0004157079,
+          "guitar_mid_250_2500": 2.47374e-05,
+          "high_4000_plus": 6.145e-07
+        }
+      },
+      {
+        "time_sec": 53.26644,
+        "frame_30fps_nearest": 1598,
+        "spectral_flux": 1.29008651,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0010059774,
+          "low_mid_120_250": 8.79924e-05,
+          "guitar_mid_250_2500": 2.09156e-05,
+          "high_4000_plus": 1.6469e-06
+        }
+      },
+      {
+        "time_sec": 53.72644,
+        "frame_30fps_nearest": 1612,
+        "spectral_flux": 1.1736722,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0008689655,
+          "low_mid_120_250": 0.0003237584,
+          "guitar_mid_250_2500": 2.46891e-05,
+          "high_4000_plus": 6.742e-07
+        }
+      },
+      {
+        "time_sec": 54.20644,
+        "frame_30fps_nearest": 1626,
+        "spectral_flux": 1.31908274,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0008149833,
+          "low_mid_120_250": 2.77053e-05,
+          "guitar_mid_250_2500": 4.13931e-05,
+          "high_4000_plus": 2.6841e-06
+        }
+      },
+      {
+        "time_sec": 54.42644,
+        "frame_30fps_nearest": 1633,
+        "spectral_flux": 1.009938,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0001755359,
+          "low_mid_120_250": 0.0002881654,
+          "guitar_mid_250_2500": 2.11799e-05,
+          "high_4000_plus": 6.848e-07
+        }
+      },
+      {
+        "time_sec": 55.12644,
+        "frame_30fps_nearest": 1654,
+        "spectral_flux": 1.09678829,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0001546055,
+          "low_mid_120_250": 8.1068e-06,
+          "guitar_mid_250_2500": 1.46342e-05,
+          "high_4000_plus": 5.477e-07
+        }
+      },
+      {
+        "time_sec": 55.60644,
+        "frame_30fps_nearest": 1668,
+        "spectral_flux": 1.14514756,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0012608017,
+          "low_mid_120_250": 0.0012282941,
+          "guitar_mid_250_2500": 3.91745e-05,
+          "high_4000_plus": 1.3577e-06
+        }
+      },
+      {
+        "time_sec": 56.06644,
+        "frame_30fps_nearest": 1682,
+        "spectral_flux": 1.22595477,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0005701878,
+          "low_mid_120_250": 0.0001177442,
+          "guitar_mid_250_2500": 2.12105e-05,
+          "high_4000_plus": 1.2041e-06
+        }
+      },
+      {
+        "time_sec": 56.76644,
+        "frame_30fps_nearest": 1703,
+        "spectral_flux": 1.35724914,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0012690321,
+          "low_mid_120_250": 0.0007086855,
+          "guitar_mid_250_2500": 5.66309e-05,
+          "high_4000_plus": 9.845e-07
+        }
+      },
+      {
+        "time_sec": 57.00644,
+        "frame_30fps_nearest": 1710,
+        "spectral_flux": 1.27694452,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0005144652,
+          "low_mid_120_250": 0.0001659032,
+          "guitar_mid_250_2500": 5.02452e-05,
+          "high_4000_plus": 2.4692e-06
+        }
+      },
+      {
+        "time_sec": 57.92644,
+        "frame_30fps_nearest": 1738,
+        "spectral_flux": 1.09536159,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0006020605,
+          "low_mid_120_250": 3.24743e-05,
+          "guitar_mid_250_2500": 1.37098e-05,
+          "high_4000_plus": 7.094e-07
+        }
+      },
+      {
+        "time_sec": 58.16644,
+        "frame_30fps_nearest": 1745,
+        "spectral_flux": 1.357072,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0011732408,
+          "low_mid_120_250": 0.0008923301,
+          "guitar_mid_250_2500": 6.77684e-05,
+          "high_4000_plus": 7.412e-07
+        }
+      },
+      {
+        "time_sec": 58.86644,
+        "frame_30fps_nearest": 1766,
+        "spectral_flux": 1.40055847,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0004178122,
+          "low_mid_120_250": 3.03108e-05,
+          "guitar_mid_250_2500": 3.27334e-05,
+          "high_4000_plus": 1.5627e-06
+        }
+      },
+      {
+        "time_sec": 59.32644,
+        "frame_30fps_nearest": 1780,
+        "spectral_flux": 1.26801753,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0004363259,
+          "low_mid_120_250": 0.000241027,
+          "guitar_mid_250_2500": 3.65155e-05,
+          "high_4000_plus": 5.683e-07
+        }
+      },
+      {
+        "time_sec": 59.80644,
+        "frame_30fps_nearest": 1794,
+        "spectral_flux": 1.44937074,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0009437228,
+          "low_mid_120_250": 9.76768e-05,
+          "guitar_mid_250_2500": 5.88546e-05,
+          "high_4000_plus": 2.801e-06
+        }
+      },
+      {
+        "time_sec": 60.02644,
+        "frame_30fps_nearest": 1801,
+        "spectral_flux": 1.30527401,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0004124197,
+          "low_mid_120_250": 0.0005645228,
+          "guitar_mid_250_2500": 4.38736e-05,
+          "high_4000_plus": 4.778e-07
+        }
+      },
+      {
+        "time_sec": 60.72644,
+        "frame_30fps_nearest": 1822,
+        "spectral_flux": 1.46790278,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0006920628,
+          "low_mid_120_250": 9.43586e-05,
+          "guitar_mid_250_2500": 3.33342e-05,
+          "high_4000_plus": 1.041e-06
+        }
+      },
+      {
+        "time_sec": 61.66644,
+        "frame_30fps_nearest": 1850,
+        "spectral_flux": 1.39650774,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0008578787,
+          "low_mid_120_250": 5.41601e-05,
+          "guitar_mid_250_2500": 2.76488e-05,
+          "high_4000_plus": 2.5772e-06
+        }
+      },
+      {
+        "time_sec": 61.90644,
+        "frame_30fps_nearest": 1857,
+        "spectral_flux": 1.23048472,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0022475331,
+          "low_mid_120_250": 0.0017048648,
+          "guitar_mid_250_2500": 7.11999e-05,
+          "high_4000_plus": 9.526e-07
+        }
+      },
+      {
+        "time_sec": 62.60644,
+        "frame_30fps_nearest": 1878,
+        "spectral_flux": 1.35159278,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0003155819,
+          "low_mid_120_250": 3.48429e-05,
+          "guitar_mid_250_2500": 6.25603e-05,
+          "high_4000_plus": 2.2087e-06
+        }
+      },
+      {
+        "time_sec": 63.50644,
+        "frame_30fps_nearest": 1905,
+        "spectral_flux": 1.53443861,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0011864949,
+          "low_mid_120_250": 0.0001256459,
+          "guitar_mid_250_2500": 8.6243e-05,
+          "high_4000_plus": 2.3915e-06
+        }
+      },
+      {
+        "time_sec": 63.74644,
+        "frame_30fps_nearest": 1912,
+        "spectral_flux": 1.39530098,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0010467082,
+          "low_mid_120_250": 0.002437789,
+          "guitar_mid_250_2500": 0.000110684,
+          "high_4000_plus": 4.681e-07
+        }
+      },
+      {
+        "time_sec": 64.44644,
+        "frame_30fps_nearest": 1933,
+        "spectral_flux": 1.37719715,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0011472889,
+          "low_mid_120_250": 0.0002044204,
+          "guitar_mid_250_2500": 8.7942e-05,
+          "high_4000_plus": 1.9067e-06
+        }
+      },
+      {
+        "time_sec": 64.90644,
+        "frame_30fps_nearest": 1947,
+        "spectral_flux": 1.05398893,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.000921259,
+          "low_mid_120_250": 0.0004791112,
+          "guitar_mid_250_2500": 3.41219e-05,
+          "high_4000_plus": 1.838e-07
+        }
+      },
+      {
+        "time_sec": 65.38644,
+        "frame_30fps_nearest": 1962,
+        "spectral_flux": 1.34046125,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0007465052,
+          "low_mid_120_250": 5.17878e-05,
+          "guitar_mid_250_2500": 8.38423e-05,
+          "high_4000_plus": 7.0675e-06
+        }
+      },
+      {
+        "time_sec": 65.62644,
+        "frame_30fps_nearest": 1969,
+        "spectral_flux": 1.18408942,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0027178216,
+          "low_mid_120_250": 0.0023320147,
+          "guitar_mid_250_2500": 6.6868e-05,
+          "high_4000_plus": 6.772e-07
+        }
+      },
+      {
+        "time_sec": 66.08644,
+        "frame_30fps_nearest": 1983,
+        "spectral_flux": 1.08108819,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0011669459,
+          "low_mid_120_250": 0.0003702511,
+          "guitar_mid_250_2500": 1.97185e-05,
+          "high_4000_plus": 4.093e-07
+        }
+      },
+      {
+        "time_sec": 66.30644,
+        "frame_30fps_nearest": 1989,
+        "spectral_flux": 1.35505295,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0009539105,
+          "low_mid_120_250": 0.0001670416,
+          "guitar_mid_250_2500": 3.89751e-05,
+          "high_4000_plus": 9.314e-07
+        }
+      },
+      {
+        "time_sec": 66.78644,
+        "frame_30fps_nearest": 2004,
+        "spectral_flux": 1.37762153,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0016555267,
+          "low_mid_120_250": 0.0009905143,
+          "guitar_mid_250_2500": 5.03905e-05,
+          "high_4000_plus": 4.46e-07
+        }
+      },
+      {
+        "time_sec": 67.24644,
+        "frame_30fps_nearest": 2017,
+        "spectral_flux": 1.27888179,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0016655687,
+          "low_mid_120_250": 7.98402e-05,
+          "guitar_mid_250_2500": 3.61947e-05,
+          "high_4000_plus": 7.899e-07
+        }
+      },
+      {
+        "time_sec": 67.48644,
+        "frame_30fps_nearest": 2025,
+        "spectral_flux": 1.20010757,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0008664543,
+          "low_mid_120_250": 0.0006846226,
+          "guitar_mid_250_2500": 4.51091e-05,
+          "high_4000_plus": 2.277e-07
+        }
+      },
+      {
+        "time_sec": 67.68644,
+        "frame_30fps_nearest": 2031,
+        "spectral_flux": 1.01550579,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0001105006,
+          "low_mid_120_250": 0.0001240354,
+          "guitar_mid_250_2500": 3.95014e-05,
+          "high_4000_plus": 2.3853e-06
+        }
+      },
+      {
+        "time_sec": 67.96644,
+        "frame_30fps_nearest": 2039,
+        "spectral_flux": 1.02771127,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0005105967,
+          "low_mid_120_250": 0.0009706217,
+          "guitar_mid_250_2500": 1.58415e-05,
+          "high_4000_plus": 6.982e-07
+        }
+      },
+      {
+        "time_sec": 68.18644,
+        "frame_30fps_nearest": 2046,
+        "spectral_flux": 1.57915354,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0012150466,
+          "low_mid_120_250": 0.0002021248,
+          "guitar_mid_250_2500": 4.81466e-05,
+          "high_4000_plus": 1.6065e-06
+        }
+      },
+      {
+        "time_sec": 68.66644,
+        "frame_30fps_nearest": 2060,
+        "spectral_flux": 1.36439931,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0019142547,
+          "low_mid_120_250": 0.001271665,
+          "guitar_mid_250_2500": 6.44479e-05,
+          "high_4000_plus": 6.955e-07
+        }
+      },
+      {
+        "time_sec": 69.12644,
+        "frame_30fps_nearest": 2074,
+        "spectral_flux": 1.17737937,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0010911075,
+          "low_mid_120_250": 8.22626e-05,
+          "guitar_mid_250_2500": 3.28192e-05,
+          "high_4000_plus": 8.073e-07
+        }
+      },
+      {
+        "time_sec": 69.84644,
+        "frame_30fps_nearest": 2095,
+        "spectral_flux": 1.00059187,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0008951576,
+          "low_mid_120_250": 0.000771835,
+          "guitar_mid_250_2500": 3.03007e-05,
+          "high_4000_plus": 9.517e-07
+        }
+      },
+      {
+        "time_sec": 70.06644,
+        "frame_30fps_nearest": 2102,
+        "spectral_flux": 1.52412188,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0013514058,
+          "low_mid_120_250": 0.0002257156,
+          "guitar_mid_250_2500": 6.01696e-05,
+          "high_4000_plus": 2.0359e-06
+        }
+      },
+      {
+        "time_sec": 70.54644,
+        "frame_30fps_nearest": 2116,
+        "spectral_flux": 1.36879611,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0028191935,
+          "low_mid_120_250": 0.0028231733,
+          "guitar_mid_250_2500": 0.000115115,
+          "high_4000_plus": 6.69e-07
+        }
+      },
+      {
+        "time_sec": 71.00644,
+        "frame_30fps_nearest": 2130,
+        "spectral_flux": 1.54772353,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0015437469,
+          "low_mid_120_250": 0.0001367084,
+          "guitar_mid_250_2500": 6.14375e-05,
+          "high_4000_plus": 2.2962e-06
+        }
+      },
+      {
+        "time_sec": 71.24644,
+        "frame_30fps_nearest": 2137,
+        "spectral_flux": 1.46261036,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.001152524,
+          "low_mid_120_250": 0.0021250362,
+          "guitar_mid_250_2500": 7.66908e-05,
+          "high_4000_plus": 7.049e-07
+        }
+      },
+      {
+        "time_sec": 71.70644,
+        "frame_30fps_nearest": 2151,
+        "spectral_flux": 1.09948707,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0012230353,
+          "low_mid_120_250": 0.0003459498,
+          "guitar_mid_250_2500": 1.40476e-05,
+          "high_4000_plus": 4.584e-07
+        }
+      },
+      {
+        "time_sec": 71.94644,
+        "frame_30fps_nearest": 2158,
+        "spectral_flux": 1.47358727,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0013937776,
+          "low_mid_120_250": 0.0002088186,
+          "guitar_mid_250_2500": 0.000122987,
+          "high_4000_plus": 2.0153e-06
+        }
+      },
+      {
+        "time_sec": 72.40644,
+        "frame_30fps_nearest": 2172,
+        "spectral_flux": 1.15377116,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0011267498,
+          "low_mid_120_250": 0.0004634006,
+          "guitar_mid_250_2500": 3.23199e-05,
+          "high_4000_plus": 3.017e-07
+        }
+      },
+      {
+        "time_sec": 72.88644,
+        "frame_30fps_nearest": 2187,
+        "spectral_flux": 1.23759747,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0010068159,
+          "low_mid_120_250": 4.21132e-05,
+          "guitar_mid_250_2500": 7.0028e-05,
+          "high_4000_plus": 1.9158e-06
+        }
+      },
+      {
+        "time_sec": 73.12644,
+        "frame_30fps_nearest": 2194,
+        "spectral_flux": 1.38468122,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0027499958,
+          "low_mid_120_250": 0.0026826223,
+          "guitar_mid_250_2500": 8.2319e-05,
+          "high_4000_plus": 7.662e-07
+        }
+      },
+      {
+        "time_sec": 73.58644,
+        "frame_30fps_nearest": 2208,
+        "spectral_flux": 1.18160212,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.000870623,
+          "low_mid_120_250": 0.0002850526,
+          "guitar_mid_250_2500": 2.26583e-05,
+          "high_4000_plus": 6.603e-07
+        }
+      },
+      {
+        "time_sec": 73.82644,
+        "frame_30fps_nearest": 2215,
+        "spectral_flux": 1.29132271,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0021280353,
+          "low_mid_120_250": 0.0005046435,
+          "guitar_mid_250_2500": 9.6318e-05,
+          "high_4000_plus": 2.1291e-06
+        }
+      },
+      {
+        "time_sec": 74.28644,
+        "frame_30fps_nearest": 2229,
+        "spectral_flux": 1.52180982,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0022735358,
+          "low_mid_120_250": 0.0028022702,
+          "guitar_mid_250_2500": 4.28087e-05,
+          "high_4000_plus": 6.865e-07
+        }
+      },
+      {
+        "time_sec": 74.74644,
+        "frame_30fps_nearest": 2242,
+        "spectral_flux": 1.65733504,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0012975956,
+          "low_mid_120_250": 0.00013025,
+          "guitar_mid_250_2500": 7.51932e-05,
+          "high_4000_plus": 2.0665e-06
+        }
+      },
+      {
+        "time_sec": 74.98644,
+        "frame_30fps_nearest": 2250,
+        "spectral_flux": 1.484653,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0008017052,
+          "low_mid_120_250": 0.001892524,
+          "guitar_mid_250_2500": 0.0001030346,
+          "high_4000_plus": 4.243e-07
+        }
+      },
+      {
+        "time_sec": 75.68644,
+        "frame_30fps_nearest": 2271,
+        "spectral_flux": 1.5101285,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0013523789,
+          "low_mid_120_250": 0.0001943024,
+          "guitar_mid_250_2500": 7.91185e-05,
+          "high_4000_plus": 1.784e-06
+        }
+      },
+      {
+        "time_sec": 76.16644,
+        "frame_30fps_nearest": 2285,
+        "spectral_flux": 1.05477118,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0019007508,
+          "low_mid_120_250": 0.0020240971,
+          "guitar_mid_250_2500": 6.21815e-05,
+          "high_4000_plus": 5.192e-07
+        }
+      },
+      {
+        "time_sec": 76.62644,
+        "frame_30fps_nearest": 2299,
+        "spectral_flux": 1.48668242,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0007746059,
+          "low_mid_120_250": 4.2906e-05,
+          "guitar_mid_250_2500": 7.62153e-05,
+          "high_4000_plus": 2.198e-06
+        }
+      },
+      {
+        "time_sec": 76.86644,
+        "frame_30fps_nearest": 2306,
+        "spectral_flux": 1.29335093,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0019000459,
+          "low_mid_120_250": 0.0017848592,
+          "guitar_mid_250_2500": 6.72876e-05,
+          "high_4000_plus": 5.896e-07
+        }
+      },
+      {
+        "time_sec": 77.32644,
+        "frame_30fps_nearest": 2320,
+        "spectral_flux": 1.05635381,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0012423075,
+          "low_mid_120_250": 0.0002467799,
+          "guitar_mid_250_2500": 1.57939e-05,
+          "high_4000_plus": 3.464e-07
+        }
+      },
+      {
+        "time_sec": 77.56644,
+        "frame_30fps_nearest": 2327,
+        "spectral_flux": 1.35479093,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0008072603,
+          "low_mid_120_250": 0.0001670197,
+          "guitar_mid_250_2500": 9.47108e-05,
+          "high_4000_plus": 2.5383e-06
+        }
+      },
+      {
+        "time_sec": 78.02644,
+        "frame_30fps_nearest": 2341,
+        "spectral_flux": 1.34536409,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0016208362,
+          "low_mid_120_250": 0.0006147783,
+          "guitar_mid_250_2500": 4.58282e-05,
+          "high_4000_plus": 3.707e-07
+        }
+      },
+      {
+        "time_sec": 78.50644,
+        "frame_30fps_nearest": 2355,
+        "spectral_flux": 1.30765045,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0012014408,
+          "low_mid_120_250": 6.91518e-05,
+          "guitar_mid_250_2500": 7.7454e-05,
+          "high_4000_plus": 2.1706e-06
+        }
+      },
+      {
+        "time_sec": 78.74644,
+        "frame_30fps_nearest": 2362,
+        "spectral_flux": 1.14161062,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0024625272,
+          "low_mid_120_250": 0.0030296838,
+          "guitar_mid_250_2500": 6.98458e-05,
+          "high_4000_plus": 5.304e-07
+        }
+      },
+      {
+        "time_sec": 79.20644,
+        "frame_30fps_nearest": 2376,
+        "spectral_flux": 1.05284834,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0005848575,
+          "low_mid_120_250": 0.0008255083,
+          "guitar_mid_250_2500": 1.2954e-05,
+          "high_4000_plus": 5.92e-07
+        }
+      },
+      {
+        "time_sec": 79.42644,
+        "frame_30fps_nearest": 2383,
+        "spectral_flux": 1.54634762,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.001272099,
+          "low_mid_120_250": 0.0002025644,
+          "guitar_mid_250_2500": 3.77209e-05,
+          "high_4000_plus": 1.3447e-06
+        }
+      },
+      {
+        "time_sec": 79.90644,
+        "frame_30fps_nearest": 2397,
+        "spectral_flux": 1.39882183,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0017123753,
+          "low_mid_120_250": 0.0008823513,
+          "guitar_mid_250_2500": 5.88886e-05,
+          "high_4000_plus": 5.749e-07
+        }
+      },
+      {
+        "time_sec": 80.36644,
+        "frame_30fps_nearest": 2411,
+        "spectral_flux": 1.14930952,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0012140081,
+          "low_mid_120_250": 9.23022e-05,
+          "guitar_mid_250_2500": 2.60184e-05,
+          "high_4000_plus": 6.572e-07
+        }
+      },
+      {
+        "time_sec": 80.60644,
+        "frame_30fps_nearest": 2418,
+        "spectral_flux": 1.18613124,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0006705854,
+          "low_mid_120_250": 0.0005319408,
+          "guitar_mid_250_2500": 5.21312e-05,
+          "high_4000_plus": 2.202e-07
+        }
+      },
+      {
+        "time_sec": 81.08644,
+        "frame_30fps_nearest": 2433,
+        "spectral_flux": 1.0921855,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0009715601,
+          "low_mid_120_250": 0.0006502436,
+          "guitar_mid_250_2500": 2.77204e-05,
+          "high_4000_plus": 9.148e-07
+        }
+      },
+      {
+        "time_sec": 81.30644,
+        "frame_30fps_nearest": 2439,
+        "spectral_flux": 1.57436442,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0014267502,
+          "low_mid_120_250": 0.0002095464,
+          "guitar_mid_250_2500": 5.23862e-05,
+          "high_4000_plus": 1.6689e-06
+        }
+      },
+      {
+        "time_sec": 81.78644,
+        "frame_30fps_nearest": 2454,
+        "spectral_flux": 1.52539968,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0023940809,
+          "low_mid_120_250": 0.0023830789,
+          "guitar_mid_250_2500": 0.0001177068,
+          "high_4000_plus": 6.459e-07
+        }
+      },
+      {
+        "time_sec": 82.24644,
+        "frame_30fps_nearest": 2467,
+        "spectral_flux": 1.53523254,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0016403781,
+          "low_mid_120_250": 0.0001394931,
+          "guitar_mid_250_2500": 5.01463e-05,
+          "high_4000_plus": 1.8396e-06
+        }
+      },
+      {
+        "time_sec": 82.48644,
+        "frame_30fps_nearest": 2475,
+        "spectral_flux": 1.60754538,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0008106593,
+          "low_mid_120_250": 0.001646361,
+          "guitar_mid_250_2500": 8.76054e-05,
+          "high_4000_plus": 6.397e-07
+        }
+      },
+      {
+        "time_sec": 82.94644,
+        "frame_30fps_nearest": 2488,
+        "spectral_flux": 0.98919928,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0012786426,
+          "low_mid_120_250": 0.0002575297,
+          "guitar_mid_250_2500": 1.08182e-05,
+          "high_4000_plus": 3.748e-07
+        }
+      },
+      {
+        "time_sec": 83.18644,
+        "frame_30fps_nearest": 2496,
+        "spectral_flux": 1.55684257,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0014646765,
+          "low_mid_120_250": 0.000239101,
+          "guitar_mid_250_2500": 0.0001120651,
+          "high_4000_plus": 1.655e-06
+        }
+      },
+      {
+        "time_sec": 83.66644,
+        "frame_30fps_nearest": 2510,
+        "spectral_flux": 1.1377064,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0029156518,
+          "low_mid_120_250": 0.0021521524,
+          "guitar_mid_250_2500": 5.5223e-05,
+          "high_4000_plus": 6.913e-07
+        }
+      },
+      {
+        "time_sec": 84.12644,
+        "frame_30fps_nearest": 2524,
+        "spectral_flux": 1.30777287,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0011243564,
+          "low_mid_120_250": 4.00212e-05,
+          "guitar_mid_250_2500": 6.32841e-05,
+          "high_4000_plus": 1.7829e-06
+        }
+      },
+      {
+        "time_sec": 84.36644,
+        "frame_30fps_nearest": 2531,
+        "spectral_flux": 1.51693463,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0020716658,
+          "low_mid_120_250": 0.0023782412,
+          "guitar_mid_250_2500": 8.24295e-05,
+          "high_4000_plus": 7.413e-07
+        }
+      },
+      {
+        "time_sec": 84.82644,
+        "frame_30fps_nearest": 2545,
+        "spectral_flux": 1.16549265,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0009567221,
+          "low_mid_120_250": 0.0002364812,
+          "guitar_mid_250_2500": 1.89264e-05,
+          "high_4000_plus": 4.927e-07
+        }
+      },
+      {
+        "time_sec": 85.06644,
+        "frame_30fps_nearest": 2552,
+        "spectral_flux": 1.3405472,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0010988803,
+          "low_mid_120_250": 0.0001757164,
+          "guitar_mid_250_2500": 8.95021e-05,
+          "high_4000_plus": 1.9051e-06
+        }
+      },
+      {
+        "time_sec": 85.52644,
+        "frame_30fps_nearest": 2566,
+        "spectral_flux": 1.24385905,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0013985201,
+          "low_mid_120_250": 0.0007186025,
+          "guitar_mid_250_2500": 4.95682e-05,
+          "high_4000_plus": 3.125e-07
+        }
+      },
+      {
+        "time_sec": 86.04644,
+        "frame_30fps_nearest": 2581,
+        "spectral_flux": 1.11555421,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0009746611,
+          "low_mid_120_250": 0.0001567177,
+          "guitar_mid_250_2500": 0.0001039121,
+          "high_4000_plus": 3.0495e-06
+        }
+      },
+      {
+        "time_sec": 86.26644,
+        "frame_30fps_nearest": 2588,
+        "spectral_flux": 1.19652438,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0006387363,
+          "low_mid_120_250": 0.0005551432,
+          "guitar_mid_250_2500": 6.0255e-05,
+          "high_4000_plus": 2.047e-07
+        }
+      },
+      {
+        "time_sec": 86.74644,
+        "frame_30fps_nearest": 2602,
+        "spectral_flux": 1.04355597,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0008038374,
+          "low_mid_120_250": 0.000492561,
+          "guitar_mid_250_2500": 1.40494e-05,
+          "high_4000_plus": 8.382e-07
+        }
+      },
+      {
+        "time_sec": 86.96644,
+        "frame_30fps_nearest": 2609,
+        "spectral_flux": 1.4976114,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0015543984,
+          "low_mid_120_250": 0.0002233308,
+          "guitar_mid_250_2500": 4.52069e-05,
+          "high_4000_plus": 9.623e-07
+        }
+      },
+      {
+        "time_sec": 87.44644,
+        "frame_30fps_nearest": 2623,
+        "spectral_flux": 1.20438647,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0009195491,
+          "low_mid_120_250": 0.0009460187,
+          "guitar_mid_250_2500": 5.08248e-05,
+          "high_4000_plus": 3.17e-07
+        }
+      },
+      {
+        "time_sec": 87.90644,
+        "frame_30fps_nearest": 2637,
+        "spectral_flux": 1.45909488,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0009146173,
+          "low_mid_120_250": 2.72407e-05,
+          "guitar_mid_250_2500": 4.38611e-05,
+          "high_4000_plus": 1.0893e-06
+        }
+      },
+      {
+        "time_sec": 88.14644,
+        "frame_30fps_nearest": 2644,
+        "spectral_flux": 1.27235508,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0007757784,
+          "low_mid_120_250": 0.0007041148,
+          "guitar_mid_250_2500": 5.13226e-05,
+          "high_4000_plus": 3.609e-07
+        }
+      },
+      {
+        "time_sec": 88.62644,
+        "frame_30fps_nearest": 2659,
+        "spectral_flux": 1.0304625,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0010357602,
+          "low_mid_120_250": 0.000634413,
+          "guitar_mid_250_2500": 2.59787e-05,
+          "high_4000_plus": 5.646e-07
+        }
+      },
+      {
+        "time_sec": 88.84644,
+        "frame_30fps_nearest": 2665,
+        "spectral_flux": 1.44977713,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0009471836,
+          "low_mid_120_250": 0.0001636057,
+          "guitar_mid_250_2500": 6.17833e-05,
+          "high_4000_plus": 1.4781e-06
+        }
+      },
+      {
+        "time_sec": 89.32644,
+        "frame_30fps_nearest": 2680,
+        "spectral_flux": 1.40398729,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0020506391,
+          "low_mid_120_250": 0.0018057526,
+          "guitar_mid_250_2500": 6.57301e-05,
+          "high_4000_plus": 6.437e-07
+        }
+      },
+      {
+        "time_sec": 89.78644,
+        "frame_30fps_nearest": 2694,
+        "spectral_flux": 1.41620517,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0014750311,
+          "low_mid_120_250": 6.7897e-05,
+          "guitar_mid_250_2500": 5.5339e-05,
+          "high_4000_plus": 1.3654e-06
+        }
+      },
+      {
+        "time_sec": 90.02644,
+        "frame_30fps_nearest": 2701,
+        "spectral_flux": 1.26275969,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0010847559,
+          "low_mid_120_250": 0.0015621745,
+          "guitar_mid_250_2500": 6.51989e-05,
+          "high_4000_plus": 5.653e-07
+        }
+      },
+      {
+        "time_sec": 90.72644,
+        "frame_30fps_nearest": 2722,
+        "spectral_flux": 1.56395352,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0011476551,
+          "low_mid_120_250": 0.0001981791,
+          "guitar_mid_250_2500": 7.1185e-05,
+          "high_4000_plus": 2.5167e-06
+        }
+      },
+      {
+        "time_sec": 91.20644,
+        "frame_30fps_nearest": 2736,
+        "spectral_flux": 1.1658448,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0028828348,
+          "low_mid_120_250": 0.0018848343,
+          "guitar_mid_250_2500": 6.82251e-05,
+          "high_4000_plus": 9.525e-07
+        }
+      },
+      {
+        "time_sec": 91.66644,
+        "frame_30fps_nearest": 2750,
+        "spectral_flux": 1.1503247,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.000984236,
+          "low_mid_120_250": 6.10878e-05,
+          "guitar_mid_250_2500": 4.67645e-05,
+          "high_4000_plus": 1.2052e-06
+        }
+      },
+      {
+        "time_sec": 91.90644,
+        "frame_30fps_nearest": 2757,
+        "spectral_flux": 1.18595791,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0015161483,
+          "low_mid_120_250": 0.0014525428,
+          "guitar_mid_250_2500": 6.75894e-05,
+          "high_4000_plus": 3.769e-07
+        }
+      },
+      {
+        "time_sec": 92.36644,
+        "frame_30fps_nearest": 2771,
+        "spectral_flux": 1.09356678,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0011939964,
+          "low_mid_120_250": 0.0003018137,
+          "guitar_mid_250_2500": 1.52924e-05,
+          "high_4000_plus": 5.455e-07
+        }
+      },
+      {
+        "time_sec": 92.60644,
+        "frame_30fps_nearest": 2778,
+        "spectral_flux": 1.39254689,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.001304735,
+          "low_mid_120_250": 0.0002229566,
+          "guitar_mid_250_2500": 7.63764e-05,
+          "high_4000_plus": 2.7557e-06
+        }
+      },
+      {
+        "time_sec": 93.06644,
+        "frame_30fps_nearest": 2792,
+        "spectral_flux": 1.39237189,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0019236803,
+          "low_mid_120_250": 0.0009025286,
+          "guitar_mid_250_2500": 7.76617e-05,
+          "high_4000_plus": 3.206e-07
+        }
+      },
+      {
+        "time_sec": 93.54644,
+        "frame_30fps_nearest": 2806,
+        "spectral_flux": 1.40659082,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0014723043,
+          "low_mid_120_250": 0.0001129151,
+          "guitar_mid_250_2500": 7.67861e-05,
+          "high_4000_plus": 2.9812e-06
+        }
+      },
+      {
+        "time_sec": 93.78644,
+        "frame_30fps_nearest": 2814,
+        "spectral_flux": 1.25475514,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.002580686,
+          "low_mid_120_250": 0.0032593247,
+          "guitar_mid_250_2500": 7.64932e-05,
+          "high_4000_plus": 8.213e-07
+        }
+      },
+      {
+        "time_sec": 94.24644,
+        "frame_30fps_nearest": 2827,
+        "spectral_flux": 1.20659471,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0009824802,
+          "low_mid_120_250": 0.0005751589,
+          "guitar_mid_250_2500": 2.2856e-05,
+          "high_4000_plus": 7.527e-07
+        }
+      },
+      {
+        "time_sec": 94.46644,
+        "frame_30fps_nearest": 2834,
+        "spectral_flux": 1.40554142,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0015808928,
+          "low_mid_120_250": 0.0002314262,
+          "guitar_mid_250_2500": 5.66226e-05,
+          "high_4000_plus": 9.278e-07
+        }
+      },
+      {
+        "time_sec": 94.94644,
+        "frame_30fps_nearest": 2848,
+        "spectral_flux": 1.30163395,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0014109685,
+          "low_mid_120_250": 0.0009639465,
+          "guitar_mid_250_2500": 4.65929e-05,
+          "high_4000_plus": 4.744e-07
+        }
+      },
+      {
+        "time_sec": 95.40644,
+        "frame_30fps_nearest": 2862,
+        "spectral_flux": 1.22020483,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.001219366,
+          "low_mid_120_250": 5.67774e-05,
+          "guitar_mid_250_2500": 3.23908e-05,
+          "high_4000_plus": 8.616e-07
+        }
+      },
+      {
+        "time_sec": 95.64644,
+        "frame_30fps_nearest": 2869,
+        "spectral_flux": 1.38655353,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0007855076,
+          "low_mid_120_250": 0.0008185177,
+          "guitar_mid_250_2500": 5.59453e-05,
+          "high_4000_plus": 3.752e-07
+        }
+      },
+      {
+        "time_sec": 96.12644,
+        "frame_30fps_nearest": 2884,
+        "spectral_flux": 1.0844692,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0006998157,
+          "low_mid_120_250": 0.0004658387,
+          "guitar_mid_250_2500": 3.12243e-05,
+          "high_4000_plus": 8.504e-07
+        }
+      },
+      {
+        "time_sec": 96.34644,
+        "frame_30fps_nearest": 2890,
+        "spectral_flux": 1.40418363,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0011977185,
+          "low_mid_120_250": 0.0001853994,
+          "guitar_mid_250_2500": 5.72167e-05,
+          "high_4000_plus": 9.328e-07
+        }
+      },
+      {
+        "time_sec": 96.82644,
+        "frame_30fps_nearest": 2905,
+        "spectral_flux": 1.34722161,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0019037646,
+          "low_mid_120_250": 0.0018809944,
+          "guitar_mid_250_2500": 6.75544e-05,
+          "high_4000_plus": 6.17e-07
+        }
+      },
+      {
+        "time_sec": 97.28644,
+        "frame_30fps_nearest": 2919,
+        "spectral_flux": 1.57829368,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.001397817,
+          "low_mid_120_250": 8.56299e-05,
+          "guitar_mid_250_2500": 6.57325e-05,
+          "high_4000_plus": 1.5867e-06
+        }
+      },
+      {
+        "time_sec": 97.52644,
+        "frame_30fps_nearest": 2926,
+        "spectral_flux": 1.55019391,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0011913507,
+          "low_mid_120_250": 0.0016113346,
+          "guitar_mid_250_2500": 8.43395e-05,
+          "high_4000_plus": 6.11e-07
+        }
+      },
+      {
+        "time_sec": 97.98644,
+        "frame_30fps_nearest": 2940,
+        "spectral_flux": 1.01413918,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.000110199,
+          "low_mid_120_250": 0.0002328795,
+          "guitar_mid_250_2500": 1.00811e-05,
+          "high_4000_plus": 4.898e-07
+        }
+      },
+      {
+        "time_sec": 98.22644,
+        "frame_30fps_nearest": 2947,
+        "spectral_flux": 1.41644216,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0015174327,
+          "low_mid_120_250": 0.000231898,
+          "guitar_mid_250_2500": 6.10273e-05,
+          "high_4000_plus": 1.8205e-06
+        }
+      },
+      {
+        "time_sec": 98.70644,
+        "frame_30fps_nearest": 2961,
+        "spectral_flux": 1.13440752,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0036134184,
+          "low_mid_120_250": 0.0025996645,
+          "guitar_mid_250_2500": 5.21857e-05,
+          "high_4000_plus": 1.1523e-06
+        }
+      },
+      {
+        "time_sec": 99.16644,
+        "frame_30fps_nearest": 2975,
+        "spectral_flux": 1.64471757,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0006592995,
+          "low_mid_120_250": 0.0014641337,
+          "guitar_mid_250_2500": 8.69744e-05,
+          "high_4000_plus": 9.236e-07
+        }
+      },
+      {
+        "time_sec": 99.62644,
+        "frame_30fps_nearest": 2989,
+        "spectral_flux": 1.34115386,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0001356856,
+          "low_mid_120_250": 0.0005513633,
+          "guitar_mid_250_2500": 4.2385e-05,
+          "high_4000_plus": 2.801e-07
+        }
+      },
+      {
+        "time_sec": 100.10644,
+        "frame_30fps_nearest": 3003,
+        "spectral_flux": 1.50033486,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0010404596,
+          "low_mid_120_250": 0.0018100125,
+          "guitar_mid_250_2500": 5.97084e-05,
+          "high_4000_plus": 7.473e-07
+        }
+      },
+      {
+        "time_sec": 100.56644,
+        "frame_30fps_nearest": 3017,
+        "spectral_flux": 1.26663852,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0002635662,
+          "low_mid_120_250": 0.0009728234,
+          "guitar_mid_250_2500": 6.75421e-05,
+          "high_4000_plus": 2.934e-07
+        }
+      },
+      {
+        "time_sec": 101.04644,
+        "frame_30fps_nearest": 3031,
+        "spectral_flux": 1.36680198,
+        "band_power": {
+          "sub_bass_kick_20_120": 3.341e-07,
+          "low_mid_120_250": 6.632e-07,
+          "guitar_mid_250_2500": 6.16317e-05,
+          "high_4000_plus": 2.8425e-06
+        }
+      },
+      {
+        "time_sec": 101.26644,
+        "frame_30fps_nearest": 3038,
+        "spectral_flux": 1.09524906,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0001295577,
+          "low_mid_120_250": 0.0004632325,
+          "guitar_mid_250_2500": 2.62561e-05,
+          "high_4000_plus": 1.953e-07
+        }
+      },
+      {
+        "time_sec": 101.50644,
+        "frame_30fps_nearest": 3045,
+        "spectral_flux": 1.10407293,
+        "band_power": {
+          "sub_bass_kick_20_120": 6.879e-07,
+          "low_mid_120_250": 2.581e-07,
+          "guitar_mid_250_2500": 2.41626e-05,
+          "high_4000_plus": 7.426e-07
+        }
+      },
+      {
+        "time_sec": 101.74644,
+        "frame_30fps_nearest": 3052,
+        "spectral_flux": 1.14154303,
+        "band_power": {
+          "sub_bass_kick_20_120": 1.413e-07,
+          "low_mid_120_250": 1.3926e-06,
+          "guitar_mid_250_2500": 3.36478e-05,
+          "high_4000_plus": 1.4293e-06
+        }
+      },
+      {
+        "time_sec": 101.96644,
+        "frame_30fps_nearest": 3059,
+        "spectral_flux": 1.36713064,
+        "band_power": {
+          "sub_bass_kick_20_120": 1.117e-07,
+          "low_mid_120_250": 3.6513e-06,
+          "guitar_mid_250_2500": 1.4348e-05,
+          "high_4000_plus": 1.5094e-06
+        }
+      },
+      {
+        "time_sec": 102.20644,
+        "frame_30fps_nearest": 3066,
+        "spectral_flux": 1.26889908,
+        "band_power": {
+          "sub_bass_kick_20_120": 2.17e-08,
+          "low_mid_120_250": 5.716e-07,
+          "guitar_mid_250_2500": 2.05653e-05,
+          "high_4000_plus": 9.496e-07
+        }
+      },
+      {
+        "time_sec": 102.44644,
+        "frame_30fps_nearest": 3073,
+        "spectral_flux": 1.74842358,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0006422338,
+          "low_mid_120_250": 0.0014213094,
+          "guitar_mid_250_2500": 8.1872e-05,
+          "high_4000_plus": 9.498e-07
+        }
+      },
+      {
+        "time_sec": 102.68644,
+        "frame_30fps_nearest": 3081,
+        "spectral_flux": 1.21836019,
+        "band_power": {
+          "sub_bass_kick_20_120": 1.553e-07,
+          "low_mid_120_250": 8.165e-07,
+          "guitar_mid_250_2500": 3.41317e-05,
+          "high_4000_plus": 1.7978e-06
+        }
+      },
+      {
+        "time_sec": 102.80644,
+        "frame_30fps_nearest": 3084,
+        "spectral_flux": 1.0879966,
+        "band_power": {
+          "sub_bass_kick_20_120": 6.65e-08,
+          "low_mid_120_250": 5.51e-07,
+          "guitar_mid_250_2500": 3.24968e-05,
+          "high_4000_plus": 1.3949e-06
+        }
+      },
+      {
+        "time_sec": 102.90644,
+        "frame_30fps_nearest": 3087,
+        "spectral_flux": 1.26456022,
+        "band_power": {
+          "sub_bass_kick_20_120": 1.767e-07,
+          "low_mid_120_250": 4.7573e-06,
+          "guitar_mid_250_2500": 1.93734e-05,
+          "high_4000_plus": 1.5439e-06
+        }
+      },
+      {
+        "time_sec": 103.14644,
+        "frame_30fps_nearest": 3094,
+        "spectral_flux": 1.54068577,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0003666536,
+          "low_mid_120_250": 0.0007934688,
+          "guitar_mid_250_2500": 5.14596e-05,
+          "high_4000_plus": 5.726e-07
+        }
+      },
+      {
+        "time_sec": 103.38644,
+        "frame_30fps_nearest": 3102,
+        "spectral_flux": 1.19228411,
+        "band_power": {
+          "sub_bass_kick_20_120": 3.603e-07,
+          "low_mid_120_250": 9.162e-07,
+          "guitar_mid_250_2500": 3.47056e-05,
+          "high_4000_plus": 1.1155e-06
+        }
+      },
+      {
+        "time_sec": 103.62644,
+        "frame_30fps_nearest": 3109,
+        "spectral_flux": 1.16330993,
+        "band_power": {
+          "sub_bass_kick_20_120": 5.15e-08,
+          "low_mid_120_250": 6.142e-07,
+          "guitar_mid_250_2500": 3.15159e-05,
+          "high_4000_plus": 1.4519e-06
+        }
+      },
+      {
+        "time_sec": 103.84644,
+        "frame_30fps_nearest": 3115,
+        "spectral_flux": 1.64506233,
+        "band_power": {
+          "sub_bass_kick_20_120": 4.289e-07,
+          "low_mid_120_250": 4.592e-07,
+          "guitar_mid_250_2500": 2.84863e-05,
+          "high_4000_plus": 3.0003e-06
+        }
+      },
+      {
+        "time_sec": 104.08644,
+        "frame_30fps_nearest": 3123,
+        "spectral_flux": 1.44885182,
+        "band_power": {
+          "sub_bass_kick_20_120": 1.6e-08,
+          "low_mid_120_250": 4.92e-08,
+          "guitar_mid_250_2500": 3.3445e-05,
+          "high_4000_plus": 2.429e-06
+        }
+      },
+      {
+        "time_sec": 104.32644,
+        "frame_30fps_nearest": 3130,
+        "spectral_flux": 1.07852554,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0024115753,
+          "low_mid_120_250": 0.0029900409,
+          "guitar_mid_250_2500": 5.03318e-05,
+          "high_4000_plus": 1.615e-07
+        }
+      },
+      {
+        "time_sec": 105.02644,
+        "frame_30fps_nearest": 3151,
+        "spectral_flux": 1.21448636,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0013568306,
+          "low_mid_120_250": 0.0020973363,
+          "guitar_mid_250_2500": 8.43997e-05,
+          "high_4000_plus": 8.05e-08
+        }
+      },
+      {
+        "time_sec": 106.18644,
+        "frame_30fps_nearest": 3186,
+        "spectral_flux": 1.05625606,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0001047892,
+          "low_mid_120_250": 0.0004573821,
+          "guitar_mid_250_2500": 6.91722e-05,
+          "high_4000_plus": 1.88e-08
+        }
+      },
+      {
+        "time_sec": 108.06644,
+        "frame_30fps_nearest": 3242,
+        "spectral_flux": 1.16636527,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0006289568,
+          "low_mid_120_250": 0.001299813,
+          "guitar_mid_250_2500": 6.65464e-05,
+          "high_4000_plus": 3.76e-08
+        }
+      },
+      {
+        "time_sec": 108.76644,
+        "frame_30fps_nearest": 3263,
+        "spectral_flux": 1.34532142,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0003945159,
+          "low_mid_120_250": 0.0011377386,
+          "guitar_mid_250_2500": 9.54809e-05,
+          "high_4000_plus": 5.13e-08
+        }
+      },
+      {
+        "time_sec": 110.64644,
+        "frame_30fps_nearest": 3319,
+        "spectral_flux": 1.07985759,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0011453045,
+          "low_mid_120_250": 0.0016379257,
+          "guitar_mid_250_2500": 8.43824e-05,
+          "high_4000_plus": 5.39e-08
+        }
+      },
+      {
+        "time_sec": 111.80644,
+        "frame_30fps_nearest": 3354,
+        "spectral_flux": 1.22499943,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0002021957,
+          "low_mid_120_250": 0.0005856863,
+          "guitar_mid_250_2500": 5.93801e-05,
+          "high_4000_plus": 1.421e-07
+        }
+      },
+      {
+        "time_sec": 112.50644,
+        "frame_30fps_nearest": 3375,
+        "spectral_flux": 1.20352042,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0002834834,
+          "low_mid_120_250": 0.0006152292,
+          "guitar_mid_250_2500": 6.26221e-05,
+          "high_4000_plus": 6.85e-08
+        }
+      },
+      {
+        "time_sec": 112.92644,
+        "frame_30fps_nearest": 3388,
+        "spectral_flux": 1.03995538,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0001673867,
+          "low_mid_120_250": 8.38184e-05,
+          "guitar_mid_250_2500": 0.0001445147,
+          "high_4000_plus": 9e-10
+        }
+      },
+      {
+        "time_sec": 113.68644,
+        "frame_30fps_nearest": 3411,
+        "spectral_flux": 1.12916946,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0005769731,
+          "low_mid_120_250": 0.0009112551,
+          "guitar_mid_250_2500": 6.87197e-05,
+          "high_4000_plus": 1.542e-07
+        }
+      },
+      {
+        "time_sec": 114.58644,
+        "frame_30fps_nearest": 3438,
+        "spectral_flux": 1.05760491,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0001257797,
+          "low_mid_120_250": 3.92038e-05,
+          "guitar_mid_250_2500": 2.69564e-05,
+          "high_4000_plus": 4.403e-07
+        }
+      },
+      {
+        "time_sec": 115.56644,
+        "frame_30fps_nearest": 3467,
+        "spectral_flux": 1.41663408,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0009940565,
+          "low_mid_120_250": 0.0015517931,
+          "guitar_mid_250_2500": 0.0001087845,
+          "high_4000_plus": 1.915e-07
+        }
+      },
+      {
+        "time_sec": 116.26644,
+        "frame_30fps_nearest": 3488,
+        "spectral_flux": 1.05413842,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0014677618,
+          "low_mid_120_250": 0.0016962098,
+          "guitar_mid_250_2500": 5.36001e-05,
+          "high_4000_plus": 4.63e-08
+        }
+      },
+      {
+        "time_sec": 117.44644,
+        "frame_30fps_nearest": 3523,
+        "spectral_flux": 1.12789297,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0018481717,
+          "low_mid_120_250": 0.00177682,
+          "guitar_mid_250_2500": 9.18424e-05,
+          "high_4000_plus": 3.593e-07
+        }
+      },
+      {
+        "time_sec": 118.84644,
+        "frame_30fps_nearest": 3565,
+        "spectral_flux": 1.03620112,
+        "band_power": {
+          "sub_bass_kick_20_120": 5.73787e-05,
+          "low_mid_120_250": 0.0001911684,
+          "guitar_mid_250_2500": 5.33998e-05,
+          "high_4000_plus": 9.463e-07
+        }
+      },
+      {
+        "time_sec": 119.32644,
+        "frame_30fps_nearest": 3580,
+        "spectral_flux": 1.20749974,
+        "band_power": {
+          "sub_bass_kick_20_120": 8.1183e-06,
+          "low_mid_120_250": 0.0007774045,
+          "guitar_mid_250_2500": 8.39443e-05,
+          "high_4000_plus": 1.3754e-06
+        }
+      },
+      {
+        "time_sec": 120.24644,
+        "frame_30fps_nearest": 3607,
+        "spectral_flux": 1.15429616,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0010513145,
+          "low_mid_120_250": 0.0011400207,
+          "guitar_mid_250_2500": 3.66239e-05,
+          "high_4000_plus": 4.967e-07
+        }
+      },
+      {
+        "time_sec": 120.72644,
+        "frame_30fps_nearest": 3622,
+        "spectral_flux": 1.39264798,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.001281669,
+          "low_mid_120_250": 0.0002363412,
+          "guitar_mid_250_2500": 0.0001169914,
+          "high_4000_plus": 1.8661e-06
+        }
+      },
+      {
+        "time_sec": 120.96644,
+        "frame_30fps_nearest": 3629,
+        "spectral_flux": 1.17201281,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0020905626,
+          "low_mid_120_250": 0.0018694719,
+          "guitar_mid_250_2500": 0.0001751199,
+          "high_4000_plus": 7.435e-07
+        }
+      },
+      {
+        "time_sec": 121.42644,
+        "frame_30fps_nearest": 3643,
+        "spectral_flux": 1.06042039,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0011134141,
+          "low_mid_120_250": 0.0008380232,
+          "guitar_mid_250_2500": 8.33611e-05,
+          "high_4000_plus": 7.221e-07
+        }
+      },
+      {
+        "time_sec": 121.66644,
+        "frame_30fps_nearest": 3650,
+        "spectral_flux": 1.20619774,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0008363973,
+          "low_mid_120_250": 9.60366e-05,
+          "guitar_mid_250_2500": 0.0001807127,
+          "high_4000_plus": 1.0752e-06
+        }
+      },
+      {
+        "time_sec": 122.12644,
+        "frame_30fps_nearest": 3664,
+        "spectral_flux": 1.42707813,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0003544358,
+          "low_mid_120_250": 0.0004968821,
+          "guitar_mid_250_2500": 0.000155137,
+          "high_4000_plus": 5.085e-07
+        }
+      },
+      {
+        "time_sec": 122.58644,
+        "frame_30fps_nearest": 3678,
+        "spectral_flux": 1.30525661,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0012483255,
+          "low_mid_120_250": 0.0003527586,
+          "guitar_mid_250_2500": 0.0001538521,
+          "high_4000_plus": 4.59e-07
+        }
+      },
+      {
+        "time_sec": 122.82644,
+        "frame_30fps_nearest": 3685,
+        "spectral_flux": 1.15381753,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0010149699,
+          "low_mid_120_250": 0.000375721,
+          "guitar_mid_250_2500": 4.93993e-05,
+          "high_4000_plus": 4.837e-07
+        }
+      },
+      {
+        "time_sec": 123.30644,
+        "frame_30fps_nearest": 3699,
+        "spectral_flux": 1.0182718,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0020134619,
+          "low_mid_120_250": 0.0010929898,
+          "guitar_mid_250_2500": 6.26432e-05,
+          "high_4000_plus": 4.688e-07
+        }
+      },
+      {
+        "time_sec": 123.52644,
+        "frame_30fps_nearest": 3706,
+        "spectral_flux": 1.44201338,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0022536675,
+          "low_mid_120_250": 0.0001586892,
+          "guitar_mid_250_2500": 8.064e-05,
+          "high_4000_plus": 6.277e-07
+        }
+      },
+      {
+        "time_sec": 124.00644,
+        "frame_30fps_nearest": 3720,
+        "spectral_flux": 1.13604891,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.001480696,
+          "low_mid_120_250": 0.0008062337,
+          "guitar_mid_250_2500": 9.01854e-05,
+          "high_4000_plus": 6.718e-07
+        }
+      },
+      {
+        "time_sec": 124.46644,
+        "frame_30fps_nearest": 3734,
+        "spectral_flux": 1.55951834,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0013279265,
+          "low_mid_120_250": 0.0002686264,
+          "guitar_mid_250_2500": 7.7218e-05,
+          "high_4000_plus": 7.75e-07
+        }
+      },
+      {
+        "time_sec": 124.70644,
+        "frame_30fps_nearest": 3741,
+        "spectral_flux": 1.20078301,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0005974577,
+          "low_mid_120_250": 0.0007226715,
+          "guitar_mid_250_2500": 0.0001439777,
+          "high_4000_plus": 7.062e-07
+        }
+      },
+      {
+        "time_sec": 125.40644,
+        "frame_30fps_nearest": 3762,
+        "spectral_flux": 1.38070583,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0010334481,
+          "low_mid_120_250": 0.0001806916,
+          "guitar_mid_250_2500": 0.0001727749,
+          "high_4000_plus": 6.212e-07
+        }
+      },
+      {
+        "time_sec": 125.88644,
+        "frame_30fps_nearest": 3777,
+        "spectral_flux": 1.25701594,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0016684739,
+          "low_mid_120_250": 0.0010050858,
+          "guitar_mid_250_2500": 0.0001429122,
+          "high_4000_plus": 5.64e-07
+        }
+      },
+      {
+        "time_sec": 126.34644,
+        "frame_30fps_nearest": 3790,
+        "spectral_flux": 1.4026922,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0022866591,
+          "low_mid_120_250": 0.0001844876,
+          "guitar_mid_250_2500": 6.49813e-05,
+          "high_4000_plus": 9.488e-07
+        }
+      },
+      {
+        "time_sec": 126.58644,
+        "frame_30fps_nearest": 3798,
+        "spectral_flux": 1.16942632,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0024346022,
+          "low_mid_120_250": 0.001035196,
+          "guitar_mid_250_2500": 9.94265e-05,
+          "high_4000_plus": 3.68e-07
+        }
+      },
+      {
+        "time_sec": 126.80644,
+        "frame_30fps_nearest": 3804,
+        "spectral_flux": 1.02387178,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0022155114,
+          "low_mid_120_250": 0.0003760945,
+          "guitar_mid_250_2500": 4.61069e-05,
+          "high_4000_plus": 1.65e-07
+        }
+      },
+      {
+        "time_sec": 127.04644,
+        "frame_30fps_nearest": 3811,
+        "spectral_flux": 1.20333648,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0017103463,
+          "low_mid_120_250": 0.0007142273,
+          "guitar_mid_250_2500": 9.82353e-05,
+          "high_4000_plus": 3.691e-07
+        }
+      },
+      {
+        "time_sec": 127.28644,
+        "frame_30fps_nearest": 3819,
+        "spectral_flux": 1.55859828,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0024129772,
+          "low_mid_120_250": 0.001057203,
+          "guitar_mid_250_2500": 0.0001324815,
+          "high_4000_plus": 5.842e-07
+        }
+      },
+      {
+        "time_sec": 127.52644,
+        "frame_30fps_nearest": 3826,
+        "spectral_flux": 1.09161389,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0032386272,
+          "low_mid_120_250": 0.0011769499,
+          "guitar_mid_250_2500": 0.0001001171,
+          "high_4000_plus": 4.832e-07
+        }
+      },
+      {
+        "time_sec": 128.22644,
+        "frame_30fps_nearest": 3847,
+        "spectral_flux": 1.50899625,
+        "band_power": {
+          "sub_bass_kick_20_120": 8.84e-08,
+          "low_mid_120_250": 6.456e-07,
+          "guitar_mid_250_2500": 6.88113e-05,
+          "high_4000_plus": 1.7424e-06
+        }
+      },
+      {
+        "time_sec": 129.16644,
+        "frame_30fps_nearest": 3875,
+        "spectral_flux": 1.2881844,
+        "band_power": {
+          "sub_bass_kick_20_120": 8.88e-08,
+          "low_mid_120_250": 6.1e-08,
+          "guitar_mid_250_2500": 6.42547e-05,
+          "high_4000_plus": 1.058e-06
+        }
+      },
+      {
+        "time_sec": 131.02644,
+        "frame_30fps_nearest": 3931,
+        "spectral_flux": 1.01661897,
+        "band_power": {
+          "sub_bass_kick_20_120": 2.49e-08,
+          "low_mid_120_250": 1.594e-07,
+          "guitar_mid_250_2500": 1.68272e-05,
+          "high_4000_plus": 3.752e-07
+        }
+      },
+      {
+        "time_sec": 131.50644,
+        "frame_30fps_nearest": 3945,
+        "spectral_flux": 1.21186066,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0010995527,
+          "low_mid_120_250": 0.0012911438,
+          "guitar_mid_250_2500": 6.4204e-05,
+          "high_4000_plus": 2.892e-07
+        }
+      },
+      {
+        "time_sec": 131.96644,
+        "frame_30fps_nearest": 3959,
+        "spectral_flux": 1.34958172,
+        "band_power": {
+          "sub_bass_kick_20_120": 7.34e-08,
+          "low_mid_120_250": 4.305e-07,
+          "guitar_mid_250_2500": 3.87892e-05,
+          "high_4000_plus": 6.553e-07
+        }
+      },
+      {
+        "time_sec": 132.90644,
+        "frame_30fps_nearest": 3987,
+        "spectral_flux": 1.26490712,
+        "band_power": {
+          "sub_bass_kick_20_120": 5.27e-08,
+          "low_mid_120_250": 6.44e-08,
+          "guitar_mid_250_2500": 3.40166e-05,
+          "high_4000_plus": 9.877e-07
+        }
+      },
+      {
+        "time_sec": 133.84644,
+        "frame_30fps_nearest": 4015,
+        "spectral_flux": 0.97731757,
+        "band_power": {
+          "sub_bass_kick_20_120": 1.12e-08,
+          "low_mid_120_250": 2.244e-07,
+          "guitar_mid_250_2500": 2.29274e-05,
+          "high_4000_plus": 5.554e-07
+        }
+      },
+      {
+        "time_sec": 135.24644,
+        "frame_30fps_nearest": 4057,
+        "spectral_flux": 1.59653568,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0003413862,
+          "low_mid_120_250": 0.000711544,
+          "guitar_mid_250_2500": 7.0236e-05,
+          "high_4000_plus": 9.652e-07
+        }
+      },
+      {
+        "time_sec": 135.70644,
+        "frame_30fps_nearest": 4071,
+        "spectral_flux": 1.31705165,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0028894988,
+          "low_mid_120_250": 0.0001303525,
+          "guitar_mid_250_2500": 4.86159e-05,
+          "high_4000_plus": 8.613e-07
+        }
+      },
+      {
+        "time_sec": 135.94644,
+        "frame_30fps_nearest": 4078,
+        "spectral_flux": 1.18657565,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0005094058,
+          "low_mid_120_250": 0.0004969034,
+          "guitar_mid_250_2500": 8.52348e-05,
+          "high_4000_plus": 3.009e-07
+        }
+      },
+      {
+        "time_sec": 136.64644,
+        "frame_30fps_nearest": 4099,
+        "spectral_flux": 1.2861321,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0019990073,
+          "low_mid_120_250": 0.0005001271,
+          "guitar_mid_250_2500": 6.42168e-05,
+          "high_4000_plus": 3.909e-07
+        }
+      },
+      {
+        "time_sec": 137.12644,
+        "frame_30fps_nearest": 4114,
+        "spectral_flux": 1.20686936,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0023038802,
+          "low_mid_120_250": 0.0007854995,
+          "guitar_mid_250_2500": 5.89133e-05,
+          "high_4000_plus": 6.272e-07
+        }
+      },
+      {
+        "time_sec": 137.58644,
+        "frame_30fps_nearest": 4128,
+        "spectral_flux": 1.37500203,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0032945157,
+          "low_mid_120_250": 7.41457e-05,
+          "guitar_mid_250_2500": 5.22669e-05,
+          "high_4000_plus": 5.681e-07
+        }
+      },
+      {
+        "time_sec": 137.82644,
+        "frame_30fps_nearest": 4135,
+        "spectral_flux": 1.13297296,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0021099807,
+          "low_mid_120_250": 0.0008049335,
+          "guitar_mid_250_2500": 6.27048e-05,
+          "high_4000_plus": 3.178e-07
+        }
+      },
+      {
+        "time_sec": 138.52644,
+        "frame_30fps_nearest": 4156,
+        "spectral_flux": 1.27762079,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0017320036,
+          "low_mid_120_250": 0.0003483211,
+          "guitar_mid_250_2500": 6.64433e-05,
+          "high_4000_plus": 7.088e-07
+        }
+      },
+      {
+        "time_sec": 139.00644,
+        "frame_30fps_nearest": 4170,
+        "spectral_flux": 1.11184049,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0038921554,
+          "low_mid_120_250": 0.0017983537,
+          "guitar_mid_250_2500": 8.4516e-05,
+          "high_4000_plus": 5.788e-07
+        }
+      },
+      {
+        "time_sec": 139.46644,
+        "frame_30fps_nearest": 4184,
+        "spectral_flux": 1.48443639,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0021490578,
+          "low_mid_120_250": 0.0001461213,
+          "guitar_mid_250_2500": 7.43007e-05,
+          "high_4000_plus": 1.1241e-06
+        }
+      },
+      {
+        "time_sec": 139.70644,
+        "frame_30fps_nearest": 4191,
+        "spectral_flux": 1.19417143,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0016375579,
+          "low_mid_120_250": 0.0015158368,
+          "guitar_mid_250_2500": 7.55107e-05,
+          "high_4000_plus": 2.995e-07
+        }
+      },
+      {
+        "time_sec": 140.40644,
+        "frame_30fps_nearest": 4212,
+        "spectral_flux": 1.62072086,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0014703067,
+          "low_mid_120_250": 0.0002905768,
+          "guitar_mid_250_2500": 0.0001397105,
+          "high_4000_plus": 1.4226e-06
+        }
+      },
+      {
+        "time_sec": 140.86644,
+        "frame_30fps_nearest": 4226,
+        "spectral_flux": 1.11234558,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0025628679,
+          "low_mid_120_250": 0.0007011231,
+          "guitar_mid_250_2500": 4.59788e-05,
+          "high_4000_plus": 3.594e-07
+        }
+      },
+      {
+        "time_sec": 141.34644,
+        "frame_30fps_nearest": 4240,
+        "spectral_flux": 1.33365226,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0009547723,
+          "low_mid_120_250": 1.18479e-05,
+          "guitar_mid_250_2500": 8.35511e-05,
+          "high_4000_plus": 1.7031e-06
+        }
+      },
+      {
+        "time_sec": 141.56644,
+        "frame_30fps_nearest": 4247,
+        "spectral_flux": 1.0737617,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0001129278,
+          "low_mid_120_250": 0.0002894301,
+          "guitar_mid_250_2500": 4.43214e-05,
+          "high_4000_plus": 1.733e-07
+        }
+      },
+      {
+        "time_sec": 141.80644,
+        "frame_30fps_nearest": 4254,
+        "spectral_flux": 1.27238417,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.000255442,
+          "low_mid_120_250": 0.0004942204,
+          "guitar_mid_250_2500": 6.62025e-05,
+          "high_4000_plus": 3.168e-07
+        }
+      },
+      {
+        "time_sec": 142.04644,
+        "frame_30fps_nearest": 4261,
+        "spectral_flux": 1.53795874,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.000871855,
+          "low_mid_120_250": 0.0011665812,
+          "guitar_mid_250_2500": 0.0001089999,
+          "high_4000_plus": 6.162e-07
+        }
+      },
+      {
+        "time_sec": 142.28644,
+        "frame_30fps_nearest": 4269,
+        "spectral_flux": 1.2575798,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0020294541,
+          "low_mid_120_250": 0.0017813193,
+          "guitar_mid_250_2500": 8.02062e-05,
+          "high_4000_plus": 4.215e-07
+        }
+      },
+      {
+        "time_sec": 142.50644,
+        "frame_30fps_nearest": 4275,
+        "spectral_flux": 1.32884133,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0001864647,
+          "low_mid_120_250": 0.0005062812,
+          "guitar_mid_250_2500": 4.68293e-05,
+          "high_4000_plus": 3.518e-07
+        }
+      },
+      {
+        "time_sec": 142.74644,
+        "frame_30fps_nearest": 4282,
+        "spectral_flux": 1.40104938,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.000569407,
+          "low_mid_120_250": 0.0009883529,
+          "guitar_mid_250_2500": 6.89148e-05,
+          "high_4000_plus": 3.18e-07
+        }
+      },
+      {
+        "time_sec": 143.20644,
+        "frame_30fps_nearest": 4296,
+        "spectral_flux": 1.28559005,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0023776921,
+          "low_mid_120_250": 6.42647e-05,
+          "guitar_mid_250_2500": 3.6262e-05,
+          "high_4000_plus": 6.538e-07
+        }
+      },
+      {
+        "time_sec": 143.44644,
+        "frame_30fps_nearest": 4303,
+        "spectral_flux": 1.21227407,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0002348144,
+          "low_mid_120_250": 0.0005173297,
+          "guitar_mid_250_2500": 7.22551e-05,
+          "high_4000_plus": 2.252e-07
+        }
+      },
+      {
+        "time_sec": 144.14644,
+        "frame_30fps_nearest": 4324,
+        "spectral_flux": 1.6032865,
+        "band_power": {
+          "sub_bass_kick_20_120": 2.752e-07,
+          "low_mid_120_250": 2.3832e-06,
+          "guitar_mid_250_2500": 6.82553e-05,
+          "high_4000_plus": 1.1098e-06
+        }
+      },
+      {
+        "time_sec": 144.62644,
+        "frame_30fps_nearest": 4339,
+        "spectral_flux": 1.28028989,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0012139343,
+          "low_mid_120_250": 0.0017465622,
+          "guitar_mid_250_2500": 8.53156e-05,
+          "high_4000_plus": 2.951e-07
+        }
+      },
+      {
+        "time_sec": 145.08644,
+        "frame_30fps_nearest": 4353,
+        "spectral_flux": 1.38276041,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0026565937,
+          "low_mid_120_250": 1.21254e-05,
+          "guitar_mid_250_2500": 6.44932e-05,
+          "high_4000_plus": 9.202e-07
+        }
+      },
+      {
+        "time_sec": 145.32644,
+        "frame_30fps_nearest": 4360,
+        "spectral_flux": 1.43796551,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0009238601,
+          "low_mid_120_250": 0.001172182,
+          "guitar_mid_250_2500": 8.8662e-05,
+          "high_4000_plus": 3.815e-07
+        }
+      },
+      {
+        "time_sec": 146.02644,
+        "frame_30fps_nearest": 4381,
+        "spectral_flux": 1.24328327,
+        "band_power": {
+          "sub_bass_kick_20_120": 2.604e-07,
+          "low_mid_120_250": 3.595e-07,
+          "guitar_mid_250_2500": 5.58412e-05,
+          "high_4000_plus": 8.489e-07
+        }
+      },
+      {
+        "time_sec": 146.48644,
+        "frame_30fps_nearest": 4395,
+        "spectral_flux": 1.23769534,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.000123071,
+          "low_mid_120_250": 0.0003025812,
+          "guitar_mid_250_2500": 5.84613e-05,
+          "high_4000_plus": 1.483e-07
+        }
+      },
+      {
+        "time_sec": 146.96644,
+        "frame_30fps_nearest": 4409,
+        "spectral_flux": 1.44942605,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0014345886,
+          "low_mid_120_250": 2.10697e-05,
+          "guitar_mid_250_2500": 0.00012191,
+          "high_4000_plus": 1.238e-06
+        }
+      },
+      {
+        "time_sec": 147.20644,
+        "frame_30fps_nearest": 4416,
+        "spectral_flux": 1.29594803,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0021830697,
+          "low_mid_120_250": 0.0018155553,
+          "guitar_mid_250_2500": 9.49748e-05,
+          "high_4000_plus": 4.295e-07
+        }
+      },
+      {
+        "time_sec": 147.66644,
+        "frame_30fps_nearest": 4430,
+        "spectral_flux": 1.02408624,
+        "band_power": {
+          "sub_bass_kick_20_120": 6.9e-08,
+          "low_mid_120_250": 1.9235e-06,
+          "guitar_mid_250_2500": 1.74622e-05,
+          "high_4000_plus": 6.96e-07
+        }
+      },
+      {
+        "time_sec": 147.90644,
+        "frame_30fps_nearest": 4437,
+        "spectral_flux": 1.31338882,
+        "band_power": {
+          "sub_bass_kick_20_120": 3.163e-07,
+          "low_mid_120_250": 3.3384e-06,
+          "guitar_mid_250_2500": 0.0001218566,
+          "high_4000_plus": 1.7027e-06
+        }
+      },
+      {
+        "time_sec": 148.36644,
+        "frame_30fps_nearest": 4451,
+        "spectral_flux": 1.49781847,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0003033853,
+          "low_mid_120_250": 0.0007448138,
+          "guitar_mid_250_2500": 8.2162e-05,
+          "high_4000_plus": 4.006e-07
+        }
+      },
+      {
+        "time_sec": 148.82644,
+        "frame_30fps_nearest": 4465,
+        "spectral_flux": 1.25955606,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0034483534,
+          "low_mid_120_250": 7.514e-06,
+          "guitar_mid_250_2500": 3.84991e-05,
+          "high_4000_plus": 3.281e-07
+        }
+      },
+      {
+        "time_sec": 149.06644,
+        "frame_30fps_nearest": 4472,
+        "spectral_flux": 1.12843966,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0001847664,
+          "low_mid_120_250": 0.000353392,
+          "guitar_mid_250_2500": 3.47613e-05,
+          "high_4000_plus": 3.357e-07
+        }
+      },
+      {
+        "time_sec": 149.30644,
+        "frame_30fps_nearest": 4479,
+        "spectral_flux": 1.3706007,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0004284756,
+          "low_mid_120_250": 0.0009068242,
+          "guitar_mid_250_2500": 7.09533e-05,
+          "high_4000_plus": 3.388e-07
+        }
+      },
+      {
+        "time_sec": 149.78644,
+        "frame_30fps_nearest": 4494,
+        "spectral_flux": 0.99634194,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0032750797,
+          "low_mid_120_250": 0.0020223544,
+          "guitar_mid_250_2500": 6.41171e-05,
+          "high_4000_plus": 4.867e-07
+        }
+      },
+      {
+        "time_sec": 150.24644,
+        "frame_30fps_nearest": 4507,
+        "spectral_flux": 1.14224911,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.002366896,
+          "low_mid_120_250": 0.0009904335,
+          "guitar_mid_250_2500": 5.31819e-05,
+          "high_4000_plus": 4.318e-07
+        }
+      },
+      {
+        "time_sec": 150.70644,
+        "frame_30fps_nearest": 4521,
+        "spectral_flux": 1.59427404,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0029897653,
+          "low_mid_120_250": 9.47833e-05,
+          "guitar_mid_250_2500": 8.46856e-05,
+          "high_4000_plus": 8.13e-07
+        }
+      },
+      {
+        "time_sec": 150.94644,
+        "frame_30fps_nearest": 4528,
+        "spectral_flux": 1.29446757,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0005239394,
+          "low_mid_120_250": 0.0007258952,
+          "guitar_mid_250_2500": 6.71821e-05,
+          "high_4000_plus": 2.888e-07
+        }
+      },
+      {
+        "time_sec": 151.64644,
+        "frame_30fps_nearest": 4549,
+        "spectral_flux": 1.66970348,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0021753393,
+          "low_mid_120_250": 0.0003377336,
+          "guitar_mid_250_2500": 0.000117988,
+          "high_4000_plus": 1.2062e-06
+        }
+      },
+      {
+        "time_sec": 152.12644,
+        "frame_30fps_nearest": 4564,
+        "spectral_flux": 1.0509429,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0036392617,
+          "low_mid_120_250": 0.0012787563,
+          "guitar_mid_250_2500": 9.50549e-05,
+          "high_4000_plus": 4.229e-07
+        }
+      },
+      {
+        "time_sec": 152.58644,
+        "frame_30fps_nearest": 4578,
+        "spectral_flux": 1.46848643,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0027931088,
+          "low_mid_120_250": 3.07711e-05,
+          "guitar_mid_250_2500": 9.72385e-05,
+          "high_4000_plus": 1.2385e-06
+        }
+      },
+      {
+        "time_sec": 152.82644,
+        "frame_30fps_nearest": 4585,
+        "spectral_flux": 1.07815421,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0021068812,
+          "low_mid_120_250": 0.0014000387,
+          "guitar_mid_250_2500": 6.24807e-05,
+          "high_4000_plus": 1.799e-07
+        }
+      },
+      {
+        "time_sec": 153.52644,
+        "frame_30fps_nearest": 4606,
+        "spectral_flux": 1.36620331,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0015524734,
+          "low_mid_120_250": 0.0003245244,
+          "guitar_mid_250_2500": 8.42308e-05,
+          "high_4000_plus": 1.2959e-06
+        }
+      },
+      {
+        "time_sec": 153.98644,
+        "frame_30fps_nearest": 4620,
+        "spectral_flux": 1.01400638,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.003146464,
+          "low_mid_120_250": 0.0006125692,
+          "guitar_mid_250_2500": 3.70082e-05,
+          "high_4000_plus": 3.111e-07
+        }
+      },
+      {
+        "time_sec": 154.46644,
+        "frame_30fps_nearest": 4634,
+        "spectral_flux": 1.51346803,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.001478899,
+          "low_mid_120_250": 4.25247e-05,
+          "guitar_mid_250_2500": 0.0001201607,
+          "high_4000_plus": 1.7175e-06
+        }
+      },
+      {
+        "time_sec": 154.70644,
+        "frame_30fps_nearest": 4641,
+        "spectral_flux": 1.2098285,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0029486618,
+          "low_mid_120_250": 0.0019267123,
+          "guitar_mid_250_2500": 0.0001032364,
+          "high_4000_plus": 5.096e-07
+        }
+      },
+      {
+        "time_sec": 155.16644,
+        "frame_30fps_nearest": 4655,
+        "spectral_flux": 1.13373959,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0019512844,
+          "low_mid_120_250": 0.0005296769,
+          "guitar_mid_250_2500": 3.16741e-05,
+          "high_4000_plus": 6.678e-07
+        }
+      },
+      {
+        "time_sec": 155.38644,
+        "frame_30fps_nearest": 4662,
+        "spectral_flux": 1.56703436,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0031723813,
+          "low_mid_120_250": 0.0001626155,
+          "guitar_mid_250_2500": 6.38058e-05,
+          "high_4000_plus": 6.691e-07
+        }
+      },
+      {
+        "time_sec": 155.86644,
+        "frame_30fps_nearest": 4676,
+        "spectral_flux": 1.44529629,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0019800074,
+          "low_mid_120_250": 0.0009007221,
+          "guitar_mid_250_2500": 0.0001093999,
+          "high_4000_plus": 4.064e-07
+        }
+      },
+      {
+        "time_sec": 156.34644,
+        "frame_30fps_nearest": 4690,
+        "spectral_flux": 1.23273015,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0068375682,
+          "low_mid_120_250": 3.20164e-05,
+          "guitar_mid_250_2500": 4.43896e-05,
+          "high_4000_plus": 1.8623e-06
+        }
+      },
+      {
+        "time_sec": 156.58644,
+        "frame_30fps_nearest": 4698,
+        "spectral_flux": 1.19220972,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0034300447,
+          "low_mid_120_250": 0.0010798767,
+          "guitar_mid_250_2500": 0.000126914,
+          "high_4000_plus": 3.758e-07
+        }
+      },
+      {
+        "time_sec": 157.28644,
+        "frame_30fps_nearest": 4719,
+        "spectral_flux": 1.25648403,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0017446575,
+          "low_mid_120_250": 9.9646e-06,
+          "guitar_mid_250_2500": 0.0001159552,
+          "high_4000_plus": 2.0881e-06
+        }
+      },
+      {
+        "time_sec": 157.74644,
+        "frame_30fps_nearest": 4732,
+        "spectral_flux": 1.33754909,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0004859742,
+          "low_mid_120_250": 0.0005776343,
+          "guitar_mid_250_2500": 0.0001249836,
+          "high_4000_plus": 3.292e-07
+        }
+      },
+      {
+        "time_sec": 158.22644,
+        "frame_30fps_nearest": 4747,
+        "spectral_flux": 1.3318615,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0054283529,
+          "low_mid_120_250": 8.16263e-05,
+          "guitar_mid_250_2500": 6.89327e-05,
+          "high_4000_plus": 2.8232e-06
+        }
+      },
+      {
+        "time_sec": 158.44644,
+        "frame_30fps_nearest": 4753,
+        "spectral_flux": 1.28220463,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0037123784,
+          "low_mid_120_250": 0.0002851909,
+          "guitar_mid_250_2500": 6.66196e-05,
+          "high_4000_plus": 2.238e-07
+        }
+      },
+      {
+        "time_sec": 159.14644,
+        "frame_30fps_nearest": 4774,
+        "spectral_flux": 1.51902092,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0033499394,
+          "low_mid_120_250": 7.23674e-05,
+          "guitar_mid_250_2500": 3.83799e-05,
+          "high_4000_plus": 1.3912e-06
+        }
+      },
+      {
+        "time_sec": 159.62644,
+        "frame_30fps_nearest": 4789,
+        "spectral_flux": 1.33647037,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0010018265,
+          "low_mid_120_250": 0.0005980625,
+          "guitar_mid_250_2500": 9.43095e-05,
+          "high_4000_plus": 4.452e-07
+        }
+      },
+      {
+        "time_sec": 160.08644,
+        "frame_30fps_nearest": 4803,
+        "spectral_flux": 1.46358252,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0089838272,
+          "low_mid_120_250": 8.84636e-05,
+          "guitar_mid_250_2500": 3.60926e-05,
+          "high_4000_plus": 1.1507e-06
+        }
+      },
+      {
+        "time_sec": 160.32644,
+        "frame_30fps_nearest": 4810,
+        "spectral_flux": 1.41538191,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0022620379,
+          "low_mid_120_250": 0.0006745288,
+          "guitar_mid_250_2500": 0.0001248591,
+          "high_4000_plus": 3.395e-07
+        }
+      },
+      {
+        "time_sec": 161.02644,
+        "frame_30fps_nearest": 4831,
+        "spectral_flux": 1.43192875,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0011869527,
+          "low_mid_120_250": 9.1963e-06,
+          "guitar_mid_250_2500": 0.0001032783,
+          "high_4000_plus": 1.6217e-06
+        }
+      },
+      {
+        "time_sec": 163.36644,
+        "frame_30fps_nearest": 4901,
+        "spectral_flux": 1.40274811,
+        "band_power": {
+          "sub_bass_kick_20_120": 0.0013739765,
+          "low_mid_120_250": 0.0007767088,
+          "guitar_mid_250_2500": 3.73875e-05,
+          "high_4000_plus": 7.558e-07
+        }
+      }
+    ],
+    "band_power_measurements": [
+      "sub_bass_kick_20_120",
+      "low_mid_120_250",
+      "guitar_mid_250_2500",
+      "high_4000_plus"
+    ],
+    "features_csv": "analysis/manus_frame_events/audio_features_20ms.csv"
+  },
+  "per_frame_csv": "analysis/manus_frame_events/per_frame_scene_scores.csv",
+  "limitations": "scdet scores respond to image changes and can include hard cuts, flashes, motion, dissolves, compression, or other changes; threshold events and local maxima are candidates only, not verified editorial cuts. Audio spectral-flux candidates and band powers do not identify instruments, musical beats, loudness perception, separated stems, or picture-to-audio sync. Frame/audio event correlation is intentionally not asserted. Inspect source/contact sheets and audition manually for semantic or perceptual claims."
+}
