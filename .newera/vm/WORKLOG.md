@@ -70,3 +70,4 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-10-14T14:34:27.924Z | VM 1/3] THINK: Current docs now include the automated full-frame reference supplement and master/companions were regenerated and fully decoded successfully. I need reconcile why the manuscript supplement doesn't appear in git status, inspect the persistent plan and repo inventory, then record precise evidence. Avoid altering the validated 32 MB master; do not claim perceptual review.
 - [2026-10-14T14:35:41.497Z | VM 1/3] PLAN updated: 4 steps
 - [2026-10-14T14:36:20.922Z | VM 1/3] PLAN updated: 4 steps
+- [2026-10-14T14:37:52.292Z | VM 1/3] PLAN updated: 4 steps
