@@ -156,7 +156,7 @@ def make_frames(start,end,preview=None):
             if local>7.1:
                 p=out((local-7.1)/.38)
                 centered(d,(960,cy+326),'AN AGENT CARRIES IT THROUGH.',font(25,mono=True),(*MINT,int(240*p)),1.5)
-            d.text((960,770),'ONE IDEA  /  A WHOLE BUILD',font=font(17,mono=True),fill=(126,138,140,190),anchor='mm')
+            d.text((960,875),'ONE IDEA  /  A WHOLE BUILD',font=font(18,mono=True),fill=(155,169,171,220),anchor='mm')
         elif scene==1:
             # Onset-aligned high-contrast launch title; core settles into the custom orbital mark.
             if local<.12 and local>0:
@@ -165,9 +165,9 @@ def make_frames(start,end,preview=None):
             p=out((local-.2)/.42)
             centered(d,(960,610),'NEWERA',font(116,True),(*WHITE,int(255*p)),-5)
             centered(d,(960,730),'AI AGENT',font(33,mono=True),(*MINT,int(255*p)),5)
-            centered(d,(960,835),'FROM AN IDEA TO A WORKING APP.',font(25),(*MUTED,int(255*out((local-.8)/.4))))
+            centered(d,(960,798),'FROM AN IDEA TO A WORKING APP.',font(29),(*MINT,int(255*out((local-.8)/.4))))
             if local>7.8:
-                card(d,(595,830,1325,946),'Your next build starts here','Describe what you want to make.','NEW PROJECT',t,True)
+                card(d,(595,850,1325,966),'Your next build starts here','Describe what you want to make.','NEW PROJECT',t,True)
         elif scene==2:
             # Product workflow: a readable original interface metaphor, not fake product screenshots.
             phase=int(local/5.8)%5; step=['01  DESCRIBE','02  PLAN','03  WRITE FILES','04  BUILD + FIX','05  DEPLOY'][phase]
@@ -204,7 +204,7 @@ def make_frames(start,end,preview=None):
                     for j in range(4):
                         yy=y1+132+j*23; d.ellipse((x1+31,yy,x1+42,yy+11),fill=TEAL if j<phase%5 else (67,73,78))
                         d.rounded_rectangle((x1+58,yy+2,x1+330,yy+8),radius=3,fill=(69,79,79) if j<phase%5 else (40,45,49))
-                        d.text((x1+350,yy-6),['plan','write','build','repair'][j],font=font(14,mono=True),fill=(151,160,163))
+                        d.text((x1+350,yy-6),['plan','write','build','repair'][j],font=font(16,mono=True),fill=(181,190,193))
                 else:
                     title,body=[('PLAN','Break down'),('CODE','Write files'),('BROWSER','Preview'),('SHIP','With consent')][i-2]
                     d.text((x1+24,y1+24),title,font=font(14,mono=True),fill=TEAL)
@@ -213,9 +213,9 @@ def make_frames(start,end,preview=None):
                     d.ellipse((x2-48,y1+22,x2-34,y1+36),fill=TEAL if phase>=i-2 else (77,84,88))
             impact,bdy=captions[phase]
             p=out((local%4.6)/.3)
-            centered(d,(960,265),impact,font(75,True),(*WHITE,int(248*p)),-3)
-            centered(d,(960,318),bdy,font(21,mono=True),(*MUTED,int(230*p)),.8)
-            d.text((960,900),'PLAN   /   BUILD   /   VERIFY   /   DEPLOY',font=font(17,mono=True),fill=(123,137,139),anchor='mm')
+            centered(d,(960,235),impact,font(75,True),(*WHITE,int(248*p)),-3)
+            centered(d,(960,327),bdy,font(22,mono=True),(*MINT,int(245*p)),.8)
+            d.text((960,900),'PLAN   /   BUILD   /   VERIFY   /   DEPLOY',font=font(18,mono=True),fill=(153,166,168),anchor='mm')
         else:
             # Graphic elements fold inward and decelerate into a generous, iconic end-card.
             remain=length-local; settle=out(local/2.3)
