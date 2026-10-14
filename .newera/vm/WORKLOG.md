@@ -126,3 +126,5 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-10-14T15:40:13.471Z | VM 1/3] PLAN updated: 3 steps
 - [2026-10-14T15:42:53.147Z | VM 1/3] PLAN updated: 3 steps
 - [2026-10-14T15:43:10.812Z | VM 1/3] PLAN updated: 3 steps
+- [2026-10-14T15:43:53.478Z | VM 1/3] THINK: The aggregate command exposed an environment mismatch: system python3 lacks Pillow, while the documented workspace/.venv has it and was already used for the audit. Compilation and delivery validator ran; unittest was invoked with system Python so its audit module import failed. Because the shell lacked `set -e`, subsequent ffmpeg decode and artifact listing still executed. `git status` now 
+- [2026-10-14T15:44:51.698Z | VM 1/3] PLAN updated: 3 steps
