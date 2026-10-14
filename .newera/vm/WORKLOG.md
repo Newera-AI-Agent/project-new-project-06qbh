@@ -55,3 +55,7 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-10-14T14:15:43.674Z | VM 1/3] THINK: First run revealed mix allocated one-dimensional while stereo slices indexed two channels. Patched allocation to shape (n,2). This directly addresses IndexError; the repeat guard rejected an identical command without executing, so next rerun should use changed command/args and inspect output.
 - [2026-10-14T14:16:02.645Z | VM 1/3] PLAN updated: 3 steps
 - [2026-10-14T14:16:32.120Z | VM 1/3] THINK: Foley render succeeded and is verified against internal storyboard frames 924/1802/3602/5388, all confirmed members of the audio-analysis onset frame set. Candidate mux reports H.264 1920×1080 60 fps, 6475 frames, AAC 48 kHz stereo, A/V duration difference 12.7 ms, 107.9167 s. Replace old master with candidate only after recording this verified probe, then run entire decode, EBU R128 measur
+- [2026-10-14T14:19:57.965Z | VM 1/3] PLAN updated: 3 steps
+- [2026-10-14T14:20:15.041Z | VM 1/3] PLAN updated: 3 steps
+- [2026-10-14T14:20:43.901Z | VM 1/3] THINK: All three planned steps now have verification: foley script/report are tracked, final audio/video mux passes complete decode, independent loudness and ffprobe checks, regenerated QC companions, and documentation now records exact hash/limitations. This repository is intentionally a media-production workspace, not a web app, so there is no npm scaffold/build to add. The legacy job has no con
+- [2026-10-14T14:21:11.092Z | VM 1/3] PLAN updated: 4 steps
