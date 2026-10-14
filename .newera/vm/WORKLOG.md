@@ -61,3 +61,6 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-10-14T14:21:11.092Z | VM 1/3] PLAN updated: 4 steps
 - [2026-10-14T14:24:02.427Z | VM 1/3] PLAN updated: 4 steps
 - [2026-10-14T14:24:31.020Z | VM 1/3] THINK: The existing production deliverable is technically complete; the credible remaining in-scope gap is the user's explicit demand for precise, batch-by-batch analysis of the full reference. Current documentation explicitly admits sparse 1.5-second keyframes and only proxy flux/cut metrics, which cannot support precise edit-timing claims. I will inspect the actual analysis scripts and source av
+- [2026-10-14T14:26:21.121Z | VM 1/3] PLAN updated: 4 steps
+- [2026-10-14T14:27:32.690Z | VM 1/3] PLAN updated: 4 steps
+- [2026-10-14T14:29:09.832Z | VM 1/3] THINK: We resume with a substantial existing production; avoid rerendering. Main open requirement is a reproducible full-duration frame-level reference edit-candidate report, using FFmpeg scdet already shown to work, plus dense audio features. First inspect detector format and existing dependencies/scripts, then build a bounded per-frame CSV/JSON supplement, clearly labeling machine detections as 
