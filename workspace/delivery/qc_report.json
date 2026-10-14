@@ -1,8 +1,8 @@
 {
   "status": "PASS",
   "master": "workspace/renders/newera_ai_agent_intro_master_1080p60.mp4",
-  "sha256": "12c005f65eb755ccffebdcd340fa11f29a3b7a600dcd8432bf7376d361fe8fa9",
-  "file_bytes": 33179757,
+  "sha256": "551b85f8dedceb6abddf027873326085cc68ea810cd287d800feff79a0aa89c3",
+  "file_bytes": 33181630,
   "duration_sec": 107.916667,
   "video": {
     "codec": "h264",
@@ -23,7 +23,8 @@
   "onset_frame_quantization_max_error_ms": 8.3,
   "onset_pulse": "renderer uses detected onset frames; eased 7-frame response, not a strobe",
   "audio_sync_scope": "Frame quantization and embedded audio duration verified. This is not a perceptual \u00b11-frame alignment claim.",
-  "audio_loudness_reference": "Prior independent ebur128 verification: -13.9 LUFS integrated, 2.3 LU LRA, -1.2 dBFS true peak.",
+  "audio_loudness_reference": "Final foley-mixed master independently measured with FFmpeg ebur128: -13.9 LUFS integrated, 2.3 LU LRA, -1.2 dBFS true peak.",
+  "transition_foley": "Deterministic stereo synthetic transition whooshes mixed beneath music at storyboard boundary onset frames 924, 1802, 3602, 5388; synthesis report and script: workspace/audio/transition_foley.json and synthesize_transition_foley.py.",
   "companions": [
     "newera_intro_captions.vtt",
     "newera_intro_transcript.md"

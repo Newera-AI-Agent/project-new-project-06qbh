@@ -111,7 +111,8 @@ def main() -> None:
           "onset_frame_quantization_max_error_ms": round(max_quant_error_ms, 4),
           "onset_pulse": "renderer uses detected onset frames; eased 7-frame response, not a strobe",
           "audio_sync_scope": "Frame quantization and embedded audio duration verified. This is not a perceptual ±1-frame alignment claim.",
-          "audio_loudness_reference": "Prior independent ebur128 verification: -13.9 LUFS integrated, 2.3 LU LRA, -1.2 dBFS true peak.",
+          "audio_loudness_reference": "Final foley-mixed master independently measured with FFmpeg ebur128: -13.9 LUFS integrated, 2.3 LU LRA, -1.2 dBFS true peak.",
+          "transition_foley": "Deterministic stereo synthetic transition whooshes mixed beneath music at storyboard boundary onset frames 924, 1802, 3602, 5388; synthesis report and script: workspace/audio/transition_foley.json and synthesize_transition_foley.py.",
           "companions": ["newera_intro_captions.vtt", "newera_intro_transcript.md"]}
     (OUT / "qc_report.json").write_text(json.dumps(qc, indent=2) + "\n")
     print(json.dumps({"status": qc["status"], "duration_sec": duration, "frames": frame_count,
