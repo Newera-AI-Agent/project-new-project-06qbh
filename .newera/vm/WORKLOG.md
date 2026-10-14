@@ -140,3 +140,5 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-10-14T15:54:26.120Z | VM 1/3] PLAN updated: 3 steps
 - [2026-10-14T15:54:40.721Z | VM 1/3] THINK: The gap is a measurable claim in visual_timing_qa.md without checked-in reproduction. I will add a deterministic encoded-frame onset-response audit using FFmpeg downscaled frame samples and a declared center ROI, emit JSON summaries/raw per-onset rows, add tests, and update the existing QA note. Avoid touching the master or existing manifest baseline unless validator design requires deliber
 - [2026-10-14T16:06:33.706Z | VM 1/3] PLAN updated: 3 steps
+- [2026-10-14T16:07:34.372Z | VM 1/3] PLAN updated: 3 steps
+- [2026-10-14T16:08:12.858Z | VM 1/3] THINK: The integrity tests fail because the intentionally updated visual_timing_qa.md (and likely the newly generated onset audit report, if listed) no longer matches the frozen artifact manifest. This is evidence-backed, reviewed QA content, not an unexplained master change. Before considering any manifest update, inspect manifest entries and verifier behavior, run the verifier to capture exact m
