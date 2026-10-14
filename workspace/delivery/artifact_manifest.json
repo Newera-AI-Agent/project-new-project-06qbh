@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "purpose": "Deterministic SHA-256 baseline for verified master, accessible files and reproduction inputs.",
+  "integrity_scope": "Detects accidental changes relative to this checked-in manifest; not a signature or tamper-proof proof of origin.",
+  "master_duration_sec": 107.916667,
+  "master_video_frames": 6475,
+  "caption_cue_count": 24,
+  "storyboard_act_count": 5,
+  "artifacts": {
+    "workspace/renders/newera_ai_agent_intro_master_1080p60.mp4": {
+      "bytes": 33181630,
+      "sha256": "551b85f8dedceb6abddf027873326085cc68ea810cd287d800feff79a0aa89c3"
+    },
+    "workspace/delivery/newera_intro_captions.vtt": {
+      "bytes": 3120,
+      "sha256": "e269b9d37dc4d92abe2d41ac4aa880db4d2d944008f74b35a4ad8459a5495154"
+    },
+    "workspace/delivery/newera_intro_transcript.md": {
+      "bytes": 3892,
+      "sha256": "050076cf6a9e681f142398b3875d477856d29a8416aada45318a195337f88304"
+    },
+    "workspace/delivery/qc_report.json": {
+      "bytes": 1363,
+      "sha256": "b3053683bfa70c501402f30770b0a98d3ca0b4752c17d5434143ab2547f2f408"
+    },
+    "workspace/storyboard.json": {
+      "bytes": 22749,
+      "sha256": "ed625eb55b2a5d81ac5ee143ead2ecddb4be2c6f030f6a471a1fb6ca8f2ab1d9"
+    },
+    "workspace/beat_map.json": {
+      "bytes": 373799,
+      "sha256": "7000812ab63051c721a11c78e9d23dab3e9fbfc4233d5d7b30e5b83702f6b91e"
+    },
+    "workspace/audio/transition_foley.json": {
+      "bytes": 857,
+      "sha256": "5956986b4d5de58f6527dac811210ca65cfc22f1ee62dd7c5163dd51a26ac717"
+    },
+    "ptasinski - life force (ft. RJ Pasin)_128k.mp3": {
+      "bytes": 1727661,
+      "sha256": "262e1593587f4fd233ca202e33252b96a093be28a0cf7967a767b7efff9f63bb"
+    },
+    "workspace/delivery/README.md": {
+      "bytes": 7508,
+      "sha256": "d185a062fb4a4fbc90ee516ff1a57e53f836d4ee668b161325e1d8b9418aa103"
+    },
+    "workspace/brand_brief.md": {
+      "bytes": 3178,
+      "sha256": "35f66218ae14a382d794fe71463c0784cc3a4faec10d0348fcf4879daa39b1b9"
+    },
+    "workspace/manus_analysis.md": {
+      "bytes": 7953,
+      "sha256": "d445adb6668b8fcd545e58de449494b81672a7123a21a46cecfb201f59f36691"
+    },
+    "workspace/analysis/manus_12s/analysis.json": {
+      "bytes": 19229,
+      "sha256": "4c456debeb03b0069b6430d5b2eea16758d81bcb272a9c99c8fe024ca8ddc2f4"
+    },
+    "workspace/analysis/manus_frame_events/analysis.json": {
+      "bytes": 131977,
+      "sha256": "332a316ed83a33c3089fd2fb75478baa6df7f9c05d93e9a468e040513765d415"
+    }
+  }
+}

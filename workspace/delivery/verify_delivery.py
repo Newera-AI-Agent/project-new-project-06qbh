@@ -30,8 +30,11 @@ MANIFEST = "workspace/delivery/artifact_manifest.json"
 # Delivery content plus its reproducibility-critical inputs and handoff documentation.
 ARTIFACTS = [
     MASTER, CAPTIONS, TRANSCRIPT, REPORT, STORY, BEATS, FOLEY, SOUNDTRACK,
-    "workspace/delivery/README.md", "workspace/brand_brief.md",
-    "workspace/manus_analysis.md",
+    "workspace/delivery/README.md", "workspace/delivery/verify_delivery.py",
+    "workspace/delivery/generate_accessible_assets.py",
+    "workspace/analysis/analyze_audio.py", "workspace/render_intro.py",
+    "workspace/audio/synthesize_transition_foley.py",
+    "workspace/brand_brief.md", "workspace/manus_analysis.md",
     "workspace/analysis/manus_12s/analysis.json",
     "workspace/analysis/manus_frame_events/analysis.json",
 ]
