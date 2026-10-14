@@ -9,3 +9,4 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-10-14T13:05:42.773Z | VM 1/3] git GH001 recovery: rebuilt the local history without 1 oversized file(s); the files remain on the VM disk
 - [2026-10-14T13:05:51.576Z | VM 1/3] PLAN updated: 5 steps
 - [2026-10-14T13:06:30.935Z | VM 1/3] THINK: Inherited worklog confirms reference and brand source were already fetched; brand brief is now written. Tool checks found no ffmpeg/ffprobe and no Python media/science packages. I’ll install ffmpeg via apt and create a project-local Python venv with pinned dependencies so analysis/rendering are reproducible. The reference is 190 MB and must not be tracked if it risks oversized repo artifact
+- [2026-10-14T13:07:38.048Z | VM 1/3] PLAN updated: 5 steps
