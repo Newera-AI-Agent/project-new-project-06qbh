@@ -14,3 +14,4 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-10-14T13:24:31.385Z | VM 1/3] PLAN updated: 5 steps
 - [2026-10-14T13:25:24.890Z | VM 1/3] THINK: The research phase is complete and the storyboard exists, but its act boundaries are round-number placeholders rather than actual detected onset frames. Before animation code, I will snap those boundaries to nearest onset frames and attach measured cue events; then implement a single deterministic Python/Pillow frame renderer streamed to FFmpeg, which avoids storing tens of gigabytes of int
 - [2026-10-14T13:26:22.296Z | VM 1/3] PLAN updated: 5 steps
+- [2026-10-14T13:31:07.584Z | VM 1/3] PLAN updated: 3 steps
