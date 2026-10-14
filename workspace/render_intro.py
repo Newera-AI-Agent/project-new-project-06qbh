@@ -121,6 +121,7 @@ def make_frames(start,end,preview=None):
         if all(abs(fr-x[0])>34 for x in selected): selected.append((fr,name,strength))
     storyboard['selected_punctuation_cues']=[{'frame':f,'ms':round(f*1000/FPS),'band':n,'relative_strength':s} for f,n,s in selected]
     (ROOT/'workspace/storyboard.json').write_text(json.dumps(storyboard,indent=2)+'\n')
+    onset_frames={int(e['frame_60fps']) for e in ons}
     total=int(round(duration*FPS)); end=min(total,end if end is not None else total)
     cmd=['ffmpeg','-hide_banner','-loglevel','error','-y','-f','rawvideo','-pix_fmt','rgb24','-s',f'{W}x{H}','-r',str(FPS),'-i','-','-an','-c:v','libx264','-preset','ultrafast','-crf','17','-pix_fmt','yuv420p','-movflags','+faststart',str(preview or ROOT/'workspace/renders/visual_only.mp4')]
     proc=subprocess.Popen(cmd,stdin=subprocess.PIPE)
@@ -131,15 +132,15 @@ def make_frames(start,end,preview=None):
         env_i=min(len(env)-1,max(0,int(t*20)))
         e=env[env_i]; energy=max(e['sub'],e['mid'],e['high'])
         im=BG_LAYER.copy(); d=ImageDraw.Draw(im,'RGBA')
-        # Tiny onset-driven camera punch, eased within a short envelope; no full-frame strobing.
-        punch=0
-        if frame%2==0:
-            j=frame//2
-            if j<len(ons) and ons[j]['frame_60fps']==frame: punch=.018
-        # Layered corner registration marks establish a designed frame.
+        # Transient response: 7-frame eased envelope; no full-frame strobing.
+        punch=max((1-(frame-hit)/7 for hit in onset_frames if 0<=frame-hit<7),default=0.0)
+        punch=out(punch)*.055
+        # Layered corner registration marks establish a designed frame; transients briefly energize them.
+        mark_alpha=int(100+125*min(1,punch/.055))
+        mark_len=28+int(8*min(1,punch/.055))
         for x,sgn in ((90,1),(1830,-1)):
-            d.line((x,91,x+sgn*28,91),fill=(89,106,109,100),width=2)
-            d.line((x,91,x,119),fill=(89,106,109,100),width=2)
+            d.line((x,91,x+sgn*mark_len,91),fill=(89,106,109,mark_alpha),width=2)
+            d.line((x,91,x,119+int(4*min(1,punch/.055))),fill=(89,106,109,mark_alpha),width=2)
         if scene==0:
             # Point → axes → frame → idea, keyed to the opening pluck rhythm.
             cx,cy=960,470; progress=clamp(local/8.8)
@@ -149,7 +150,7 @@ def make_frames(start,end,preview=None):
                 q=out((progress-.24)/.22); d.line((cx,cy-245,cx,cy-245+490*q),fill=(*TEAL,190),width=2)
             if progress>.43:
                 q=out((progress-.43)/.2); d.rounded_rectangle((cx-410,cy-175,cx+410,cy+175),radius=12,outline=(*MINT,int(180*q)),width=2)
-            draw_core(d,cx,cy,40+70*out((progress-.07)/.55),t,energy)
+            draw_core(d,cx,cy,40+70*out((progress-.07)/.55),t,energy+punch)
             if local>3.1:
                 p=out((local-3.1)/.45)
                 centered(d,(960,cy+245),'A PROMPT STARTS IT.',font(50,True),(*WHITE,int(255*p)),-1.2)
@@ -161,7 +162,7 @@ def make_frames(start,end,preview=None):
             # Onset-aligned high-contrast launch title; core settles into the custom orbital mark.
             if local<.12 and local>0:
                 d.rectangle((0,0,W,H),fill=(244,244,246,75))
-            draw_core(d,960,400,116,t,energy)
+            draw_core(d,960,400,116,t,energy+punch)
             p=out((local-.2)/.42)
             centered(d,(960,610),'NEWERA',font(116,True),(*WHITE,int(255*p)),-5)
             centered(d,(960,730),'AI AGENT',font(33,mono=True),(*MINT,int(255*p)),5)
