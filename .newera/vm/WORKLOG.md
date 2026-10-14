@@ -23,3 +23,8 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-10-14T13:39:54.145Z | VM 1/3] THINK: The previous full master was built but an audit found transient indexing and unused pulse. I patched the renderer to use beat-map onset frame values, apply a seven-frame eased pulse to core energy and corner registration marks. Before rerendering the 107.9-second 60fps master, verify the onset schema and renderer syntax with a small targeted preview; then regenerate and re-mux, and verify o
 - [2026-10-14T13:40:13.163Z | VM 1/3] PLAN updated: 3 steps
 - [2026-10-14T13:40:33.146Z | VM 1/3] PLAN updated: 3 steps
+- [2026-10-14T13:43:38.104Z | VM 1/3] PLAN updated: 3 steps
+- [2026-10-14T13:43:49.047Z | VM 1/3] THINK: The onset-sync fix is now rendered across all 6,475 frames, and a normalized candidate mux completed. I will promote that candidate to the canonical master filename, then independently probe video/audio streams and measure loudness. For visual QA, extract a fresh contact sheet from the regenerated master and inspect if the image tool allows; avoid altering the approved design unless QA reve
+- [2026-10-14T13:44:28.423Z | VM 1/3] PLAN updated: 3 steps
+- [2026-10-14T13:44:59.459Z | VM 1/3] PLAN updated: 3 steps
+- [2026-10-14T13:45:18.919Z | VM 1/3] THINK: Finish was rejected for scope-collapse: likely the approved marathon task expects durable production deliverables, but the current repository may contain a single final artifact plus workspace files that the packaging heuristic does not recognize, or relevant files are ignored/untracked. I will inspect repo size/status/tree and exact media/docs artifact presence before deciding the smallest
