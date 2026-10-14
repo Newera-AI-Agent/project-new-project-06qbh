@@ -40,8 +40,28 @@
       "sha256": "262e1593587f4fd233ca202e33252b96a093be28a0cf7967a767b7efff9f63bb"
     },
     "workspace/delivery/README.md": {
-      "bytes": 7508,
-      "sha256": "d185a062fb4a4fbc90ee516ff1a57e53f836d4ee668b161325e1d8b9418aa103"
+      "bytes": 9196,
+      "sha256": "261078cb1622dd488a6757c3ef35de7c10e78d5d4fe3afb5c88c58c29babdb25"
+    },
+    "workspace/delivery/verify_delivery.py": {
+      "bytes": 10088,
+      "sha256": "afb90d63606683c660c20f5d207afd4c3fe5bd7ea89c48dcf573aec70448f09a"
+    },
+    "workspace/delivery/generate_accessible_assets.py": {
+      "bytes": 8101,
+      "sha256": "31dd30b6c16b67ae08f032ab42586968e5fa5d31e81a98672e375ecc1ef3e587"
+    },
+    "workspace/analysis/analyze_audio.py": {
+      "bytes": 5669,
+      "sha256": "e0e255c941e00bc906d558605b9ad27c154dc42e1c8801273cec5f82b7048c8f"
+    },
+    "workspace/render_intro.py": {
+      "bytes": 16101,
+      "sha256": "54dc81041042349345387be355ba5c2161c574efd6603a75ac90461669ef74f3"
+    },
+    "workspace/audio/synthesize_transition_foley.py": {
+      "bytes": 4114,
+      "sha256": "1a530cefd2536cf5d9385c020619a8a2de6ceaa4d79490b1f1bdaded464e2a66"
     },
     "workspace/brand_brief.md": {
       "bytes": 3178,

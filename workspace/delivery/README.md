@@ -77,7 +77,7 @@ python3 workspace/delivery/verify_delivery.py --write-manifest
 python3 workspace/delivery/verify_delivery.py
 ```
 
-For a routine integrity check, run only the second command. The baseline is compared exactly, and any stale QC or modified artifact fails closed. Successful independent gate verification on 2026-10-14: full MP4 decode, 17 tracked package/input/source fingerprints, 24 ordered in-range caption cues, five storyboard acts, and foley cues at the four internal act boundaries; master 107.917 seconds / 6,475 frames. This is package integrity evidence, not perceptual review or a broader finish-gate resolution.
+For a routine integrity check, run only the second command. The baseline is compared exactly, and any stale QC or modified artifact fails closed. Successful independent gate verification on 2026-10-14: full MP4 decode, 18 tracked package/input/source fingerprints, 24 ordered in-range caption cues, five storyboard acts, and foley cues at the four internal act boundaries; master 107.917 seconds / 6,475 frames. A reversible regression test appended a sentinel to the transcript, confirmed the gate exited 1 with a manifest-mismatch failure, restored the original bytes, then confirmed the baseline passed again. This is package integrity evidence, not perceptual review or a broader finish-gate resolution.
 
 ## Reference analysis supplement
 
