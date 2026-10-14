@@ -37,3 +37,5 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-10-14T13:54:00.036Z | VM 1/3] PLAN updated: 3 steps
 - [2026-10-14T13:55:19.981Z | VM 1/3] THINK: The master MP4, audio DSP map, renderer, storyboard, and coarse Manus reference report already exist and have prior verification recorded. Current open requirement is to make the delivery reproducible and accessible, then validate the artifacts. I will add a delivery guide plus a reproducible QC/accessibility generator that derives timed descriptions and on-screen-text captions from the exi
 - [2026-10-14T13:55:27.764Z | VM 1/3] PLAN updated: 3 steps
+- [2026-10-14T13:59:34.131Z | VM 1/3] PLAN updated: 3 steps
+- [2026-10-14T13:59:46.194Z | VM 1/3] THINK: Companion generation and a focused VTT/QC assertion both passed; the prior action improved the opening caption. The blocking unknown is not the MP4 build but the finish gate's scope-collapse warning. Before attempting finish, inspect the production inventory, generated report, source/build reproducibility and repository tracking to determine whether needed planned artifacts are absent or me
