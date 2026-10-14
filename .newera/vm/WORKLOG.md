@@ -82,3 +82,5 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-10-14T14:51:45.628Z | VM 1/3] PLAN updated: 4 steps
 - [2026-10-14T14:52:41.104Z | VM 1/3] PLAN updated: 4 steps
 - [2026-10-14T14:53:27.279Z | VM 1/3] THINK: The production package, validator and regression tests have already passed according to the durable handoff. The only recorded blocker is a finish-gate scope-collapse refusal, but prior notes explicitly warn not to call finish until its concrete reason is known. I will inspect the gate’s recorded refusal context and persisted plan/contract metadata, then address only an actual in-scope deli
+- [2026-10-14T14:55:46.213Z | VM 1/3] PLAN updated: 3 steps
+- [2026-10-14T14:56:14.749Z | VM 1/3] THINK: Single unresolved blocker: the saved worklog says the runtime finish gate rejects delivery because the approved contract/scope-collapse inputs are unavailable; repository contains the completed master and a verified companion package, but no task contract file. I will quantify the live repo against the gate's actual `detectScopeCollapse` rules and inspect its refusal record, then choose eit
