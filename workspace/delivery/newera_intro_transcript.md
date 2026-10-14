@@ -69,4 +69,3 @@ The film presents NewEra as a free online autonomous AI coding agent that can pl
 
 This text transcript complements the timed WebVTT captions. Visual descriptions in captions are intentionally concise; this document preserves the fuller scene descriptions.
 
-DELIVERY-INTEGRITY-REGRESSION-SENTINEL
