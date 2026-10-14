@@ -16,3 +16,5 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-10-14T13:26:22.296Z | VM 1/3] PLAN updated: 5 steps
 - [2026-10-14T13:31:07.584Z | VM 1/3] PLAN updated: 3 steps
 - [2026-10-14T13:32:06.822Z | VM 1/3] THINK: Reviewed full prior worklog/context and representative contact sheets. I found concrete readability/spacing issues within the requested creative direction: the Act II tagline at y=835 is directly covered by its CTA card starting at y=830; Act I's y=770 micro-label crowds the secondary line near y=796; Act IV's large heading/tagline occupy overlapping vertical bounds and the upper cards star
+- [2026-10-14T13:34:05.997Z | VM 1/3] PLAN updated: 3 steps
+- [2026-10-14T13:34:16.389Z | VM 1/3] THINK: The renderer uses Pillow to emit every frame as raw RGB into an FFmpeg H.264 1920x1080/60fps encode. The soundtrack is 107.9148s of analysis while its MP3 container is ~107.952s. Plan: render the full visual master deterministically, inspect the exact generated scene-boundary metadata, then mux the original soundtrack trimmed to the visual duration with loudnorm targeting −14 LUFS/−1 dBTP. 
