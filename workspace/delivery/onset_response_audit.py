@@ -53,6 +53,14 @@ def ffmpeg_frames(master: Path, frame_indices: list[int]) -> dict[int, np.ndarra
             for i, n in enumerate(frame_indices)}
 
 
+def frame_response(frames: dict[int, np.ndarray], onset: int,
+                   roi: tuple[slice, slice]) -> dict[int, float]:
+    """Per-frame mean absolute ROI luma change for offsets 0..MAX_OFFSET."""
+    return {d: float(np.abs(frames[onset + d][roi].astype(np.int16) -
+                              frames[onset + d - 1][roi].astype(np.int16)).mean())
+            for d in range(MAX_OFFSET + 1)}
+
+
 def summarize(values: list[float]) -> dict[str, float]:
     arr = np.asarray(values, dtype=np.float64)
     return {"mean_abs_luma_delta_0_255": round(float(arr.mean()), 5),
@@ -82,8 +90,11 @@ def measure(master: Path, beat_path: Path, output: Path) -> dict:
     isolated_deltas: dict[int, list[float]] = {d: [] for d in range(MAX_OFFSET + 1)}
     rows = []
     for f in events:
-        baseline = frames[f - 1][roi].astype(np.int16)
-        response = {d: float(np.abs(frames[f + d][roi].astype(np.int16) - baseline).mean())
+        # Measure the change occurring on each frame, not cumulative displacement
+        # from the pre-onset image. This makes the offset curve a per-frame
+        # activity profile rather than a growing distance-from-baseline curve.
+        response = {d: float(np.abs(frames[f + d][roi].astype(np.int16) -
+                                      frames[f + d - 1][roi].astype(np.int16)).mean())
                     for d in range(MAX_OFFSET + 1)}
         isolated = not any(0 < abs(other - f) <= MAX_OFFSET
                            for other in events)
@@ -112,8 +123,8 @@ def measure(master: Path, beat_path: Path, output: Path) -> dict:
         "method": {
             "decode": "FFmpeg select by exact decoded frame index, scale to 160x90, grayscale",
             "roi": "central 50% width x central 60% height (80x54 pixels after scaling)",
-            "baseline": "each event frame is compared to its immediately preceding encoded frame",
-            "response": "mean absolute per-pixel luma difference from that pre-onset baseline",
+            "baseline": "for each offset, compare that encoded frame to the immediately preceding encoded frame",
+            "response": "mean absolute per-pixel luma difference between consecutive frames at each offset",
             "isolated_rule": "no other valid onset within 8 frames before or after",
         },
         "all_onsets_response_curve": curve(all_deltas),
