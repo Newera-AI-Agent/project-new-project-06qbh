@@ -1,0 +1,34 @@
+{
+  "sample_rate_hz": 48000,
+  "duration_sec": 107.916667,
+  "events": [
+    {
+      "frame": 924,
+      "time_sec": 15.4,
+      "audio_start_sec": 15.22,
+      "audio_peak_sec": 15.4
+    },
+    {
+      "frame": 1802,
+      "time_sec": 30.033333,
+      "audio_start_sec": 29.853333,
+      "audio_peak_sec": 30.033333
+    },
+    {
+      "frame": 3602,
+      "time_sec": 60.033333,
+      "audio_start_sec": 59.853333,
+      "audio_peak_sec": 60.033333
+    },
+    {
+      "frame": 5388,
+      "time_sec": 89.8,
+      "audio_start_sec": 89.62,
+      "audio_peak_sec": 89.8
+    }
+  ],
+  "synthesis": "deterministic 500\u20139000 Hz band-limited noise; raised-cosine swell and exponential decay",
+  "peak_linear": 0.02333,
+  "nominal_peak_dbfs": -29.12,
+  "note": "Synthetic transition texture, deliberately subtle; subjective mix review is still recommended."
+}
