@@ -42,3 +42,6 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-10-14T14:02:05.575Z | VM 1/3] PLAN updated: 3 steps
 - [2026-10-14T14:03:01.041Z | VM 1/3] PLAN updated: 3 steps
 - [2026-10-14T14:03:12.846Z | VM 1/3] THINK: The reference coverage check passed: analysis metadata has 14 windows, all 14 contact sheets exist, and the 166.464 s source duration matches the stated bounds; README clearly limits the inference from sparse samples. Next I’ll run reproducible source compilation, soundtrack analysis, the short render smoke check, and the delivery generator’s full decode. These commands may regenerate beat-
+- [2026-10-14T14:03:51.078Z | VM 1/3] PLAN updated: 3 steps
+- [2026-10-14T14:04:03.656Z | VM 1/3] PLAN updated: 3 steps
+- [2026-10-14T14:04:37.138Z | VM 1/3] THINK: The revalidation smoke render created only two untracked temporary files (a 5-second MP4 and its PNG) in workspace/renders; the actual master and delivery files are tracked. Removing just those named smoke artifacts keeps the committed workspace focused on requested deliverables. Then I’ll record final verification evidence and attempt the contract status update, noting the prior runtime re

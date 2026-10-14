@@ -41,3 +41,22 @@ These are reproducible technical checks, **not** proof of perceptual ±1-frame m
 ## Usage and source notes
 
 NewEra product wording is based on the captured live-site brief. The graphics are original, not extracted from the Manus reference; no Manus branding, footage, or interface is reused. No unsupported benchmark, latency, customer, or performance claims are made. The supplied music is retained as provided for this requested production. Confirm the necessary rights and clearances before public/commercial distribution.
+
+
+## Final verification record (2026-10-14)
+
+This record reflects checks re-run in the current VM session. Python source compilation passed for the audio/reference analyzers, report writer, renderer and delivery generator. Audio analysis regenerated the beat map from the supplied track: 107.9148 s, estimated 125.284 BPM, 384 onset events and 221 beats. A 300-frame / 5-second render smoke test passed. The delivery generator and full FFmpeg decode passed against the final master.
+
+Verified master: 33,179,757 bytes; SHA-256 `12c005f65eb755ccffebdcd340fa11f29a3b7a600dcd8432bf7376d361fe8fa9`. Probe: H.264 1920×1080, 60 fps, 6,475 frames, 107.916667 s; AAC stereo, 48 kHz, 107.904 s; A/V duration difference 12.667 ms. The generator reports PASS. All 14 reference windows and corresponding contact sheets are present and are described in the analysis report. Production source, beat map, storyboard, master and delivery companions are tracked in the repository; the 199 MB reference MP4 is intentionally ignored to avoid exceeding GitHub's 100 MB single-file limit.
+
+Commands re-run:
+
+```bash
+python3 -m py_compile workspace/analysis/analyze_audio.py workspace/analysis/analyze_manus_batches.py workspace/analysis/write_manus_report.py workspace/render_intro.py workspace/delivery/generate_accessible_assets.py
+workspace/.venv/bin/python workspace/analysis/analyze_audio.py
+workspace/.venv/bin/python workspace/render_intro.py --start 0 --end 300 --output workspace/renders/onset_sync_check_revalidation.mp4
+workspace/.venv/bin/python workspace/delivery/generate_accessible_assets.py
+ffmpeg -v error -i workspace/renders/newera_ai_agent_intro_master_1080p60.mp4 -f null -
+```
+
+The five-second smoke output was removed after verification. Visual/perceptual quality still requires human review; sparse reference analysis is not an exact cut map, and the onset metrics do not establish perceptual frame-accurate synchronization.
