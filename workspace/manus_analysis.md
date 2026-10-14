@@ -39,3 +39,8 @@ A pale closing phrase (“Manus gives you the power to build”) elevates one bl
 - **Motion inferred from changing states:** scale/framing progression, interface state changes, text reveals and geometric/character entrances. The provided contact sheets are stills; exact easing, cut counts per bar and temporal interpolation cannot responsibly be inferred from them.
 - **Pacing:** alternates dense product evidence with spare typographic breaths. Repeated title/card motifs let the viewer parse rapid feature changes without a permanent HUD cluttering the screen.
 - **NewEra adaptation:** borrow the minimalist title → proof → title cadence, not Manus wording, logos, character artwork, interface or footage. NewEra uses its own mint/turquoise/periwinkle system and accurate claims.
+
+
+## Fine-grained measured companion
+
+The full 14-window, 12-second-per-batch analysis (sample contact sheets, per-window audio metrics, visual-difference caveats, and design observations) is documented in [`analysis/manus_12s/README.md`](analysis/manus_12s/README.md) and machine-readable `analysis/manus_12s/analysis.json`. The repeatable extractor is `analysis/analyze_manus_batches.py`. It covers the full 166.464-second reference; its measurements are explicitly not presented as exact cut/beat/sync ground truth.
