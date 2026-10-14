@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "master": "workspace/renders/newera_ai_agent_intro_master_1080p60.mp4",
+  "sha256": "12c005f65eb755ccffebdcd340fa11f29a3b7a600dcd8432bf7376d361fe8fa9",
+  "file_bytes": 33179757,
+  "duration_sec": 107.916667,
+  "video": {
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "fps": 60.0,
+    "frame_count": 6475
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "duration_sec": 107.904
+  },
+  "av_duration_delta_sec": 0.012667000000007533,
+  "decode": "full ffmpeg decode passed",
+  "onset_count": 384,
+  "onset_frame_quantization_max_error_ms": 8.3,
+  "onset_pulse": "renderer uses detected onset frames; eased 7-frame response, not a strobe",
+  "audio_sync_scope": "Frame quantization and embedded audio duration verified. This is not a perceptual \u00b11-frame alignment claim.",
+  "audio_loudness_reference": "Prior independent ebur128 verification: -13.9 LUFS integrated, 2.3 LU LRA, -1.2 dBFS true peak.",
+  "companions": [
+    "newera_intro_captions.vtt",
+    "newera_intro_transcript.md"
+  ]
+}
