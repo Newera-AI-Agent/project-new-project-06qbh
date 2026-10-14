@@ -68,4 +68,3 @@ Motion and transition: ease-out cubic-bezier(0.16,1,0.3,1); no hard black betwee
 The film presents NewEra as a free online autonomous AI coding agent that can plan, write project files, build, fix issues, preview in a browser and deploy with user approval. Interface panels are original visual abstractions, not captured product screenshots. No benchmark, latency, customer, or performance claims are asserted.
 
 This text transcript complements the timed WebVTT captions. Visual descriptions in captions are intentionally concise; this document preserves the fuller scene descriptions.
-
