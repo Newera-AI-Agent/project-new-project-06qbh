@@ -68,3 +68,5 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-10-14T14:32:26.983Z | VM 1/3] THINK: The full-frame supplement now runs successfully: 4,993 frames over 166.463855 s, FFmpeg scene-score candidates by threshold (5:86, 10:45, 15:40, 20:27), 74 local score peaks, and 305 audio spectral-flux candidates. The 20 ms feature CSV has 8,319 centered STFT observations (0.04644–166.40644 s), so I will document its actual coverage and explicit limitations without overstating it as human-
 - [2026-10-14T14:34:02.130Z | VM 1/3] PLAN updated: 4 steps
 - [2026-10-14T14:34:27.924Z | VM 1/3] THINK: Current docs now include the automated full-frame reference supplement and master/companions were regenerated and fully decoded successfully. I need reconcile why the manuscript supplement doesn't appear in git status, inspect the persistent plan and repo inventory, then record precise evidence. Avoid altering the validated 32 MB master; do not claim perceptual review.
+- [2026-10-14T14:35:41.497Z | VM 1/3] PLAN updated: 4 steps
+- [2026-10-14T14:36:20.922Z | VM 1/3] PLAN updated: 4 steps
