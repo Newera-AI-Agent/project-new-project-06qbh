@@ -93,9 +93,7 @@ def measure(master: Path, beat_path: Path, output: Path) -> dict:
         # Measure the change occurring on each frame, not cumulative displacement
         # from the pre-onset image. This makes the offset curve a per-frame
         # activity profile rather than a growing distance-from-baseline curve.
-        response = {d: float(np.abs(frames[f + d][roi].astype(np.int16) -
-                                      frames[f + d - 1][roi].astype(np.int16)).mean())
-                    for d in range(MAX_OFFSET + 1)}
+        response = frame_response(frames, f, roi)
         isolated = not any(0 < abs(other - f) <= MAX_OFFSET
                            for other in events)
         for d, value in response.items():
@@ -104,7 +102,7 @@ def measure(master: Path, beat_path: Path, output: Path) -> dict:
                 isolated_deltas[d].append(value)
         rows.append({"onset_frame": f, "onset_ms": round(f * 1000 / 60, 3),
                      "isolated_from_neighbor_onsets_within_8_frames": isolated,
-                     "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+                     "roi_mean_abs_luma_delta_from_previous_frame": {
                          str(d): round(v, 5) for d, v in response.items()}})
 
     def curve(series: dict[int, list[float]]) -> list[dict]:
