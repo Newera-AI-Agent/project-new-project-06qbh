@@ -59,3 +59,5 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-10-14T14:20:15.041Z | VM 1/3] PLAN updated: 3 steps
 - [2026-10-14T14:20:43.901Z | VM 1/3] THINK: All three planned steps now have verification: foley script/report are tracked, final audio/video mux passes complete decode, independent loudness and ffprobe checks, regenerated QC companions, and documentation now records exact hash/limitations. This repository is intentionally a media-production workspace, not a web app, so there is no npm scaffold/build to add. The legacy job has no con
 - [2026-10-14T14:21:11.092Z | VM 1/3] PLAN updated: 4 steps
+- [2026-10-14T14:24:02.427Z | VM 1/3] PLAN updated: 4 steps
+- [2026-10-14T14:24:31.020Z | VM 1/3] THINK: The existing production deliverable is technically complete; the credible remaining in-scope gap is the user's explicit demand for precise, batch-by-batch analysis of the full reference. Current documentation explicitly admits sparse 1.5-second keyframes and only proxy flux/cut metrics, which cannot support precise edit-timing claims. I will inspect the actual analysis scripts and source av
