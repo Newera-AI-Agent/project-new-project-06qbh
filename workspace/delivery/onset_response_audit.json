@@ -153,7 +153,7 @@
       "onset_frame": 3,
       "onset_ms": 50.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.16991,
         "1": 0.08194,
         "2": 0.02014,
@@ -169,7 +169,7 @@
       "onset_frame": 37,
       "onset_ms": 616.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0037,
         "1": 0.10069,
         "2": 0.11458,
@@ -185,7 +185,7 @@
       "onset_frame": 42,
       "onset_ms": 700.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.05949,
         "1": 0.04769,
         "2": 0.06875,
@@ -201,7 +201,7 @@
       "onset_frame": 47,
       "onset_ms": 783.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.07176,
         "1": 0.07569,
         "2": 0.02593,
@@ -217,7 +217,7 @@
       "onset_frame": 51,
       "onset_ms": 850.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.1169,
         "1": 0.15023,
         "2": 0.19097,
@@ -233,7 +233,7 @@
       "onset_frame": 56,
       "onset_ms": 933.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.12593,
         "1": 0.13796,
         "2": 0.17662,
@@ -249,7 +249,7 @@
       "onset_frame": 61,
       "onset_ms": 1016.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.22338,
         "1": 0.12731,
         "2": 0.27708,
@@ -265,7 +265,7 @@
       "onset_frame": 77,
       "onset_ms": 1283.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.10324,
         "1": 0.05856,
         "2": 0.12431,
@@ -281,7 +281,7 @@
       "onset_frame": 90,
       "onset_ms": 1500.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.40764,
         "1": 0.20394,
         "2": 0.20995,
@@ -297,7 +297,7 @@
       "onset_frame": 118,
       "onset_ms": 1966.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.32454,
         "1": 0.23889,
         "2": 0.82639,
@@ -313,7 +313,7 @@
       "onset_frame": 152,
       "onset_ms": 2533.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.17963,
         "1": 0.10764,
         "2": 0.10463,
@@ -329,7 +329,7 @@
       "onset_frame": 157,
       "onset_ms": 2616.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.10532,
         "1": 0.24815,
         "2": 0.0412,
@@ -345,7 +345,7 @@
       "onset_frame": 162,
       "onset_ms": 2700.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.13287,
         "1": 0.18935,
         "2": 0.04421,
@@ -361,7 +361,7 @@
       "onset_frame": 166,
       "onset_ms": 2766.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.04259,
         "1": 0.19491,
         "2": 0.37037,
@@ -377,7 +377,7 @@
       "onset_frame": 171,
       "onset_ms": 2850.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.06852,
         "1": 0.26944,
         "2": 0.24421,
@@ -393,7 +393,7 @@
       "onset_frame": 176,
       "onset_ms": 2933.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.35278,
         "1": 0.36019,
         "2": 0.30949,
@@ -409,7 +409,7 @@
       "onset_frame": 192,
       "onset_ms": 3200.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.20231,
         "1": 0.15903,
         "2": 0.03588,
@@ -425,7 +425,7 @@
       "onset_frame": 204,
       "onset_ms": 3400.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.56898,
         "1": 0.21944,
         "2": 0.2875,
@@ -441,7 +441,7 @@
       "onset_frame": 213,
       "onset_ms": 3550.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.16343,
         "1": 0.14653,
         "2": 0.28009,
@@ -457,7 +457,7 @@
       "onset_frame": 233,
       "onset_ms": 3883.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.3544,
         "1": 1.00671,
         "2": 0.22917,
@@ -473,7 +473,7 @@
       "onset_frame": 267,
       "onset_ms": 4450.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.03148,
         "1": 0.04306,
         "2": 0.09907,
@@ -489,7 +489,7 @@
       "onset_frame": 272,
       "onset_ms": 4533.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.23819,
         "1": 0.27338,
         "2": 0.30324,
@@ -505,7 +505,7 @@
       "onset_frame": 277,
       "onset_ms": 4616.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.27917,
         "1": 0.04838,
         "2": 0.17037,
@@ -521,7 +521,7 @@
       "onset_frame": 282,
       "onset_ms": 4700.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.05718,
         "1": 0.05718,
         "2": 0.23542,
@@ -537,7 +537,7 @@
       "onset_frame": 286,
       "onset_ms": 4766.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.28449,
         "1": 0.12292,
         "2": 0.64792,
@@ -553,7 +553,7 @@
       "onset_frame": 292,
       "onset_ms": 4866.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.24306,
         "1": 0.17523,
         "2": 0.36991,
@@ -569,7 +569,7 @@
       "onset_frame": 307,
       "onset_ms": 5116.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.27662,
         "1": 0.01991,
         "2": 0.16574,
@@ -585,7 +585,7 @@
       "onset_frame": 348,
       "onset_ms": 5800.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.43194,
         "1": 0.23171,
         "2": 0.17569,
@@ -601,7 +601,7 @@
       "onset_frame": 363,
       "onset_ms": 6050.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.18542,
         "1": 0.27292,
         "2": 0.24838,
@@ -617,7 +617,7 @@
       "onset_frame": 378,
       "onset_ms": 6300.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.3081,
         "1": 0.23171,
         "2": 0.21875,
@@ -633,7 +633,7 @@
       "onset_frame": 392,
       "onset_ms": 6533.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.27755,
         "1": 0.39468,
         "2": 0.26574,
@@ -649,7 +649,7 @@
       "onset_frame": 406,
       "onset_ms": 6766.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.27338,
         "1": 0.23889,
         "2": 0.36782,
@@ -665,7 +665,7 @@
       "onset_frame": 497,
       "onset_ms": 8283.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.15949,
         "1": 0.13287,
         "2": 0.15046,
@@ -681,7 +681,7 @@
       "onset_frame": 502,
       "onset_ms": 8366.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.16273,
         "1": 0.26644,
         "2": 0.28657,
@@ -697,7 +697,7 @@
       "onset_frame": 508,
       "onset_ms": 8466.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.23102,
         "1": 0.03218,
         "2": 0.1581,
@@ -713,7 +713,7 @@
       "onset_frame": 512,
       "onset_ms": 8533.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.01759,
         "1": 0.12963,
         "2": 0.16204,
@@ -729,7 +729,7 @@
       "onset_frame": 517,
       "onset_ms": 8616.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.23194,
         "1": 0.26875,
         "2": 0.57477,
@@ -745,7 +745,7 @@
       "onset_frame": 522,
       "onset_ms": 8700.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.05301,
         "1": 0.25394,
         "2": 0.32199,
@@ -761,7 +761,7 @@
       "onset_frame": 538,
       "onset_ms": 8966.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.01181,
         "1": 0.14606,
         "2": 0.06551,
@@ -777,7 +777,7 @@
       "onset_frame": 578,
       "onset_ms": 9633.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.34722,
         "1": 0.46574,
         "2": 0.33866,
@@ -793,7 +793,7 @@
       "onset_frame": 611,
       "onset_ms": 10183.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.20255,
         "1": 0.02292,
         "2": 0.0412,
@@ -809,7 +809,7 @@
       "onset_frame": 617,
       "onset_ms": 10283.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.29769,
         "1": 0.22546,
         "2": 0.22824,
@@ -825,7 +825,7 @@
       "onset_frame": 621,
       "onset_ms": 10350.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.51458,
         "1": 0.34884,
         "2": 0.12685,
@@ -841,7 +841,7 @@
       "onset_frame": 626,
       "onset_ms": 10433.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.1037,
         "1": 0.01551,
         "2": 0.01829,
@@ -857,7 +857,7 @@
       "onset_frame": 631,
       "onset_ms": 10516.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.23194,
         "1": 0.25208,
         "2": 0.38287,
@@ -873,7 +873,7 @@
       "onset_frame": 636,
       "onset_ms": 10600.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.23912,
         "1": 0.27384,
         "2": 0.25972,
@@ -889,7 +889,7 @@
       "onset_frame": 651,
       "onset_ms": 10850.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.16944,
         "1": 0.29051,
         "2": 0.25648,
@@ -905,7 +905,7 @@
       "onset_frame": 664,
       "onset_ms": 11066.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.37361,
         "1": 0.23264,
         "2": 0.36435,
@@ -921,7 +921,7 @@
       "onset_frame": 693,
       "onset_ms": 11550.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.69954,
         "1": 0.2213,
         "2": 0.30208,
@@ -937,7 +937,7 @@
       "onset_frame": 727,
       "onset_ms": 12116.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.16088,
         "1": 0.06505,
         "2": 0.01319,
@@ -953,7 +953,7 @@
       "onset_frame": 732,
       "onset_ms": 12200.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.34144,
         "1": 0.23148,
         "2": 0.27454,
@@ -969,7 +969,7 @@
       "onset_frame": 736,
       "onset_ms": 12266.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.33519,
         "1": 0.31319,
         "2": 0.34144,
@@ -985,7 +985,7 @@
       "onset_frame": 741,
       "onset_ms": 12350.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.28588,
         "1": 0.13519,
         "2": 0.02546,
@@ -1001,7 +1001,7 @@
       "onset_frame": 746,
       "onset_ms": 12433.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.03519,
         "1": 0.2581,
         "2": 0.26319,
@@ -1017,7 +1017,7 @@
       "onset_frame": 751,
       "onset_ms": 12516.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.31134,
         "1": 0.28356,
         "2": 0.58125,
@@ -1033,7 +1033,7 @@
       "onset_frame": 766,
       "onset_ms": 12766.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.30949,
         "1": 0.31852,
         "2": 0.2338,
@@ -1049,7 +1049,7 @@
       "onset_frame": 808,
       "onset_ms": 13466.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.30602,
         "1": 0.29213,
         "2": 0.26111,
@@ -1065,7 +1065,7 @@
       "onset_frame": 822,
       "onset_ms": 13700.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.26042,
         "1": 0.27824,
         "2": 0.29144,
@@ -1081,7 +1081,7 @@
       "onset_frame": 837,
       "onset_ms": 13950.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.36759,
         "1": 0.24769,
         "2": 0.28773,
@@ -1097,7 +1097,7 @@
       "onset_frame": 851,
       "onset_ms": 14183.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.1537,
         "1": 0.30394,
         "2": 0.26111,
@@ -1113,7 +1113,7 @@
       "onset_frame": 865,
       "onset_ms": 14416.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.31713,
         "1": 0.25903,
         "2": 0.46343,
@@ -1129,7 +1129,7 @@
       "onset_frame": 924,
       "onset_ms": 15400.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 19.21551,
         "1": 64.33704,
         "2": 0.28889,
@@ -1145,7 +1145,7 @@
       "onset_frame": 957,
       "onset_ms": 15950.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.06944,
         "1": 0.14005,
         "2": 0.03565,
@@ -1161,7 +1161,7 @@
       "onset_frame": 962,
       "onset_ms": 16033.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.22269,
         "1": 0.04444,
         "2": 0.29005,
@@ -1177,7 +1177,7 @@
       "onset_frame": 967,
       "onset_ms": 16116.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.29583,
         "1": 0.26736,
         "2": 0.03056,
@@ -1193,7 +1193,7 @@
       "onset_frame": 972,
       "onset_ms": 16200.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.38472,
         "1": 0.18657,
         "2": 0.01528,
@@ -1209,7 +1209,7 @@
       "onset_frame": 976,
       "onset_ms": 16266.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.1662,
         "1": 0.325,
         "2": 0.49838,
@@ -1225,7 +1225,7 @@
       "onset_frame": 981,
       "onset_ms": 16350.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.14537,
         "1": 0.32801,
         "2": 0.27315,
@@ -1241,7 +1241,7 @@
       "onset_frame": 997,
       "onset_ms": 16616.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.23056,
         "1": 0.2713,
         "2": 0.27569,
@@ -1257,7 +1257,7 @@
       "onset_frame": 1011,
       "onset_ms": 16850.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.47685,
         "1": 0.24398,
         "2": 0.27361,
@@ -1273,7 +1273,7 @@
       "onset_frame": 1038,
       "onset_ms": 17300.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.45556,
         "1": 0.26968,
         "2": 0.35903,
@@ -1289,7 +1289,7 @@
       "onset_frame": 1072,
       "onset_ms": 17866.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.30278,
         "1": 0.11157,
         "2": 0.18449,
@@ -1305,7 +1305,7 @@
       "onset_frame": 1078,
       "onset_ms": 17966.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.13819,
         "1": 0.25995,
         "2": 0.04329,
@@ -1321,7 +1321,7 @@
       "onset_frame": 1082,
       "onset_ms": 18033.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.33426,
         "1": 0.28611,
         "2": 0.27731,
@@ -1337,7 +1337,7 @@
       "onset_frame": 1087,
       "onset_ms": 18116.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.19931,
         "1": 0.06366,
         "2": 0.39444,
@@ -1353,7 +1353,7 @@
       "onset_frame": 1091,
       "onset_ms": 18183.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.03981,
         "1": 0.24097,
         "2": 0.22639,
@@ -1369,7 +1369,7 @@
       "onset_frame": 1096,
       "onset_ms": 18266.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.27708,
         "1": 0.43935,
         "2": 1.09653,
@@ -1385,7 +1385,7 @@
       "onset_frame": 1112,
       "onset_ms": 18533.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.23194,
         "1": 0.14861,
         "2": 0.19398,
@@ -1401,7 +1401,7 @@
       "onset_frame": 1125,
       "onset_ms": 18750.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.44236,
         "1": 0.25926,
         "2": 0.38287,
@@ -1417,7 +1417,7 @@
       "onset_frame": 1154,
       "onset_ms": 19233.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.43542,
         "1": 0.63171,
         "2": 0.29375,
@@ -1433,7 +1433,7 @@
       "onset_frame": 1188,
       "onset_ms": 19800.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.03032,
         "1": 0.14606,
         "2": 0.03472,
@@ -1449,7 +1449,7 @@
       "onset_frame": 1192,
       "onset_ms": 19866.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.14653,
         "1": 0.19375,
         "2": 0.0206,
@@ -1465,7 +1465,7 @@
       "onset_frame": 1197,
       "onset_ms": 19950.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.67199,
         "1": 0.27338,
         "2": 0.24352,
@@ -1481,7 +1481,7 @@
       "onset_frame": 1202,
       "onset_ms": 20033.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.11273,
         "1": 0.35926,
         "2": 0.14051,
@@ -1497,7 +1497,7 @@
       "onset_frame": 1207,
       "onset_ms": 20116.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.14213,
         "1": 0.24676,
         "2": 0.48912,
@@ -1513,7 +1513,7 @@
       "onset_frame": 1211,
       "onset_ms": 20183.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.26667,
         "1": 0.03264,
         "2": 0.35324,
@@ -1529,7 +1529,7 @@
       "onset_frame": 1227,
       "onset_ms": 20450.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.18819,
         "1": 0.27894,
         "2": 0.29676,
@@ -1545,7 +1545,7 @@
       "onset_frame": 1269,
       "onset_ms": 21150.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.38588,
         "1": 0.25069,
         "2": 0.33032,
@@ -1561,7 +1561,7 @@
       "onset_frame": 1283,
       "onset_ms": 21383.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.19977,
         "1": 0.29745,
         "2": 0.3213,
@@ -1577,7 +1577,7 @@
       "onset_frame": 1298,
       "onset_ms": 21633.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.26389,
         "1": 0.1787,
         "2": 0.23565,
@@ -1593,7 +1593,7 @@
       "onset_frame": 1312,
       "onset_ms": 21866.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.11273,
         "1": 0.4294,
         "2": 0.31204,
@@ -1609,7 +1609,7 @@
       "onset_frame": 1326,
       "onset_ms": 22100.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.30093,
         "1": 0.30093,
         "2": 0.34653,
@@ -1625,7 +1625,7 @@
       "onset_frame": 1341,
       "onset_ms": 22350.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.42014,
         "1": 0.25602,
         "2": 0.26042,
@@ -1641,7 +1641,7 @@
       "onset_frame": 1355,
       "onset_ms": 22583.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.28125,
         "1": 0.47407,
         "2": 0.41667,
@@ -1657,7 +1657,7 @@
       "onset_frame": 1365,
       "onset_ms": 22750.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.06551,
         "1": 0.20301,
         "2": 0.26528,
@@ -1673,7 +1673,7 @@
       "onset_frame": 1384,
       "onset_ms": 23066.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.3463,
         "1": 0.30486,
         "2": 0.21991,
@@ -1689,7 +1689,7 @@
       "onset_frame": 1418,
       "onset_ms": 23633.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.31806,
         "1": 0.05949,
         "2": 0.06782,
@@ -1705,7 +1705,7 @@
       "onset_frame": 1423,
       "onset_ms": 23716.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.12014,
         "1": 0.20602,
         "2": 0.07454,
@@ -1721,7 +1721,7 @@
       "onset_frame": 1428,
       "onset_ms": 23800.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.63056,
         "1": 0.28495,
         "2": 0.2875,
@@ -1737,7 +1737,7 @@
       "onset_frame": 1433,
       "onset_ms": 23883.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.11227,
         "1": 0.34005,
         "2": 0.12963,
@@ -1753,7 +1753,7 @@
       "onset_frame": 1437,
       "onset_ms": 23950.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.01944,
         "1": 0.13565,
         "2": 0.24491,
@@ -1769,7 +1769,7 @@
       "onset_frame": 1442,
       "onset_ms": 24033.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.42176,
         "1": 0.07014,
         "2": 0.25162,
@@ -1785,7 +1785,7 @@
       "onset_frame": 1458,
       "onset_ms": 24300.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.18403,
         "1": 0.25162,
         "2": 0.24421,
@@ -1801,7 +1801,7 @@
       "onset_frame": 1499,
       "onset_ms": 24983.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.28681,
         "1": 0.35856,
         "2": 0.34375,
@@ -1817,7 +1817,7 @@
       "onset_frame": 1533,
       "onset_ms": 25550.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.6625,
         "1": 0.16204,
         "2": 0.1588,
@@ -1833,7 +1833,7 @@
       "onset_frame": 1538,
       "onset_ms": 25633.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.20139,
         "1": 0.51227,
         "2": 0.27755,
@@ -1849,7 +1849,7 @@
       "onset_frame": 1543,
       "onset_ms": 25716.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.25972,
         "1": 0.3831,
         "2": 0.19306,
@@ -1865,7 +1865,7 @@
       "onset_frame": 1547,
       "onset_ms": 25783.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.2662,
         "1": 0.55,
         "2": 0.15093,
@@ -1881,7 +1881,7 @@
       "onset_frame": 1552,
       "onset_ms": 25866.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.04699,
         "1": 0.08449,
         "2": 0.12778,
@@ -1897,7 +1897,7 @@
       "onset_frame": 1557,
       "onset_ms": 25950.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.43403,
         "1": 0.26111,
         "2": 0.34444,
@@ -1913,7 +1913,7 @@
       "onset_frame": 1573,
       "onset_ms": 26216.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.22106,
         "1": 0.29398,
         "2": 0.25324,
@@ -1929,7 +1929,7 @@
       "onset_frame": 1585,
       "onset_ms": 26416.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.29537,
         "1": 0.30926,
         "2": 0.29954,
@@ -1945,7 +1945,7 @@
       "onset_frame": 1615,
       "onset_ms": 26916.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.29468,
         "1": 0.38079,
         "2": 0.50347,
@@ -1961,7 +1961,7 @@
       "onset_frame": 1644,
       "onset_ms": 27400.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.43843,
         "1": 0.31065,
         "2": 0.31273,
@@ -1977,7 +1977,7 @@
       "onset_frame": 1649,
       "onset_ms": 27483.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.26458,
         "1": 0.25417,
         "2": 0.08796,
@@ -1993,7 +1993,7 @@
       "onset_frame": 1653,
       "onset_ms": 27550.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0162,
         "1": 0.14977,
         "2": 0.21528,
@@ -2009,7 +2009,7 @@
       "onset_frame": 1658,
       "onset_ms": 27633.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.26505,
         "1": 0.67986,
         "2": 0.275,
@@ -2025,7 +2025,7 @@
       "onset_frame": 1663,
       "onset_ms": 27716.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.26227,
         "1": 0.04352,
         "2": 0.36759,
@@ -2041,7 +2041,7 @@
       "onset_frame": 1668,
       "onset_ms": 27800.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.01806,
         "1": 0.13657,
         "2": 0.26644,
@@ -2057,7 +2057,7 @@
       "onset_frame": 1672,
       "onset_ms": 27866.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.25324,
         "1": 0.31181,
         "2": 0.03542,
@@ -2073,7 +2073,7 @@
       "onset_frame": 1688,
       "onset_ms": 28133.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.24769,
         "1": 0.21759,
         "2": 0.29329,
@@ -2089,7 +2089,7 @@
       "onset_frame": 1729,
       "onset_ms": 28816.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.33495,
         "1": 0.2713,
         "2": 0.31829,
@@ -2105,7 +2105,7 @@
       "onset_frame": 1744,
       "onset_ms": 29066.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.27407,
         "1": 0.27662,
         "2": 0.38079,
@@ -2121,7 +2121,7 @@
       "onset_frame": 1759,
       "onset_ms": 29316.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.38079,
         "1": 0.31296,
         "2": 0.21782,
@@ -2137,7 +2137,7 @@
       "onset_frame": 1773,
       "onset_ms": 29550.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.24028,
         "1": 0.26968,
         "2": 0.43472,
@@ -2153,7 +2153,7 @@
       "onset_frame": 1787,
       "onset_ms": 29783.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.39074,
         "1": 0.2581,
         "2": 0.26597,
@@ -2169,7 +2169,7 @@
       "onset_frame": 1802,
       "onset_ms": 30033.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 21.94074,
         "1": 4.64606,
         "2": 4.26505,
@@ -2185,7 +2185,7 @@
       "onset_frame": 1816,
       "onset_ms": 30266.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.64583,
         "1": 0.0,
         "2": 0.66667,
@@ -2201,7 +2201,7 @@
       "onset_frame": 1903,
       "onset_ms": 31716.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2217,7 +2217,7 @@
       "onset_frame": 1919,
       "onset_ms": 31983.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2233,7 +2233,7 @@
       "onset_frame": 1932,
       "onset_ms": 32200.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2249,7 +2249,7 @@
       "onset_frame": 1960,
       "onset_ms": 32666.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2265,7 +2265,7 @@
       "onset_frame": 2014,
       "onset_ms": 33566.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2281,7 +2281,7 @@
       "onset_frame": 2019,
       "onset_ms": 33650.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2297,7 +2297,7 @@
       "onset_frame": 2046,
       "onset_ms": 34100.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2313,7 +2313,7 @@
       "onset_frame": 2075,
       "onset_ms": 34583.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2329,7 +2329,7 @@
       "onset_frame": 2133,
       "onset_ms": 35550.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2345,7 +2345,7 @@
       "onset_frame": 2150,
       "onset_ms": 35833.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 12.96574,
         "1": 2.59352,
         "2": 2.63704,
@@ -2361,7 +2361,7 @@
       "onset_frame": 2162,
       "onset_ms": 36033.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.42731,
         "1": 0.39583,
         "2": 0.36713,
@@ -2377,7 +2377,7 @@
       "onset_frame": 2191,
       "onset_ms": 36516.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2393,7 +2393,7 @@
       "onset_frame": 2205,
       "onset_ms": 36750.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2409,7 +2409,7 @@
       "onset_frame": 2220,
       "onset_ms": 37000.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2425,7 +2425,7 @@
       "onset_frame": 2234,
       "onset_ms": 37233.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2441,7 +2441,7 @@
       "onset_frame": 2247,
       "onset_ms": 37450.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2457,7 +2457,7 @@
       "onset_frame": 2278,
       "onset_ms": 37966.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2473,7 +2473,7 @@
       "onset_frame": 2307,
       "onset_ms": 38450.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2489,7 +2489,7 @@
       "onset_frame": 2360,
       "onset_ms": 39333.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2505,7 +2505,7 @@
       "onset_frame": 2364,
       "onset_ms": 39400.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2521,7 +2521,7 @@
       "onset_frame": 2380,
       "onset_ms": 39666.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2537,7 +2537,7 @@
       "onset_frame": 2393,
       "onset_ms": 39883.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2553,7 +2553,7 @@
       "onset_frame": 2421,
       "onset_ms": 40350.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2569,7 +2569,7 @@
       "onset_frame": 2480,
       "onset_ms": 41333.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2585,7 +2585,7 @@
       "onset_frame": 2507,
       "onset_ms": 41783.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 1.39977,
         "1": 1.42616,
         "2": 0.74074,
@@ -2601,7 +2601,7 @@
       "onset_frame": 2536,
       "onset_ms": 42266.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2617,7 +2617,7 @@
       "onset_frame": 2586,
       "onset_ms": 43100.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2633,7 +2633,7 @@
       "onset_frame": 2594,
       "onset_ms": 43233.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2649,7 +2649,7 @@
       "onset_frame": 2623,
       "onset_ms": 43716.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2665,7 +2665,7 @@
       "onset_frame": 2666,
       "onset_ms": 44433.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2681,7 +2681,7 @@
       "onset_frame": 2681,
       "onset_ms": 44683.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2697,7 +2697,7 @@
       "onset_frame": 2695,
       "onset_ms": 44916.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2713,7 +2713,7 @@
       "onset_frame": 2708,
       "onset_ms": 45133.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2729,7 +2729,7 @@
       "onset_frame": 2800,
       "onset_ms": 46666.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2745,7 +2745,7 @@
       "onset_frame": 2805,
       "onset_ms": 46750.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2761,7 +2761,7 @@
       "onset_frame": 2810,
       "onset_ms": 46833.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2777,7 +2777,7 @@
       "onset_frame": 2815,
       "onset_ms": 46916.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2793,7 +2793,7 @@
       "onset_frame": 2820,
       "onset_ms": 47000.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2809,7 +2809,7 @@
       "onset_frame": 2824,
       "onset_ms": 47066.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2825,7 +2825,7 @@
       "onset_frame": 2840,
       "onset_ms": 47333.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2841,7 +2841,7 @@
       "onset_frame": 2854,
       "onset_ms": 47566.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 1.67153,
         "1": 1.16019,
         "2": 1.13819,
@@ -2857,7 +2857,7 @@
       "onset_frame": 2881,
       "onset_ms": 48016.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2873,7 +2873,7 @@
       "onset_frame": 2915,
       "onset_ms": 48583.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2889,7 +2889,7 @@
       "onset_frame": 2920,
       "onset_ms": 48666.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2905,7 +2905,7 @@
       "onset_frame": 2925,
       "onset_ms": 48750.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2921,7 +2921,7 @@
       "onset_frame": 2930,
       "onset_ms": 48833.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2937,7 +2937,7 @@
       "onset_frame": 2935,
       "onset_ms": 48916.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2953,7 +2953,7 @@
       "onset_frame": 2939,
       "onset_ms": 48983.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2969,7 +2969,7 @@
       "onset_frame": 2955,
       "onset_ms": 49250.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -2985,7 +2985,7 @@
       "onset_frame": 2968,
       "onset_ms": 49466.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3001,7 +3001,7 @@
       "onset_frame": 2976,
       "onset_ms": 49600.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3017,7 +3017,7 @@
       "onset_frame": 2997,
       "onset_ms": 49950.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3033,7 +3033,7 @@
       "onset_frame": 3030,
       "onset_ms": 50500.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3049,7 +3049,7 @@
       "onset_frame": 3036,
       "onset_ms": 50600.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3065,7 +3065,7 @@
       "onset_frame": 3040,
       "onset_ms": 50666.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3081,7 +3081,7 @@
       "onset_frame": 3045,
       "onset_ms": 50750.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3097,7 +3097,7 @@
       "onset_frame": 3050,
       "onset_ms": 50833.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3113,7 +3113,7 @@
       "onset_frame": 3055,
       "onset_ms": 50916.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3129,7 +3129,7 @@
       "onset_frame": 3070,
       "onset_ms": 51166.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3145,7 +3145,7 @@
       "onset_frame": 3112,
       "onset_ms": 51866.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3161,7 +3161,7 @@
       "onset_frame": 3126,
       "onset_ms": 52100.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3177,7 +3177,7 @@
       "onset_frame": 3141,
       "onset_ms": 52350.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3193,7 +3193,7 @@
       "onset_frame": 3155,
       "onset_ms": 52583.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3209,7 +3209,7 @@
       "onset_frame": 3169,
       "onset_ms": 52816.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3225,7 +3225,7 @@
       "onset_frame": 3261,
       "onset_ms": 54350.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3241,7 +3241,7 @@
       "onset_frame": 3266,
       "onset_ms": 54433.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3257,7 +3257,7 @@
       "onset_frame": 3271,
       "onset_ms": 54516.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3273,7 +3273,7 @@
       "onset_frame": 3276,
       "onset_ms": 54600.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3289,7 +3289,7 @@
       "onset_frame": 3281,
       "onset_ms": 54683.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3305,7 +3305,7 @@
       "onset_frame": 3285,
       "onset_ms": 54750.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3321,7 +3321,7 @@
       "onset_frame": 3301,
       "onset_ms": 55016.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3337,7 +3337,7 @@
       "onset_frame": 3342,
       "onset_ms": 55700.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3353,7 +3353,7 @@
       "onset_frame": 3376,
       "onset_ms": 56266.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3369,7 +3369,7 @@
       "onset_frame": 3381,
       "onset_ms": 56350.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3385,7 +3385,7 @@
       "onset_frame": 3386,
       "onset_ms": 56433.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3401,7 +3401,7 @@
       "onset_frame": 3391,
       "onset_ms": 56516.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3417,7 +3417,7 @@
       "onset_frame": 3395,
       "onset_ms": 56583.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3433,7 +3433,7 @@
       "onset_frame": 3400,
       "onset_ms": 56666.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3449,7 +3449,7 @@
       "onset_frame": 3416,
       "onset_ms": 56933.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3465,7 +3465,7 @@
       "onset_frame": 3429,
       "onset_ms": 57150.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3481,7 +3481,7 @@
       "onset_frame": 3458,
       "onset_ms": 57633.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3497,7 +3497,7 @@
       "onset_frame": 3491,
       "onset_ms": 58183.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3513,7 +3513,7 @@
       "onset_frame": 3497,
       "onset_ms": 58283.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3529,7 +3529,7 @@
       "onset_frame": 3501,
       "onset_ms": 58350.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3545,7 +3545,7 @@
       "onset_frame": 3506,
       "onset_ms": 58433.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3561,7 +3561,7 @@
       "onset_frame": 3511,
       "onset_ms": 58516.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3577,7 +3577,7 @@
       "onset_frame": 3516,
       "onset_ms": 58600.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3593,7 +3593,7 @@
       "onset_frame": 3531,
       "onset_ms": 58850.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3609,7 +3609,7 @@
       "onset_frame": 3573,
       "onset_ms": 59550.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3625,7 +3625,7 @@
       "onset_frame": 3587,
       "onset_ms": 59783.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3641,7 +3641,7 @@
       "onset_frame": 3602,
       "onset_ms": 60033.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 17.77477,
         "1": 0.0662,
         "2": 0.04329,
@@ -3657,7 +3657,7 @@
       "onset_frame": 3616,
       "onset_ms": 60266.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.00579,
         "1": 0.01181,
         "2": 0.00417,
@@ -3673,7 +3673,7 @@
       "onset_frame": 3630,
       "onset_ms": 60500.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.01181,
@@ -3689,7 +3689,7 @@
       "onset_frame": 3688,
       "onset_ms": 61466.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3705,7 +3705,7 @@
       "onset_frame": 3722,
       "onset_ms": 62033.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3721,7 +3721,7 @@
       "onset_frame": 3727,
       "onset_ms": 62116.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3737,7 +3737,7 @@
       "onset_frame": 3732,
       "onset_ms": 62200.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3753,7 +3753,7 @@
       "onset_frame": 3736,
       "onset_ms": 62266.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3769,7 +3769,7 @@
       "onset_frame": 3741,
       "onset_ms": 62350.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3785,7 +3785,7 @@
       "onset_frame": 3746,
       "onset_ms": 62433.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3801,7 +3801,7 @@
       "onset_frame": 3761,
       "onset_ms": 62683.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3817,7 +3817,7 @@
       "onset_frame": 3776,
       "onset_ms": 62933.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3833,7 +3833,7 @@
       "onset_frame": 3803,
       "onset_ms": 63383.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3849,7 +3849,7 @@
       "onset_frame": 3837,
       "onset_ms": 63950.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3865,7 +3865,7 @@
       "onset_frame": 3842,
       "onset_ms": 64033.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3881,7 +3881,7 @@
       "onset_frame": 3847,
       "onset_ms": 64116.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3897,7 +3897,7 @@
       "onset_frame": 3852,
       "onset_ms": 64200.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3913,7 +3913,7 @@
       "onset_frame": 3856,
       "onset_ms": 64266.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3929,7 +3929,7 @@
       "onset_frame": 3861,
       "onset_ms": 64350.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3945,7 +3945,7 @@
       "onset_frame": 3876,
       "onset_ms": 64600.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 2.56944,
@@ -3961,7 +3961,7 @@
       "onset_frame": 3889,
       "onset_ms": 64816.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3977,7 +3977,7 @@
       "onset_frame": 3918,
       "onset_ms": 65300.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -3993,7 +3993,7 @@
       "onset_frame": 3952,
       "onset_ms": 65866.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4009,7 +4009,7 @@
       "onset_frame": 3957,
       "onset_ms": 65950.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4025,7 +4025,7 @@
       "onset_frame": 3962,
       "onset_ms": 66033.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4041,7 +4041,7 @@
       "onset_frame": 3967,
       "onset_ms": 66116.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4057,7 +4057,7 @@
       "onset_frame": 3971,
       "onset_ms": 66183.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4073,7 +4073,7 @@
       "onset_frame": 3976,
       "onset_ms": 66266.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4089,7 +4089,7 @@
       "onset_frame": 3992,
       "onset_ms": 66533.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4105,7 +4105,7 @@
       "onset_frame": 4034,
       "onset_ms": 67233.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4121,7 +4121,7 @@
       "onset_frame": 4047,
       "onset_ms": 67450.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4137,7 +4137,7 @@
       "onset_frame": 4063,
       "onset_ms": 67716.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4153,7 +4153,7 @@
       "onset_frame": 4077,
       "onset_ms": 67950.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4169,7 +4169,7 @@
       "onset_frame": 4091,
       "onset_ms": 68183.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4185,7 +4185,7 @@
       "onset_frame": 4105,
       "onset_ms": 68416.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4201,7 +4201,7 @@
       "onset_frame": 4120,
       "onset_ms": 68666.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4217,7 +4217,7 @@
       "onset_frame": 4131,
       "onset_ms": 68850.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4233,7 +4233,7 @@
       "onset_frame": 4149,
       "onset_ms": 69150.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4249,7 +4249,7 @@
       "onset_frame": 4183,
       "onset_ms": 69716.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4265,7 +4265,7 @@
       "onset_frame": 4187,
       "onset_ms": 69783.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4281,7 +4281,7 @@
       "onset_frame": 4192,
       "onset_ms": 69866.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4297,7 +4297,7 @@
       "onset_frame": 4197,
       "onset_ms": 69950.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4313,7 +4313,7 @@
       "onset_frame": 4202,
       "onset_ms": 70033.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4329,7 +4329,7 @@
       "onset_frame": 4207,
       "onset_ms": 70116.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4345,7 +4345,7 @@
       "onset_frame": 4222,
       "onset_ms": 70366.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4361,7 +4361,7 @@
       "onset_frame": 4235,
       "onset_ms": 70583.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4377,7 +4377,7 @@
       "onset_frame": 4246,
       "onset_ms": 70766.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4393,7 +4393,7 @@
       "onset_frame": 4250,
       "onset_ms": 70833.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.00509,
         "1": 0.0,
         "2": 0.0,
@@ -4409,7 +4409,7 @@
       "onset_frame": 4264,
       "onset_ms": 71066.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4425,7 +4425,7 @@
       "onset_frame": 4298,
       "onset_ms": 71633.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4441,7 +4441,7 @@
       "onset_frame": 4303,
       "onset_ms": 71716.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4457,7 +4457,7 @@
       "onset_frame": 4307,
       "onset_ms": 71783.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4473,7 +4473,7 @@
       "onset_frame": 4313,
       "onset_ms": 71883.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4489,7 +4489,7 @@
       "onset_frame": 4317,
       "onset_ms": 71950.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4505,7 +4505,7 @@
       "onset_frame": 4322,
       "onset_ms": 72033.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4521,7 +4521,7 @@
       "onset_frame": 4337,
       "onset_ms": 72283.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4537,7 +4537,7 @@
       "onset_frame": 4350,
       "onset_ms": 72500.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4553,7 +4553,7 @@
       "onset_frame": 4366,
       "onset_ms": 72766.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4569,7 +4569,7 @@
       "onset_frame": 4379,
       "onset_ms": 72983.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4585,7 +4585,7 @@
       "onset_frame": 4413,
       "onset_ms": 73550.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4601,7 +4601,7 @@
       "onset_frame": 4418,
       "onset_ms": 73633.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4617,7 +4617,7 @@
       "onset_frame": 4423,
       "onset_ms": 73716.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4633,7 +4633,7 @@
       "onset_frame": 4428,
       "onset_ms": 73800.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4649,7 +4649,7 @@
       "onset_frame": 4432,
       "onset_ms": 73866.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.00903,
         "1": 0.00995,
         "2": 0.00532,
@@ -4665,7 +4665,7 @@
       "onset_frame": 4437,
       "onset_ms": 73950.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4681,7 +4681,7 @@
       "onset_frame": 4453,
       "onset_ms": 74216.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4697,7 +4697,7 @@
       "onset_frame": 4466,
       "onset_ms": 74433.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4713,7 +4713,7 @@
       "onset_frame": 4495,
       "onset_ms": 74916.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4729,7 +4729,7 @@
       "onset_frame": 4508,
       "onset_ms": 75133.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4745,7 +4745,7 @@
       "onset_frame": 4524,
       "onset_ms": 75400.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4761,7 +4761,7 @@
       "onset_frame": 4538,
       "onset_ms": 75633.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4777,7 +4777,7 @@
       "onset_frame": 4551,
       "onset_ms": 75850.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4793,7 +4793,7 @@
       "onset_frame": 4566,
       "onset_ms": 76100.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4809,7 +4809,7 @@
       "onset_frame": 4581,
       "onset_ms": 76350.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4825,7 +4825,7 @@
       "onset_frame": 4668,
       "onset_ms": 77800.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4841,7 +4841,7 @@
       "onset_frame": 4684,
       "onset_ms": 78066.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4857,7 +4857,7 @@
       "onset_frame": 4696,
       "onset_ms": 78266.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4873,7 +4873,7 @@
       "onset_frame": 4724,
       "onset_ms": 78733.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4889,7 +4889,7 @@
       "onset_frame": 4779,
       "onset_ms": 79650.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4905,7 +4905,7 @@
       "onset_frame": 4783,
       "onset_ms": 79716.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4921,7 +4921,7 @@
       "onset_frame": 4811,
       "onset_ms": 80183.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4937,7 +4937,7 @@
       "onset_frame": 4840,
       "onset_ms": 80666.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4953,7 +4953,7 @@
       "onset_frame": 4897,
       "onset_ms": 81616.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4969,7 +4969,7 @@
       "onset_frame": 4914,
       "onset_ms": 81900.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -4985,7 +4985,7 @@
       "onset_frame": 4927,
       "onset_ms": 82116.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -5001,7 +5001,7 @@
       "onset_frame": 4956,
       "onset_ms": 82600.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -5017,7 +5017,7 @@
       "onset_frame": 4969,
       "onset_ms": 82816.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -5033,7 +5033,7 @@
       "onset_frame": 4984,
       "onset_ms": 83066.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.00324,
         "1": 0.00162,
         "2": 0.0,
@@ -5049,7 +5049,7 @@
       "onset_frame": 4999,
       "onset_ms": 83316.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.01065,
         "2": 0.0,
@@ -5065,7 +5065,7 @@
       "onset_frame": 5012,
       "onset_ms": 83533.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -5081,7 +5081,7 @@
       "onset_frame": 5071,
       "onset_ms": 84516.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -5097,7 +5097,7 @@
       "onset_frame": 5120,
       "onset_ms": 85333.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -5113,7 +5113,7 @@
       "onset_frame": 5129,
       "onset_ms": 85483.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -5129,7 +5129,7 @@
       "onset_frame": 5145,
       "onset_ms": 85750.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -5145,7 +5145,7 @@
       "onset_frame": 5157,
       "onset_ms": 85950.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -5161,7 +5161,7 @@
       "onset_frame": 5185,
       "onset_ms": 86416.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -5177,7 +5177,7 @@
       "onset_frame": 5240,
       "onset_ms": 87333.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -5193,7 +5193,7 @@
       "onset_frame": 5244,
       "onset_ms": 87400.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -5209,7 +5209,7 @@
       "onset_frame": 5272,
       "onset_ms": 87866.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -5225,7 +5225,7 @@
       "onset_frame": 5301,
       "onset_ms": 88350.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -5241,7 +5241,7 @@
       "onset_frame": 5358,
       "onset_ms": 89300.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0,
         "1": 0.0,
         "2": 0.0,
@@ -5257,7 +5257,7 @@
       "onset_frame": 5388,
       "onset_ms": 89800.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 19.82292,
         "1": 0.11481,
         "2": 0.10509,
@@ -5273,7 +5273,7 @@
       "onset_frame": 5416,
       "onset_ms": 90266.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.13056,
         "1": 0.11644,
         "2": 0.11134,
@@ -5289,7 +5289,7 @@
       "onset_frame": 5430,
       "onset_ms": 90500.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.10139,
         "1": 0.13958,
         "2": 0.11111,
@@ -5305,7 +5305,7 @@
       "onset_frame": 5446,
       "onset_ms": 90766.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0787,
         "1": 0.02523,
         "2": 0.14606,
@@ -5321,7 +5321,7 @@
       "onset_frame": 5460,
       "onset_ms": 91000.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.02292,
         "1": 0.18866,
         "2": 0.08519,
@@ -5337,7 +5337,7 @@
       "onset_frame": 5473,
       "onset_ms": 91216.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.04375,
         "1": 0.01921,
         "2": 0.05625,
@@ -5353,7 +5353,7 @@
       "onset_frame": 5565,
       "onset_ms": 92750.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.25648,
         "1": 0.09769,
         "2": 0.16505,
@@ -5369,7 +5369,7 @@
       "onset_frame": 5570,
       "onset_ms": 92833.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.27824,
         "1": 0.32708,
         "2": 0.09051,
@@ -5385,7 +5385,7 @@
       "onset_frame": 5575,
       "onset_ms": 92916.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.01505,
         "1": 0.01875,
         "2": 0.225,
@@ -5401,7 +5401,7 @@
       "onset_frame": 5579,
       "onset_ms": 92983.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.23171,
         "1": 0.25972,
         "2": 0.22477,
@@ -5417,7 +5417,7 @@
       "onset_frame": 5584,
       "onset_ms": 93066.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.21713,
         "1": 0.1963,
         "2": 0.14931,
@@ -5433,7 +5433,7 @@
       "onset_frame": 5589,
       "onset_ms": 93150.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.00995,
         "1": 0.00556,
         "2": 0.13056,
@@ -5449,7 +5449,7 @@
       "onset_frame": 5604,
       "onset_ms": 93400.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.02338,
         "1": 0.01644,
         "2": 0.20995,
@@ -5465,7 +5465,7 @@
       "onset_frame": 5619,
       "onset_ms": 93650.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.04144,
         "1": 0.18403,
         "2": 0.04282,
@@ -5481,7 +5481,7 @@
       "onset_frame": 5646,
       "onset_ms": 94100.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.14051,
         "1": 0.01944,
         "2": 0.02824,
@@ -5497,7 +5497,7 @@
       "onset_frame": 5680,
       "onset_ms": 94666.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.17755,
         "1": 0.17315,
         "2": 0.24306,
@@ -5513,7 +5513,7 @@
       "onset_frame": 5685,
       "onset_ms": 94750.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.24606,
         "1": 0.17269,
         "2": 0.21019,
@@ -5529,7 +5529,7 @@
       "onset_frame": 5690,
       "onset_ms": 94833.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.02014,
         "1": 0.03657,
         "2": 0.20486,
@@ -5545,7 +5545,7 @@
       "onset_frame": 5695,
       "onset_ms": 94916.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.26644,
         "1": 0.07315,
         "2": 0.40648,
@@ -5561,7 +5561,7 @@
       "onset_frame": 5700,
       "onset_ms": 95000.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.16343,
         "1": 0.21343,
         "2": 0.03958,
@@ -5577,7 +5577,7 @@
       "onset_frame": 5704,
       "onset_ms": 95066.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.03333,
         "1": 0.0213,
         "2": 0.01273,
@@ -5593,7 +5593,7 @@
       "onset_frame": 5719,
       "onset_ms": 95316.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.03125,
         "1": 0.02222,
         "2": 0.21574,
@@ -5609,7 +5609,7 @@
       "onset_frame": 5733,
       "onset_ms": 95550.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.12407,
         "1": 0.05972,
         "2": 0.04954,
@@ -5625,7 +5625,7 @@
       "onset_frame": 5761,
       "onset_ms": 96016.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.01667,
         "1": 0.06042,
         "2": 0.01644,
@@ -5641,7 +5641,7 @@
       "onset_frame": 5795,
       "onset_ms": 96583.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.20231,
         "1": 0.17384,
         "2": 0.22778,
@@ -5657,7 +5657,7 @@
       "onset_frame": 5800,
       "onset_ms": 96666.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.12106,
         "1": 0.33495,
         "2": 0.22593,
@@ -5673,7 +5673,7 @@
       "onset_frame": 5805,
       "onset_ms": 96750.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.22269,
         "1": 0.04282,
         "2": 0.00926,
@@ -5689,7 +5689,7 @@
       "onset_frame": 5810,
       "onset_ms": 96833.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.06435,
         "1": 0.26227,
         "2": 0.23241,
@@ -5705,7 +5705,7 @@
       "onset_frame": 5815,
       "onset_ms": 96916.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.27639,
         "1": 0.09722,
         "2": 0.15579,
@@ -5721,7 +5721,7 @@
       "onset_frame": 5819,
       "onset_ms": 96983.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.01829,
         "1": 0.02338,
         "2": 0.02407,
@@ -5737,7 +5737,7 @@
       "onset_frame": 5835,
       "onset_ms": 97250.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.01944,
         "1": 0.16157,
         "2": 0.07361,
@@ -5753,7 +5753,7 @@
       "onset_frame": 5877,
       "onset_ms": 97950.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.04398,
         "1": 0.01644,
         "2": 0.14745,
@@ -5769,7 +5769,7 @@
       "onset_frame": 5891,
       "onset_ms": 98183.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.20509,
         "1": 0.01991,
         "2": 0.01366,
@@ -5785,7 +5785,7 @@
       "onset_frame": 5906,
       "onset_ms": 98433.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.13935,
         "1": 0.0125,
         "2": 0.1375,
@@ -5801,7 +5801,7 @@
       "onset_frame": 5920,
       "onset_ms": 98666.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.2287,
         "1": 0.02384,
         "2": 0.00949,
@@ -5817,7 +5817,7 @@
       "onset_frame": 5934,
       "onset_ms": 98900.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.18426,
         "1": 0.04259,
         "2": 0.02778,
@@ -5833,7 +5833,7 @@
       "onset_frame": 6026,
       "onset_ms": 100433.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.27222,
         "1": 0.15046,
         "2": 0.22616,
@@ -5849,7 +5849,7 @@
       "onset_frame": 6031,
       "onset_ms": 100516.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.27037,
         "1": 0.17083,
         "2": 0.25417,
@@ -5865,7 +5865,7 @@
       "onset_frame": 6035,
       "onset_ms": 100583.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.05,
         "1": 0.2581,
         "2": 0.0162,
@@ -5881,7 +5881,7 @@
       "onset_frame": 6040,
       "onset_ms": 100666.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.25093,
         "1": 0.10486,
         "2": 0.23704,
@@ -5897,7 +5897,7 @@
       "onset_frame": 6045,
       "onset_ms": 100750.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.26736,
         "1": 0.15694,
         "2": 0.17917,
@@ -5913,7 +5913,7 @@
       "onset_frame": 6050,
       "onset_ms": 100833.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.01667,
         "1": 0.01968,
         "2": 0.02176,
@@ -5929,7 +5929,7 @@
       "onset_frame": 6065,
       "onset_ms": 101083.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.02847,
         "1": 0.01019,
         "2": 0.1912,
@@ -5945,7 +5945,7 @@
       "onset_frame": 6107,
       "onset_ms": 101783.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.10602,
         "1": 0.12894,
         "2": 0.03866,
@@ -5961,7 +5961,7 @@
       "onset_frame": 6141,
       "onset_ms": 102350.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.12708,
         "1": 0.26944,
         "2": 0.09861,
@@ -5977,7 +5977,7 @@
       "onset_frame": 6146,
       "onset_ms": 102433.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.27014,
         "1": 0.35463,
         "2": 0.21736,
@@ -5993,7 +5993,7 @@
       "onset_frame": 6151,
       "onset_ms": 102516.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.0419,
         "1": 0.02083,
         "2": 0.02963,
@@ -6009,7 +6009,7 @@
       "onset_frame": 6156,
       "onset_ms": 102600.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.20764,
         "1": 0.29398,
         "2": 0.24792,
@@ -6025,7 +6025,7 @@
       "onset_frame": 6161,
       "onset_ms": 102683.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.27106,
         "1": 0.08009,
         "2": 0.15903,
@@ -6041,7 +6041,7 @@
       "onset_frame": 6165,
       "onset_ms": 102750.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.13981,
         "1": 0.01273,
         "2": 0.02685,
@@ -6057,7 +6057,7 @@
       "onset_frame": 6181,
       "onset_ms": 103016.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.04653,
         "1": 0.02477,
         "2": 0.20139,
@@ -6073,7 +6073,7 @@
       "onset_frame": 6194,
       "onset_ms": 103233.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.03079,
         "1": 0.02431,
         "2": 0.12801,
@@ -6089,7 +6089,7 @@
       "onset_frame": 6222,
       "onset_ms": 103700.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.03403,
         "1": 0.05949,
         "2": 0.0294,
@@ -6105,7 +6105,7 @@
       "onset_frame": 6256,
       "onset_ms": 104266.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.14097,
         "1": 0.15694,
         "2": 0.2169,
@@ -6121,7 +6121,7 @@
       "onset_frame": 6261,
       "onset_ms": 104350.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.24954,
         "1": 0.24699,
         "2": 0.16296,
@@ -6137,7 +6137,7 @@
       "onset_frame": 6266,
       "onset_ms": 104433.333,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.03032,
         "1": 0.27847,
         "2": 0.01667,
@@ -6153,7 +6153,7 @@
       "onset_frame": 6271,
       "onset_ms": 104516.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.21157,
         "1": 0.22847,
         "2": 0.25625,
@@ -6169,7 +6169,7 @@
       "onset_frame": 6276,
       "onset_ms": 104600.0,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.28727,
         "1": 0.16574,
         "2": 0.19352,
@@ -6185,7 +6185,7 @@
       "onset_frame": 6280,
       "onset_ms": 104666.667,
       "isolated_from_neighbor_onsets_within_8_frames": false,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.15324,
         "1": 0.01944,
         "2": 0.01713,
@@ -6201,7 +6201,7 @@
       "onset_frame": 6296,
       "onset_ms": 104933.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.02616,
         "1": 0.02037,
         "2": 0.22731,
@@ -6217,7 +6217,7 @@
       "onset_frame": 6337,
       "onset_ms": 105616.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.05162,
         "1": 0.16273,
         "2": 0.02407,
@@ -6233,7 +6233,7 @@
       "onset_frame": 6352,
       "onset_ms": 105866.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.04861,
         "1": 0.18194,
         "2": 0.02199,
@@ -6249,7 +6249,7 @@
       "onset_frame": 6367,
       "onset_ms": 106116.667,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.1037,
         "1": 0.13148,
         "2": 0.03935,
@@ -6265,7 +6265,7 @@
       "onset_frame": 6381,
       "onset_ms": 106350.0,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.07662,
         "1": 0.15046,
         "2": 0.01019,
@@ -6281,7 +6281,7 @@
       "onset_frame": 6395,
       "onset_ms": 106583.333,
       "isolated_from_neighbor_onsets_within_8_frames": true,
-      "roi_mean_abs_luma_delta_from_pre_onset_frame": {
+      "roi_mean_abs_luma_delta_from_previous_frame": {
         "0": 0.03287,
         "1": 0.20509,
         "2": 0.01204,

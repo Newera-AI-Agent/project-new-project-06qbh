@@ -139,3 +139,4 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-10-14T15:53:19.715Z | VM 1/3] PLAN updated: 3 steps
 - [2026-10-14T15:54:26.120Z | VM 1/3] PLAN updated: 3 steps
 - [2026-10-14T15:54:40.721Z | VM 1/3] THINK: The gap is a measurable claim in visual_timing_qa.md without checked-in reproduction. I will add a deterministic encoded-frame onset-response audit using FFmpeg downscaled frame samples and a declared center ROI, emit JSON summaries/raw per-onset rows, add tests, and update the existing QA note. Avoid touching the master or existing manifest baseline unless validator design requires deliber
+- [2026-10-14T16:06:33.706Z | VM 1/3] PLAN updated: 3 steps
