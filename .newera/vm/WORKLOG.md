@@ -91,3 +91,6 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-10-14T14:59:57.434Z | VM 1/3] PLAN updated: 3 steps
 - [2026-10-14T15:00:50.037Z | VM 1/3] PLAN updated: 3 steps
 - [2026-10-14T15:01:55.535Z | VM 1/3] THINK: The scope detector counts repository source files, assets, test files, and content only against the missing contract's matrices. Current tracked package already has 100+ files and numerous media assets, so the exact refusal is likely based on unavailable approved plan metadata or an older inventory. I will avoid manufacturing routes/content solely to satisfy its heuristic. Authentic remaini
+- [2026-10-14T15:03:52.355Z | VM 1/3] PLAN updated: 3 steps
+- [2026-10-14T15:04:01.106Z | VM 1/3] THINK: Repo already contains a complete, validated 107.9s video production package and previous VMs repeatedly hit a runtime finish-gate scope-collapse blocker. No contract JSON exists and update_contract explicitly says this is a legacy brief. Scope detector source shows false/unknown positive likely tied to marathonic plan matrices, but exact contract/profile unavailable; creating heuristic-matc
+- [2026-10-14T15:05:22.833Z | VM 1/3] PLAN updated: 3 steps
