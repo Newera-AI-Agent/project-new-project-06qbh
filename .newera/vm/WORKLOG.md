@@ -136,3 +136,4 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-10-14T15:48:26.521Z | VM 1/3] PLAN updated: 3 steps
 - [2026-10-14T15:51:05.866Z | VM 1/3] PLAN updated: 3 steps
 - [2026-10-14T15:51:22.715Z | VM 1/3] THINK: The reviewed package is already substantial and its manifest confirms a finished deliverable; I must not add filler to placate the finish heuristic. One documented QA claim—image response near 384 onsets, peaking at +2 and decaying by +7—does not currently have an obvious checked-in reproduction script in the file inventory, while the encoded-frame audit samples only boundaries/regular time
+- [2026-10-14T15:53:19.715Z | VM 1/3] PLAN updated: 3 steps
